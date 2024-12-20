@@ -7,7 +7,7 @@
 
 ### 1.2. Trình bày kỹ thuật xử lý theo mẻ (lô) và ưu điểm của kỹ thuật này.Hệ thống xử lý theo mẻ có cần HDH không?
 **Xử lí theo mẻ**:
-- Chương trình được phân thành các mẹ ạ gồm những chương trình có yêu cầu giống nhau.
+- Chương trình được phân thành các mẻ gồm những chương trình có yêu cầu giống nhau.
 - Toàn bộ mẻ được nạp vào băng từ và được tải vào máy để thực hiện lần lượt.
     + Chương trình giám sát *(monitor)*: Tự động nạp chương trình tiếp theo vào máy và cho phép nó chạy.
     => Giảm đáng kể thời gian chuyển đổi giữa 2 chương trình trong cùng một mẻ.Trình giám sát là dạng đơn giản nhất của HDH.
