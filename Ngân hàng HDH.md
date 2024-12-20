@@ -1,32 +1,32 @@
 # Chương 1
 ## Loại 1 điểm
-### 1.1. Trình bày về giao diện lập trình của HDH.
-- Để các chương trình có thể sử dụng được dịch vụ, HDH Cung cấp giao diện lập trình bao gồm các lời gọi hệ thống *(System Call)*
-- Lời gọi hệ thống: Các lệnh đặc biệt mà CTƯD gọi khi cần yêu cầu HDH thực hiện một việc gì đó.
+### 1.1. Trình bày về giao diện lập trình của HĐH.
+- Để các chương trình có thể sử dụng được dịch vụ, HĐH Cung cấp giao diện lập trình bao gồm các lời gọi hệ thống *(System Call)*
+- Lời gọi hệ thống: Các lệnh đặc biệt mà CTƯD gọi khi cần yêu cầu HĐH thực hiện một việc gì đó.
 - Lời gọi hệ thống được thực hiện qua các thư viện hàm gọi là thư viện hệ thống.
 
-### 1.2. Trình bày kỹ thuật xử lý theo mẻ (lô) và ưu điểm của kỹ thuật này.Hệ thống xử lý theo mẻ có cần HDH không?
+### 1.2. Trình bày kỹ thuật xử lý theo mẻ (lô) và ưu điểm của kỹ thuật này.Hệ thống xử lý theo mẻ có cần HĐH không?
 **Xử lí theo mẻ**:
 - Chương trình được phân thành các mẻ gồm những chương trình có yêu cầu giống nhau.
 - Toàn bộ mẻ được nạp vào băng từ và được tải vào máy để thực hiện lần lượt.
     + Chương trình giám sát *(monitor)*: Tự động nạp chương trình tiếp theo vào máy và cho phép nó chạy.
-    => Giảm đáng kể thời gian chuyển đổi giữa 2 chương trình trong cùng một mẻ.Trình giám sát là dạng đơn giản nhất của HDH.
-- Hệ thống xử lý theo mẻ **có cần** HDH.
+    => Giảm đáng kể thời gian chuyển đổi giữa 2 chương trình trong cùng một mẻ.Trình giám sát là dạng đơn giản nhất của HĐH.
+- Hệ thống xử lý theo mẻ **có cần** HĐH.
 
 ### 1.3. Đa chương trình là gì? Lý do sử dụng đa chương trình trong máy tính? Yêu cầu đối với phần cứng khi sử dụng đa chương trình.
-- Đã tường trình là hệ thống chứa đồng thời nhiều chương trình trong bộ nhớ.
+- Đã chương trình là hệ thống chứa đồng thời nhiều chương trình trong bộ nhớ.
 - Lý do sử dụng: 
   - Mặc dù việc xử lý theo mẻ giảm thời gian chuyển đổi giữa các chương trình trong ứng dụng, song Hiệu suất của CPU Tương đối thấp do CPU phải dừng việc xử lý dữ liệu khi có yêu cầu vào ra *(tốc độ vào ra thấp hơn tốc độ CPU rất nhiều)*
-  - Đa chương trình sẽ giúp khắc phục điều đó, bằng cách khi CPU đang phải dừng để thực hiện quá trình vào ra, HDH sẽ chuyển CPU sang thực hiện một chương trình khác.Nếu chương trình nằm trong bộ nhớ đủ nhiều thì hầu như lúc nào CPU Cũng có việc để thực hiện.
+  - Đa chương trình sẽ giúp khắc phục điều đó, bằng cách khi CPU đang phải dừng để thực hiện quá trình vào ra, HĐH sẽ chuyển CPU sang thực hiện một chương trình khác.Nếu chương trình nằm trong bộ nhớ đủ nhiều thì hầu như lúc nào CPU Cũng có việc để thực hiện.
   **=> Giảm thời gian chạy không tải của CPU.** 
 - Yêu cầu đối với phần cứng: Khả năng vào/ra bằng ngắt và DMA
 
-### 1.4. Trình bày về các thành phần của hệ thống máy tính và vai trò của HDH trong đó.
+### 1.4. Trình bày về các thành phần của hệ thống máy tính và vai trò của HĐH trong đó.
 - **Phần cứng**: Cung cấp tài nguyên cần thiết.
 - **Phần mềm**: Các chương trình cụ thể.
-- HDH: Phần mềm đóng vai trò trung gian làm cho việc sử dụng hệ thống máy tính được tiện lợi và hiệu quả. *(Quản lý tài nguyên và quản lý việc thực hiện các chương trình)*
+- HĐH: Phần mềm đóng vai trò trung gian làm cho việc sử dụng hệ thống máy tính được tiện lợi và hiệu quả. *(Quản lý tài nguyên và quản lý việc thực hiện các chương trình)*
 
-### 1.5. Trình bày về HDH, chia sẻ thời gian.
+### 1.5. Trình bày về HĐH, chia sẻ thời gian.
 - Chia sẻ thời gian có thể coi như đa chương trình cải tiến giao diện với người dùng.
 - CPU lần lượt thực hiện các công việc khác nhau trong những khoảng thời gian ngắn gọi là lượng tử thời gian.
 - Chuyển đổi giữa các công việc diễn ra với tần số cao và tốc độ CPU lớn.
@@ -35,7 +35,7 @@
 **=> CPU được chia sẻ giữa những người dùng khác nhau, tương tác trực tiếp với hệ thống.**
 
 ## Loại 2 điểm
-### 2.1. Trình bày ngắn gọn ***(3đ chi tiết)*** về các thành phần cơ bản của HDH.
+### 2.1. Trình bày ngắn gọn ***(3đ chi tiết)*** về các thành phần cơ bản của HĐH.
 - **Quản lý tiến trình:**
   - Tạo và xóa tiến trình
   - Tạm treo và khôi phục các tiến trình bị treo
@@ -53,13 +53,13 @@
   - Đọc ghi tệp.
   - Ánh xạ tệp và thư mục sang bộ nhớ ngoài.
 - **Hỗ trợ mạng và xử lý phân tán:** Quản lý thiết bị mạng, hỗ trợ các giao thức truyền thông, quản lý truyền thông, cân bằng tải.
-- **Giao diện với người dùng:** Nhận lệnh từ người dùng và thực hiện các lệnh này.Có thể bằng cách sử dụng dịch vụ do các phần khác của HDH cung cấp.
-- **Các chương trình tiện ích và ứng dụng:** HDH thường chứa sẳn một số các chương trình tiện ích và CTƯD.Đây là thành phần không bắt buộc của HDH.
+- **Giao diện với người dùng:** Nhận lệnh từ người dùng và thực hiện các lệnh này.Có thể bằng cách sử dụng dịch vụ do các phần khác của HĐH cung cấp.
+- **Các chương trình tiện ích và ứng dụng:** HĐH thường chứa sẳn một số các chương trình tiện ích và CTƯD.Đây là thành phần không bắt buộc của HĐH.
 
-### 2.2. Trình bày về nhân của HDH? Thế nào là chế độ nhân và chế độ người dùng?
-- **Nhần của HDH:**
-  - Nhân (kernel) Là phần cốt lõi thực hiện các chức năng cơ bản nhất, quan trọng nhất của HDH và thường xuyên được giữ trong bộ nhớ.
-  - HDH gồm nhiều thành phần chỉ tải những thành phần quan trọng không thể thiếu được vào bộ nhớ gọi là nhân.
+### 2.2. Trình bày về nhân của HĐH? Thế nào là chế độ nhân và chế độ người dùng?
+- **Nhần của HĐH:**
+  - Nhân (kernel) Là phần cốt lõi thực hiện các chức năng cơ bản nhất, quan trọng nhất của HĐH và thường xuyên được giữ trong bộ nhớ.
+  - HĐH gồm nhiều thành phần chỉ tải những thành phần quan trọng không thể thiếu được vào bộ nhớ gọi là nhân.
   - Nhân chạy trong chế độ đặc quyền - **Chế độ nhân**
   - Các chương trình bình thường chạy trong **Chế độ người dùng**
 - **Chế độ nhân và chế độ người dùng:**
@@ -67,10 +67,10 @@
   - **Chế độ nhân** là chế độ mà chương trình thực hiện trong đó đầy đủ quyền truy cập và điều khiển phần cứng máy tính. Ví dụ có thể thay đổi nội dung tất cả các thanh ghi của CPU, hay có thể ghi vào bộ nhớ vật lý.
   - Ngược lại, chương trình thực hiện trong **chế độ người dùng** bị hạn chế rất nhiều quyền truy cập và điều khiển phần cứng. Việc quy định chế độ cụ thể phụ thuộc vào một bích, đặc biệt trong một thanh ghi của CPU.Nếu bít này có giá trị = 0 thì là chế độ nhân, = 1 tương ứng với chế độ bình thường.
 
-### 2.3. Trình bày cấu trúc nguyên khối và cấu trúc phân lớp của HDH. Phân tích so sánh ưu nhược điểm của 2 kiểu cấu trúc này.
+### 2.3. Trình bày cấu trúc nguyên khối và cấu trúc phân lớp của HĐH. Phân tích so sánh ưu nhược điểm của 2 kiểu cấu trúc này.
 - **Cấu trúc nguyên khối:**
-  - Toàn bộ chương trình và dữ liệu của HDH có chung một không gian nhớ.
-  - HDH trở thành một tập hợp các thủ tục hay các chương trình con.
+  - Toàn bộ chương trình và dữ liệu của HĐH có chung một không gian nhớ.
+  - HĐH trở thành một tập hợp các thủ tục hay các chương trình con.
   - ***Ưu điểm:*** nhanh.
   - ***Nhược điểm:*** không an toàn, không mềm dẻo.
 - **Cấu trúc phân lớp:**
@@ -79,7 +79,7 @@
   - ***Ưu điểm:*** dễ sửa đổi.
   - ***Nhược điểm:*** tốc độ chậm hơn cấu trúc nguyên khối.
 
-### 2.4. Trình bày cấu trúc vy nhân của HDH. So sánh ưu nhược điểm của cấu trúc này với cấu trúc nguyên khối và phân lớp.
+### 2.4. Trình bày cấu trúc vy nhân của HĐH. So sánh ưu nhược điểm của cấu trúc này với cấu trúc nguyên khối và phân lớp.
 - **Cấu trúc vi nhân:**
   - Nhân chỉ chứa các chức năng quan trọng nhất.
   - Các chức năng còn lại được đặt vào các modul riêng: Chạy trong chế độ đặc quyền hoặc người dùng.
@@ -93,49 +93,49 @@
 | Nhược điểm | Tốc độ chậm hơn  | Không an toàn,  | Tốc độ chậm hơn  |
 |            | CT nguyên khối   | không mềm dẻo   | CT nguyên khối   |
 
-### 2.5.Trình bày về HDH đa chương trình. Lấy ví dụ minh họa để phân tích hiệu suất sử dụng CPU của HDH đa chương trình cao hơn so với HDH đơn chương trình.
+### 2.5.Trình bày về HĐH đa chương trình. Lấy ví dụ minh họa để phân tích hiệu suất sử dụng CPU của HĐH đa chương trình cao hơn so với HĐH đơn chương trình.
 - ***Đa chương trình:***
   - Hệ thống chứa, đồng thời nhiều chương trình trong bộ nhớ.
-  - Khi một chương trình phải dừng lại để thực hiện vào da, HDH sẽ chuyển CPU sang thực hiện một chương trình khác.
+  - Khi một chương trình phải dừng lại để thực hiện vào da, HĐH sẽ chuyển CPU sang thực hiện một chương trình khác.
   **=> Giảm thời gian chạy không tải của CPU.**
 
 ![2 5](https://github.com/user-attachments/assets/1368a3dc-db09-41e3-bc2a-2a842fef3d47)
 
 
   - Theo gian chờ đợi của CPU trong chế độ đa chương giảm đáng kể so với trong trường hợp đơn chương.
-  - HDH phức tạp hơn rất nhiều so với HDH đơn chương trình.
+  - HĐH phức tạp hơn rất nhiều so với HĐH đơn chương trình.
   - Đòi hỏi hỗ trợ từ phần cứng, đặc biệt khả năng vào/ra bằng ngắt và DMA.
 
 ## Loại 3 điểm
-### 3.1. Trình bày khái niệm hệ điều hành. Phân tích rõ 2 chức năng cơ bản của hệ điều hành.
-  - **Khái niệm HDH:**
-    - hệ điều hành là hệ thống phần mềm đóng vai trò trung gian giữa người sử dụng và phần cứng của máy tính nhằm tạo ra môi trường giúp thực hiện các chương trình một cách thuận tiện.
-    - Ngoài ra, hệ điều hành còn quản lý và đảm bảo cho việc sử dụng phần cứng của máy tính được hiệu quả.
-  - **2 chức năng cơ bản của hệ điều hành:**
+### 3.1. Trình bày khái niệm HĐH. Phân tích rõ 2 chức năng cơ bản của HĐH.
+  - **Khái niệm HĐH:**
+    - HĐH là hệ thống phần mềm đóng vai trò trung gian giữa người sử dụng và phần cứng của máy tính nhằm tạo ra môi trường giúp thực hiện các chương trình một cách thuận tiện.
+    - Ngoài ra, HĐH còn quản lý và đảm bảo cho việc sử dụng phần cứng của máy tính được hiệu quả.
+  - **2 chức năng cơ bản của HĐH:**
     - ***Quản lý tài nguyên***
       - Đảm bảo tài nguyên hệ thống được sử dụng một cách có ích và hiệu quả.
       - Các tài nguyên: bộ xử lý (CPU), bộ nhớ chính, bộ nhớ ngoài (cá đĩa), các thiết bị vào ra.
       - Phân phối tài nguyên cho các ứng dụng hiệu quả.
-      - Yêu cầu tài nguyên được hệ điều hành thu nhận và đáp ứng bằng cách cấp cho chương trình các tài nguyên tương ứng.
-      - Hệ điều hành cần lưu trữ tình trạng tài nguyên.
+      - Yêu cầu tài nguyên được HĐH thu nhận và đáp ứng bằng cách cấp cho chương trình các tài nguyên tương ứng.
+      - HĐH cần lưu trữ tình trạng tài nguyên.
       - Đảm bảo không xâm phạm tài nguyên cấp cho chương trình khác.
     - ***Quản lý việc thực hiện các chương trình***
       - Một chương trình đang trong quá trình chạy gọi là tiến trình (process).
-      - Hệ điều hành giúp việc chạy chương trình dễ dàng hơn.
+      - HĐH giúp việc chạy chương trình dễ dàng hơn.
       - Tạo ra các máy ảo là máy logic với các tài nguyên ảo.
       - Tài nguyên ảo mô phỏng tài nguyên thực được thực hiện bằng phần mềm.
       - Cung cấp các dịch vụ cơ bản như tài nguyên thực.
       - Dễ sử dụng hơn.
       - Số lượng tài nguyên ảo có thể lớn hơn tài nguyên thực.
 
-### 3.2. Dịch vụ của hệ điều hành là gì? Trình bày những dịch vụ điển hình mà hệ điều hành cung cấp. Làm rõ về quá trình tải và chạy hệ điều hành khi mới khởi động.
-- Dịch vụ của hệ điều hành là những công việc mà hệ điều hành thực hiện giúp người dùng hoặc chương trình ứng dụng.
-- Những dịch vụ mà hệ điều hành cung cấp:
+### 3.2. Dịch vụ của HĐH là gì? Trình bày những dịch vụ điển hình mà HĐH cung cấp. Làm rõ về quá trình tải và chạy HĐH khi mới khởi động.
+- Dịch vụ của HĐH là những công việc mà HĐH thực hiện giúp người dùng hoặc chương trình ứng dụng.
+- Những dịch vụ mà HĐH cung cấp:
   - **Tải và chạy chương trình**
     - Để thực hiện chương trình được tải từ đĩa và bộ nhớ, sau đó được trao quyền thực hiện các lệnh.
     - Khi thực hiện xong cần giải phóng bộ nhớ và các tài nguyên.
-    ***=> Hệ điều hành sẽ thực hiện công việc này.***
-    - Hệ điều hành tự tải mình vào bộ nhớ.
+    ***=> HĐH sẽ thực hiện công việc này.***
+    - HĐH tự tải mình vào bộ nhớ.
   - Giao diện với người dùng: Dưới dạng dòng lệnh hoặc giao diện đồ họa.
   - Thực hiện các thao tác vào ra dữ liệu.
   - Làm việc với hệ thống file.
@@ -175,17 +175,17 @@
   - Do các lỗi: Lỗi số học, lỗi truy cập, lỗi vào ra.
   - Yêu cầu nhiều bộ nhớ hơn số lượng hệ thống có thể cung cấp.
   - Thực hiện lâu hơn thời gian giới hạn.
-  - Do quản trị hệ thống hoặc hệ điều hành kết thúc.
+  - Do quản trị hệ thống hoặc HĐH kết thúc.
 
 ### 1.8. Trình bày về khái niệm dòng (thread) thực hiện. Thế nào là dòng mức người dùng và mức nhân?
-- Mỗi đơn vị thực hiện lệnh của tiến trình, tức là một chuỗi lệnh được cấp phát cpu để thực hiện độc lập gọi là một luồng thực hiện.
-  - Luồng mức người dùng: Được tạo ra và quản lý không có sự hỗ trợ của hệ điều hành.
-  - Luồng mức nhân: Được tạo ra và quản lý bởi hệ điều hành.
+- Mỗi đơn vị thực hiện lệnh của tiến trình, tức là một chuỗi lệnh được cấp phát CPU để thực hiện độc lập gọi là một luồng thực hiện.
+  - Luồng mức người dùng: Được tạo ra và quản lý không có sự hỗ trợ của HĐH.
+  - Luồng mức nhân: Được tạo ra và quản lý bởi HĐH.
 ### 1.9. Trình bày về điều độ quay vòng. Cho ví dụ minh họa về tính thời gian chờ đợi trung bình khi điều độ theo kiểu này.
 - Hết lượng tử thời gian mà tiến trình chưa kết thúc.
   - Tiến trình đang thực hiện bị dừng lại.
-  - Quyền điều khiển chuyển cho hàm xử lý ngắt của hệ điều hành.
-  - Hệ điều hành chuyển tiến trình về cuối hàng đợi lấy tiến trình ở đầu và tiếp tục.
+  - Quyền điều khiển chuyển cho hàm xử lý ngắt của HĐH.
+  - HĐH chuyển tiến trình về cuối hàng đợi lấy tiến trình ở đầu và tiếp tục.
 - Cải thiện thời gian đáp ứng so với FCFS
 - Thời gian chờ đợi trung bình vẫn dài.
 - VD:
@@ -205,7 +205,7 @@ Thời gian chờ đợi trung bình = (6 + 6 + 4) / 3 = 5,33
 ### 1.10. Các thông tin nào được lưu trữ trong khối quản lý tiến trình pcb?
 - Số định danh của tiến trình (PID)
 - Trạng thái tiến trình.
-- Nội dung một số thanh ghi cpu:
+- Nội dung một số thanh ghi CPU:
   - Thanh ghi con trỏ lệnh: trỏ tới lệnh tiếp theo
   - Thanh ghi con trỏ ngăn xếp
   - Các thanh ghi điều kiện và trạng thái
@@ -213,17 +213,17 @@ Thời gian chờ đợi trung bình = (6 + 6 + 4) / 3 = 5,33
 - Thông tin phục vụ điều độ tiến trình: Mức độ ưu tiên của tiến trình, vị trí trong hàng đợi...
 - Thông tin về bộ nhớ của tiến trình
 - Danh sách các tài nguyên khác: Các file đang mở, thiết bị vào ra mà tiến trình sử dụng
-- Thông tin thống kê phục vụ quản lý: Thời gian sử dụng cpu, giới hạn thời gian
+- Thông tin thống kê phục vụ quản lý: Thời gian sử dụng CPU, giới hạn thời gian
 
 ### 1.11. Trình bày các tiêu chí đánh giá thuật toán điều độ tiến trình
 **1. Lượng tiến trình được thực hiện xong:**   
   - Số lượng tiến trình thực hiện xong trongtrong một đơn vị thời gian
   - Đo tính hiệu quả của hệ thống
 
-**2. Hiệu suất sử dụng cpu**
+**2. Hiệu suất sử dụng CPU**
 **3. Thời gian vòng đời trung bình của tiến trình**, Từ lúc có yêu cầu tạo tiến trình đến khi kết thúc.
 **4. Thời gian chờ đợi:**
-  - Tổng thời gian tiến trình nằm trong trạng thái sẳn sàng và chờ cấp cpu.
+  - Tổng thời gian tiến trình nằm trong trạng thái sẳn sàng và chờ cấp CPU.
   - Ảnh hưởng trực tiếp của thuật toán điều độ tiến trình
 
 **5. Thời gian đáp ứng**, từ lúc người dùng yêu cầu đến khi tiến trình có phản hồi.
@@ -232,8 +232,8 @@ Thời gian chờ đợi trung bình = (6 + 6 + 4) / 3 = 5,33
 
 ### 1.12.Trình bày điều độ đến trước phục vụ trước FCFS. Cho ví dụ minh họa về tính thời gian chờ đợi trung bình khi điều độ kiểu này.
 - Điều độ FCFS:
-  - Tiến trình yêu cầu cpu trước sẽ được cấp trước.
-  - Hệ điều hành xếp các tiến trình sẳn sàng vào hàng đợi FIFO.
+  - Tiến trình yêu cầu CPU trước sẽ được cấp trước.
+  - HĐH xếp các tiến trình sẳn sàng vào hàng đợi FIFO.
   - Tiến trình mới được sắp xếp vào cuối hàng đợi.
   - Đơn giản, đảm bảo tính công bằng
   - Thời gian chờ đợi trung bình lớn
@@ -254,8 +254,8 @@ VD:
 ### 2.7. Trình bày 5 trạng thái của tiến trình. Vẽ sơ đồ và giải thích về việc chuyển đổi giữa 5 trạng thái này.
 **Mô hình 5 trạng thái:**
 - ***Mới khởi tạo:*** Tiến trình đang được tạo ra.
-- ***Sẳn sàng:*** Tiến trình chờ được cấp cpu để thực hiện lệnh của mình.
-- ***Chạy:*** Lệnh của tiến trình được cpu thực hiện.
+- ***Sẳn sàng:*** Tiến trình chờ được cấp CPU để thực hiện lệnh của mình.
+- ***Chạy:*** Lệnh của tiến trình được CPU thực hiện.
 - ***Chờ đợi:*** Tiến trình chờ đợi một sự kiện gì đó xảy ra (blocked)
 - ***Kết thúc:*** Tiến trình đã kết thúc việc thực hiện nhưng vẫn chưa bị xóa.
 
@@ -265,15 +265,15 @@ VD:
 
 ### 2.8. Điều độ tiến trình là gì? Điều độ dòng có khác điều độ tiến trình không? Trình bày về điều độ có phân phối lại và không phân phối lại.
 - ***Điều độ*** (lập lịch) Là quyết định tiến trình nào được sử dụng tài nguyên phần cứng khi nào, trong thời gian bao lâu.
-- Tập trung vào vấn đề điều độ đối với cpu *=> Quyết định thứ tự và thời gian sử dụng cpu.*
+- Tập trung vào vấn đề điều độ đối với CPU *=> Quyết định thứ tự và thời gian sử dụng CPU.*
 - **Điều độ tiến trình và điều độ dòng**:
   - Hệ thống trước kia: Tiến trình là đơn vị thực hiện chính 
   *=> Điều độ thực hiện với tiến trình.*
-  - Hệ thống hỗ trợ dòng: dòng mức nhân là đơn vị hệ điều hành cấp cpu.
+  - Hệ thống hỗ trợ dòng: dòng mức nhân là đơn vị HĐH cấp CPU.
 => Sử dụng thuật ngữ điều độ tiến trình rộng rãi <=> điều độ dòng
 
-- Điều độ phân phối lại: Hệ điều hành có thể sử dụng cơ chế ngắt để thu hồi cpu của một tiến trình đang trong trạng thái chạy.
-- Điều độ không phân phối lại: Tiến trình đang ở trạng thái chạy sẽ được sử dụng cpu Cho đến khi xảy ra một trong các tình huống:
+- Điều độ phân phối lại: HĐH có thể sử dụng cơ chế ngắt để thu hồi CPU của một tiến trình đang trong trạng thái chạy.
+- Điều độ không phân phối lại: Tiến trình đang ở trạng thái chạy sẽ được sử dụng CPU Cho đến khi xảy ra một trong các tình huống:
   - Tiến trình kết thúc
   - Tiến trình phải chuyển sang trạng thái chờ đợi do thực hiện I/O.
 
@@ -290,31 +290,31 @@ VD:
   - Có ngắt.
   -  Tiến trình gọi lời gọi hệ thống.
 - Trước khi chuyển sang thực hiện tiến trình khác, ngữ cảnh được lưu vào PCB.
-- Khi được cấp phát cpu thực hiện trở lại, ngữ cảnh được khôi phục từ pcb vào các thanh ghi và bảng tương ứng.
+- Khi được cấp phát CPU thực hiện trở lại, ngữ cảnh được khôi phục từ pcb vào các thanh ghi và bảng tương ứng.
 - Thông tin nào phải được cập nhật và lưu vào pc b khi chuyển tiến trình? => Tùy trường hợp
 - Hệ thống chuyển sang thực hiện ngắt vào/ra rồi quay lại thực hiện tiếp tiến trình:
   - Ngữ cảnh gồm thông tin có thể bị hàm xử lý ngắt thay đổi
-  => Nội dung thanh ghi, trạng thái cpu.
+  => Nội dung thanh ghi, trạng thái CPU.
 
 ### 2.11. Trình bày dòng mức nhân và dòng mức người dùng. Phân tích ưu nhược điểm.
 **Dòng mức nhân**
-- Hệ điều hành cung cấp giao diện lập trình gồm các lời gọi hệ thống mà trình ứng dụng có thể yêu cầu tạo/xóa luồng.
+- HĐH cung cấp giao diện lập trình gồm các lời gọi hệ thống mà trình ứng dụng có thể yêu cầu tạo/xóa luồng.
 - ***Ưu điểm:*** Đang tính đáp ứng và khả năng thực hiện đồng thời của các luồng trong cùng tiến trình.
 - ***Nhược điểm:*** Tốc độ chậm
 
 **Dòng mức người dùng:**
 - Do trình ứng dụng tự tạo ra và quản lý.
 - Sử dụng thư viện do ngôn ngữ lập trình cung cấp.
-- Hệ điều hành vẫn coi tiến trình như một đơn vị duy nhất với một trạng thái duy nhất.
-- Việc phân phối cpu được thực hiện cho cả tiến trình.
+- HĐH vẫn coi tiến trình như một đơn vị duy nhất với một trạng thái duy nhất.
+- Việc phân phối CPU được thực hiện cho cả tiến trình.
 - ***Ưu điểm:***
   -  Việc chuyển đổi luồng không đòi hỏi chuyển sang chế độ nhân => Tiết kiệm thời gian.
-  -  Trình ứng dụng có thể điều độ theo đặc điểm riêng của mình, không phụ thuộc vào cách điều độ của hệ điều hành.
-  -  Có thể sử dụng trên cả những hệ điều hành không hỗ trợ đa luồng.
+  -  Trình ứng dụng có thể điều độ theo đặc điểm riêng của mình, không phụ thuộc vào cách điều độ của HĐH.
+  -  Có thể sử dụng trên cả những HĐH không hỗ trợ đa luồng.
 - ***Nhược điểm:***
   - Khi một luồng gọi lời gọi hệ thống và bị phong tỏa, Toàn bộ tiến trình bị phong tỏa.
   => Không cho phép tận dụng ưu điểm về tính đáp ứng của mô hình đa luồng.
-  - Không cho phép tận dụng kiến trúc nhiều cpu.
+  - Không cho phép tận dụng kiến trúc nhiều CPU.
   
 ### 2.12. Trình bày giải pháp sử dụng lệnh máy Test_and_Set Cho vấn đề loại trừ tương hỗ và đoạn nguy hiểm. Ưu nhược điểm của giải pháp này là gì?
 Giải pháp sử dụng lệnh máy Test_and_Set:
@@ -339,7 +339,7 @@ bool Test_and_Set(bool & val) {
 ## Loại 3 điểm
 ### 3.4. Trình bày khái niệm dòng và mô hình đa dòng. Vấn đề sở hữu tài nguyên của tiến trình và dòng. Phân tích ưu điểm của mô hình đa dòng.
 **Khái niệm:**
-  - Thread: Mỗi đơn vị thực hiện lệnh của tiến trình, Tức là một chuỗi lệnh được cấp phát cpu để thực hiện độc lập, được gọi là một luồng thực hiện.
+  - Thread: Mỗi đơn vị thực hiện lệnh của tiến trình, Tức là một chuỗi lệnh được cấp phát CPU để thực hiện độc lập, được gọi là một luồng thực hiện.
   - Mô hình đa luồng:
     - Mỗi luồng cần có khả năng quản lý con trỏ lệnh, nội dung thanh ghi.
     - Luồng cũng có trạng thái riêng, Cũng cần có ngăn xếp riêng.
@@ -351,7 +351,7 @@ bool Test_and_Set(bool & val) {
 - Tăng hiệu năng và tiết kiệm thời gian
 - Dễ dàng chia sẻ thông tin và tài nguyên.
 - Tăng tính đáp ứng: Khi một luồng bị phong tỏa, các luồng khác vẫn có thể xử lý yêu cầu từ người dùng.
-- Tận dụng kiến trúc, xử lý nhiều cpu. Mỗi luồng có thể được cấp một cpu riêng, nhờ vậy tăng tốc độ của tiến trình.
+- Tận dụng kiến trúc, xử lý nhiều CPU. Mỗi luồng có thể được cấp một CPU riêng, nhờ vậy tăng tốc độ của tiến trình.
 - Thuận lợi cho việc tổ chức chương trình: Có thể dưới dạng nhiều luồng thực hiện các công việc song song.
 
 ### **3.5**. Phân tích các vấn đề cần quan tâm trong sử dụng và quản lý tiến trình đồng thời đối với 3 dạng tiến trình: Tiến trình độc lập có cạnh tranh tài nguyên, Tiến trình hợp tác nhờ chia sẻ tài nguyên và tiến trình hợp tác nhờ trao đổi thông điệp.
@@ -378,7 +378,7 @@ bool Test_and_Set(bool & val) {
      - Chờ đợi có giới hạn:
        - Sử dụng trên thực tế tương đối phức tạp.
        - Đòi hỏi tiến trình đang yêu cầu vào đoạn nguy hiểm phải nằm trong trạng thái chờ đợi tích cực.
-       - Chờ đợi tích cực: tiến trình vẫn phải sử dụng cpu để kiểm tra xem có thể vào đoạn nguy hiểm.
+       - Chờ đợi tích cực: tiến trình vẫn phải sử dụng CPU để kiểm tra xem có thể vào đoạn nguy hiểm.
        => Lãng phí CPU
 
 
@@ -466,7 +466,7 @@ bool Test_and_Set(bool & val) {
 ### 2.15. Trình bày kỹ thuật đổi trang tối ưu và đổi trang vào trước ra trước.
 **Kỹ thuật đổi trang tối ưu:**
 - Chọn trang sẽ không được dùng tới trong thời gian lâu nhất để đổi. Cách này sinh ra số lần lỗi trang ít nhất, do vậy nó tối ưu theo số lần lỗi trang.
-- Tuy nhiên, trên thực tế, hệ điều hành không biết trước trang nào sẽ được sử dụng vào lúc nào, do vậy thuật toán này không dùng được mà chỉ được dùng làm tiêu chuẩn để đánh giá cái khác.
+- Tuy nhiên, trên thực tế, HĐH không biết trước trang nào sẽ được sử dụng vào lúc nào, do vậy thuật toán này không dùng được mà chỉ được dùng làm tiêu chuẩn để đánh giá cái khác.
 
 **Kỹ thuật đổi trang vào trước ra trước:**
 - Trang nào vào trước sẽ bị đẩy ra trước
@@ -474,12 +474,12 @@ bool Test_and_Set(bool & val) {
 
 ### 2.16. Trình bày phương pháp xác định số lượng khung trang tối đa cấp cho mỗi tiến trình và xác định phạm vi cấp phát.
 **Giới hạn số lượng khung cấp cho mỗi tiến trình:**
-- Vấn đề là hệ điều hành cần cấp cho mỗi tiến trình bao nhiêu khung
+- Vấn đề là HĐH cần cấp cho mỗi tiến trình bao nhiêu khung
 - Nếu cấp quá ít khung thì sẽ dân tới đổi trang thường xuyên, làm giảm hiệu quả của tiến trình.Tuy nhiên, cấp quá nhiều khung sẽ ảnh hưởng tới tiến trình khác và làm lãng phí.
 
 **Trên thực tế có 2 chiến lược cấp phát số khung:**
 - ***Cấp phát cố định:*** Mỗi tiến trình được cấp một khung số lượng cố định trong suốt quá trình.
-- ***Cấp phát động:*** Tùy theo nhu cầu của tiến trình mà số lượng cung cấp cho tiến trình có thể thay đổi. Cách này cho phép dùng bộ nhớ hiệu quả hơn cách 1 nhưng hệ điều hành phức tạp hơn, phải theo dõi và xử lý tần suất đổi trang của các tiến trình.
+- ***Cấp phát động:*** Tùy theo nhu cầu của tiến trình mà số lượng cung cấp cho tiến trình có thể thay đổi. Cách này cho phép dùng bộ nhớ hiệu quả hơn cách 1 nhưng HĐH phức tạp hơn, phải theo dõi và xử lý tần suất đổi trang của các tiến trình.
 
 ### 2.17. Trình bày phương pháp kết hợp phân trang và phân đoạn. Vẽ sơ đồ và giải thích cơ chế ánh xạ địa chỉ.
 - Phân đoạn tiến trình, sau đó mỗi đoạn sẽ được phân trang để xếp vào ô nhớ. Mỗi tiến trình có 1 bảng đoạn và mỗi đoạn có 1 bảng trang riêng. Địa chỉ gồm 3 phần: stt đoạn, stt trang và độ dịch trong trang
@@ -506,13 +506,13 @@ bool Test_and_Set(bool & val) {
   - Tần suất thấp hơn giới hạn dưới: Thu hồi một số khung của tiến trình.
  
 ### 2.19. Trình bày kỹ thuật sử dụng đệm trang. Ưu điểm.
-- Hệ điều hành dành ra một số trang trống được kết nối thành các danh sách liên kết gọi là các trang đệm.
+- HĐH dành ra một số trang trống được kết nối thành các danh sách liên kết gọi là các trang đệm.
 - Trang bị đổi như bình thường nhưng nội dung trang này không bị xóa ngay khỏi bộ nhớ.
 - Khung chứa trang được đánh dấu là khung trống và thêm vào cuối danh sách trang đệm.
 - Trang mới sẽ được nạp vào khung đứng đầu trong danh sách trang đệm.
 - Tới thời điểm thích hợp, hệ thống sẽ ghi nội dung các trang trong danh sách đệm ra đĩa.
 - **Ưu điểm:**
-  - Hệ điều hành có thể lùi được ghi các trang ra đĩa đệm một thời điểm thuận lợi hơn và ghi đồng thời nhiều trang nhớ đánh dấu trống.
+  - HĐH có thể lùi được ghi các trang ra đĩa đệm một thời điểm thuận lợi hơn và ghi đồng thời nhiều trang nhớ đánh dấu trống.
   - Nếu thuật toán đổi trang chọn nhầm trang thì vẫn có cơ hội sửa sai do trang bị đổi vẫn nằm trong đệm trang thêm 1 thời gian nữa.
 
 ## Loại 3 điểm
@@ -526,7 +526,7 @@ bool Test_and_Set(bool & val) {
   - Để tiết kiệm không gian nhớ trong giai đoạn liên kết, không liên kết các hàm vào chương trình mà chỉ chèn một đoạn thông tin về hàm đó.
   - Các module thư viện được liên kết trong quá trình thực hiện sử dụng các thông tin chứa trong stub*.
 
-### 3.8. Trình bày kỹ thuật phân chương động bộ nhớ. Phân tích ưu nhược điểm của phương pháp này so với phân trương cố định. Lấy ví dụ minh họa cho các chiến lược cấp chương đồng mà hệ điều hành thường sử dụng: first fit, best fit, worst fit. Khi di chuyển trường sang vị trí khác cần thay đổi thông tin gì trong khối ánh xạ địa chỉ?
+### 3.8. Trình bày kỹ thuật phân chương động bộ nhớ. Phân tích ưu nhược điểm của phương pháp này so với phân trương cố định. Lấy ví dụ minh họa cho các chiến lược cấp chương đồng mà HĐH thường sử dụng: first fit, best fit, worst fit. Khi di chuyển trường sang vị trí khác cần thay đổi thông tin gì trong khối ánh xạ địa chỉ?
 **Phần chương động:**
 - Kích thước, số lượng và vị trí của trương có thể thay đổi.
 - Mỗi một tiến trình được cấp một trước nhớ có kích thước đúng bằng chương đó, khi tiến trình kết thúc, chương nhớ được giải phóng tạo thành một vùng trống. Các vùng trống nằm liền nhau gộp thành vùng trống lớn hơn. Các chương nhớ và các vùng trống được liên kết với nhau thành danh sách kết nối.
@@ -571,7 +571,7 @@ bool Test_and_Set(bool & val) {
   - Nạp trang hoàn toàn theo nhu cầu: Tiến trình khởi đầu mà chưa có trang nào trong bộ nhớ, tức là ngay lệnh đầu tiên sẽ gây ra lỗi trang. Trên thực tế thường dùng giải pháp trung gian, tức là nạp sẵn 1 số lượng trang nhất định vào trong ô nhớ.
 - **Cùng một lệnh có thể gây ra sự kiện lỗi trang**. Khi tiến trình truy cập bộ nhớ để thực hiện một lệnh sẽ xảy ra 2 tình huống:
   - Trang cần truy cập đã ở trong bộ nhớ *(p = 1)*, truy cập bình thường.
-  - Trang đó chưa nằm trong bộ nhớ *(p = 1)*. Khi đó sẽ xảy ra sự kiện lỗi trang hoặc thiếu trang, hệ thống sẽ sinh ra bộ ngắt và chuyển cho hệ điều hành xử lý.
+  - Trang đó chưa nằm trong bộ nhớ *(p = 1)*. Khi đó sẽ xảy ra sự kiện lỗi trang hoặc thiếu trang, hệ thống sẽ sinh ra bộ ngắt và chuyển cho HĐH xử lý.
 
 
 # Chương 4
@@ -586,12 +586,12 @@ bool Test_and_Set(bool & val) {
 - Để quản lý các file, thông tin về file được lưu tập trung trong thư mục. Như vậy, thư mục là các khoản mục, mỗi khoản mục chứa thông tin về một file.
 - Thông tin trong các khoản mục không nhất thiết phải lưu trữ gần nhau vì khoản mục có thể chứa con trỏ trỏ tới các thông tin của file hoặc chứa các thông tin của file.
 
-### 1.20. Hệ điều hành có cần biết và hỗ trợ các kiểu cấu trúc file hay không?
-- Nếu hệ điều hành hỗ trợ cấu trúc file thì ta có 2 ưu điểm:
+### 1.20. HĐH có cần biết và hỗ trợ các kiểu cấu trúc file hay không?
+- Nếu HĐH hỗ trợ cấu trúc file thì ta có 2 ưu điểm:
   - Thao tác truy cập file sẽ dễ dàng hơn với người lập trình.
-  - Hệ điều hành có thể kiểm soát được các thao tác với file bằng cách kiểm tra xem thao tác đó có phù hợp với cấu trúc của file hay không.
+  - HĐH có thể kiểm soát được các thao tác với file bằng cách kiểm tra xem thao tác đó có phù hợp với cấu trúc của file hay không.
 - Nhược:
-  - Kích thước hệ điều hành tăng nhanh do có nhiều kiểu cấu trúc file, và mỗi kiểu lại phải có modul riêng để quản lý và hỗ trợ.
+  - Kích thước HĐH tăng nhanh do có nhiều kiểu cấu trúc file, và mỗi kiểu lại phải có modul riêng để quản lý và hỗ trợ.
   - Tính mềm dẻo hạn chế. Đôi khi ta cần xử lý file theo các cách khác nhau.
 
 ## Loại 2 điểm
