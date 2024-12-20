@@ -278,7 +278,7 @@ VD:
   - Tiến trình phải chuyển sang trạng thái chờ đợi do thực hiện I/O.
 
 ### 2.9. Trình bày một giải pháp giúp không xảy ra bế tắc khi sử dụng cờ hiệu của bài toán **triết gia ăn cơm**.
-- Đặt 2 thao tác lấy đũa của mỗi triết gia vào giai đoạn nguy hiểm để đảm bảo triết gia lấy được 2 đứa một lúc.
+- Đặt 2 thao tác lấy đũa của mỗi triết gia vào giai đoạn nguy hiểm để đảm bảo triết gia lấy được 2 đũa một lúc.
 - Quy ước bất đối xứng về thứ tự lấy đũa, ví dụ người có số thứ tự chẵn lấy đũa trái trước đũa phải, người có số thứ tự lẻ lấy đũa phải trước đũa trái.
 - Tại mỗi thời điểm chỉ cho tối đa 4 người ngồi vào bàn.
 
@@ -446,7 +446,7 @@ bool Test_and_Set(bool & val) {
   - Địa chỉ vật lý mong muốn là tổng của địa chỉ vật lý bắt đầu đoạn và địa chỉ lệch.
   
 ## Loại 2 điểm
-### 2.13. Trình bày kỹ thuật giúp tăng tốc độ truy Nhật Bản trang và bảng trang nhiều mức.
+### 2.13. Trình bày kỹ thuật giúp tăng tốc độ truy cập bảng trang và bảng trang nhiều mức.
 - Mỗi thao tác truy nhập bộ nhớ đều yêu cầu truy nhập bảngg trang để ánh xạ địa chỉ. Do vậy, tốc độ truy nhập bảng trang ảnh hưởng lớn tới tốc độ chung của toàn bộ hệ thống.
 - Do vậy, mong muốn đặt bảng trang trong loại bộ nhớ tốc độ cao. Tuy nhiên, do bộ nhớ thanh ghi và bộ nhớ cache không đủ lớn nên bảng trang thường được chứa trong RAM và tăng tốc độ truy nhập bằng 2 kỹ thuật sau:
   - Vị trí mỗi bản được chọn bởi thanh ghi cơ sở bảng trang.
