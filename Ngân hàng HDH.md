@@ -98,7 +98,10 @@
   - Hệ thống chứa, đồng thời nhiều chương trình trong bộ nhớ.
   - Khi một chương trình phải dừng lại để thực hiện vào da, HDH sẽ chuyển CPU sang thực hiện một chương trình khác.
   **=> Giảm thời gian chạy không tải của CPU.**
-#### (ảnh 2.55)
+
+![2 5](https://github.com/user-attachments/assets/1368a3dc-db09-41e3-bc2a-2a842fef3d47)
+
+
   - Theo gian chờ đợi của CPU trong chế độ đa chương giảm đáng kể so với trong trường hợp đơn chương.
   - HDH phức tạp hơn rất nhiều so với HDH đơn chương trình.
   - Đòi hỏi hỗ trợ từ phần cứng, đặc biệt khả năng vào/ra bằng ngắt và DMA.
@@ -192,7 +195,10 @@
 | P1         | 10                |
 | P2         | 4                 |
 | P3         | 2                 |
-#### (ảnh 1.9)
+
+![1 9](https://github.com/user-attachments/assets/05d59a83-2001-4ea8-9043-d0b2186cb99b)
+
+
 Thời gian chờ đợi của P1, P2, P3 lần lượt là 6, 6, và 4.
 Thời gian chờ đợi trung bình = (6 + 6 + 4) / 3 = 5,33
 
@@ -240,7 +246,9 @@ VD:
 | P1         | 10                |
 | P2         | 4                 |
 | P3         | 2                 |
-#### (ảnh 1.12)
+
+![1 12](https://github.com/user-attachments/assets/2970fb58-66f9-472f-b782-429b965aeb35)
+
 
 ## Loại 2 điểm
 ### 2.7. Trình bày 5 trạng thái của tiến trình. Vẽ sơ đồ và giải thích về việc chuyển đổi giữa 5 trạng thái này.
@@ -250,7 +258,10 @@ VD:
 - ***Chạy:*** Lệnh của tiến trình được cpu thực hiện.
 - ***Chờ đợi:*** Tiến trình chờ đợi một sự kiện gì đó xảy ra (blocked)
 - ***Kết thúc:*** Tiến trình đã kết thúc việc thực hiện nhưng vẫn chưa bị xóa.
-#### (ảnh 2.7)
+
+
+![2 7](https://github.com/user-attachments/assets/e5e6d4b3-0abf-4512-b07a-ba78a6ef92e9)
+
 
 ### 2.8. Điều độ tiến trình là gì? Điều độ dòng có khác điều độ tiến trình không? Trình bày về điều độ có phân phối lại và không phân phối lại.
 - ***Điều độ*** (lập lịch) Là quyết định tiến trình nào được sử dụng tài nguyên phần cứng khi nào, trong thời gian bao lâu.
@@ -396,7 +407,10 @@ bool Test_and_Set(bool & val) {
 
 ### 1.15. Trình bày cơ chế ánh xạ địa chỉ khi sử dụng kỹ thuật phân trương bộ nhớ.
 - Với phương pháp phân chương, các chương có thể nằm ở các địa chỉ khác nhau trong bộ nhớ, thậm chí có thể bị di chuyển. Do vậy, cần cơ chế biến đổi địa chỉ logic thành địa chỉ vật lý. Ngoài ra cần ngăn không cho tiến trình này truy cập trái phép chương nhớ của tiến trình khác.
-#### (ảnh 1.15)
+
+![1 15](https://github.com/user-attachments/assets/12fb555c-d261-404d-9797-316170aa795a)
+
+
 - Khi tiến trình được tải vào MEM, CPU dành 2 thanh ghi:
   - Thanh ghi cơ sở chứa địa chỉ bắt đầu của tiến trình.
   - Thanh ghi giới hạn chứa độ dài chương.
@@ -424,7 +438,8 @@ bool Test_and_Set(bool & val) {
   - **S:** stt/tên đoạn
   - **O:** độ dịch trong đoạn
 
-#### (ảnh 1.17)
+![1 17](https://github.com/user-attachments/assets/8fa7aa09-3528-49ce-bf54-a6fddc73c169)
+
 - Giải thích:
   - Từ chỉ số đoạn S, vào bảng đoạn, tìm địa chỉ vật lí bắt đầu của đoạn
   - So sánh độ dịch O với chiều dài đoạn, nếu lớn hơn => *địa chỉ sai*
@@ -470,7 +485,8 @@ bool Test_and_Set(bool & val) {
 - Phân đoạn tiến trình, sau đó mỗi đoạn sẽ được phân trang để xếp vào ô nhớ. Mỗi tiến trình có 1 bảng đoạn và mỗi đoạn có 1 bảng trang riêng. Địa chỉ gồm 3 phần: stt đoạn, stt trang và độ dịch trong trang
 - Tiến trình có 1 bảng phân đoạn, mỗi đoạn có 1 bảng phân trang.
 
-#### (ảnh 2.17)
+![2 17](https://github.com/user-attachments/assets/16cd788a-db54-45a2-936b-2431c821b693)
+
 
 ### 2.18. Trình bày về tình trạng trì trệ (Thrashing)
 - là tình trạng đổ trang liên tục do không đủ bộ nhớ.
@@ -514,7 +530,9 @@ bool Test_and_Set(bool & val) {
 **Phần chương động:**
 - Kích thước, số lượng và vị trí của trương có thể thay đổi.
 - Mỗi một tiến trình được cấp một trước nhớ có kích thước đúng bằng chương đó, khi tiến trình kết thúc, chương nhớ được giải phóng tạo thành một vùng trống. Các vùng trống nằm liền nhau gộp thành vùng trống lớn hơn. Các chương nhớ và các vùng trống được liên kết với nhau thành danh sách kết nối.
-#### (ảnh 3.8)
+
+![3 8](https://github.com/user-attachments/assets/fd3b95ee-fc4b-4da6-b0b1-ae5da25a78f6)
+
 - Do các trường được tạo ra đúng bằng kích thước tiến trình nên không có phân mảnh trong, tuy nhiên có phân mảnh ngoài.
 - Ảnh hưởng của phân mảnh ngoài có thể khá lớn, gây lãng phí bộ nhớ.
 - Có 2 cách giải quyết:
@@ -541,7 +559,9 @@ bool Test_and_Set(bool & val) {
 ### 3.10. Trình bày kỹ thuật nạp trang theo nhu cầu dùng cho bộ nhớ ảo, bao gồm: khái niệm, ví dụ minh họa, quá trình thực hiện ngắt thiếu trang. Nạp trang hoàn toàn theo nhu cầu khác với nạp trang trước như thế nào? Phân tích rõ cùng một lệnh có thể xảy ra nhiều sự kiện lỗi trang không.
 - **Nạp trang theo nhu cầu:**
   - ***Khái niệm:*** Tiến trình được phân trang và chứa trên đĩa. Khi tiến trình thực hiện cần đến trang nào thì trang đó sẽ được nạp vào bộ nhớ. Như vậy, tại một thời điểm, mỗi tiến trình sẽ gồm một số trang đã được nạp vào bộ nhớ. Những trang còn lại vẫn nằm trên đĩa. Để phân biệt 2 loại này, người ta đã thêm vào khoảng một trang, một bit ký hiệu là p (p = 1: trang đã nằm trong bộ nhớ, p = 0: trang đã nằm trên đĩa)
-#### (ảnh 3.10)
+
+![3 10](https://github.com/user-attachments/assets/0657d9af-b6df-479e-b1b8-0de196354a6c)
+
 - **Quá trình thực hiện ngắt thiếu trang:**
   - Đọc trang bị thiếu và không trang vừa tìm được.
   - Sửa lại khoản mục tương ứng trong bảng trang: đổi bit p = 1 và số khung trang đã cấp cho trang
@@ -558,7 +578,9 @@ bool Test_and_Set(bool & val) {
 ## Loại 1 điểm
 ### 1.18. Việc định nghĩa và sử dụng khái niệm file đem lại những ưu điểm gì? Khi đặt tên cho file, cần quan tâm tới những quy định gì?
 - Nhờ có khái niệm file, người dùng có thể quyết định cấu trúc, ý nghĩa, cách sử dụng cho thông tin cần lưu trữ và đặt tên cho tập các thông tin này. Người dùng có thể không quan tâm tới việc file được lưu trữ cụ thể ở đâu, ra sao.
-#### (ảnh 1.18)
+
+![1 18](https://github.com/user-attachments/assets/a806d016-67f6-421d-9ccc-dee79ef751c2)
+
 
 ### 1.19. Trình bày khái niệm thư mục. Thông tin trong các khoản mục có nhất thiết phải lưu trữ gần nhau không.
 - Để quản lý các file, thông tin về file được lưu tập trung trong thư mục. Như vậy, thư mục là các khoản mục, mỗi khoản mục chứa thông tin về một file.
