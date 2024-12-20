@@ -57,7 +57,7 @@
 - **Các chương trình tiện ích và ứng dụng:** HĐH thường chứa sẳn một số các chương trình tiện ích và CTƯD.Đây là thành phần không bắt buộc của HĐH.
 
 ### 2.2. Trình bày về nhân của HĐH? Thế nào là chế độ nhân và chế độ người dùng?
-- **Nhần của HĐH:**
+- **Nhân của HĐH:**
   - Nhân (kernel) Là phần cốt lõi thực hiện các chức năng cơ bản nhất, quan trọng nhất của HĐH và thường xuyên được giữ trong bộ nhớ.
   - HĐH gồm nhiều thành phần chỉ tải những thành phần quan trọng không thể thiếu được vào bộ nhớ gọi là nhân.
   - Nhân chạy trong chế độ đặc quyền - **Chế độ nhân**
