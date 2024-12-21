@@ -699,7 +699,6 @@ void producer () {                        //tiến trình người sản xuất
         signal (empty);
     }
 }
-
 void consumer () {                        //tiến trình người tiêu dùng
     for (;;) {
         wait (empty);
@@ -713,7 +712,6 @@ void consumer () {                        //tiến trình người tiêu dùng
         <tiêu dùng>
     }
 }
-
 void main()
 {
     StartProcess(producer); 
