@@ -35,7 +35,7 @@
 **=> CPU được chia sẻ giữa những người dùng khác nhau, tương tác trực tiếp với hệ thống.**
 
 ## Loại 2 điểm
-### 2.1. Trình bày ngắn gọn ***(3đ chi tiết)*** về các thành phần cơ bản của HĐH.
+### 2.1*. Trình bày ngắn gọn ***(3đ chi tiết)*** về các thành phần cơ bản của HĐH.
 - **Quản lý tiến trình:**
   - Tạo và xóa tiến trình
   - Tạm treo và khôi phục các tiến trình bị treo
@@ -67,7 +67,7 @@
   - **Chế độ nhân** là chế độ mà chương trình thực hiện trong đó đầy đủ quyền truy cập và điều khiển phần cứng máy tính. Ví dụ có thể thay đổi nội dung tất cả các thanh ghi của CPU, hay có thể ghi vào bộ nhớ vật lý.
   - Ngược lại, chương trình thực hiện trong **chế độ người dùng** bị hạn chế rất nhiều quyền truy cập và điều khiển phần cứng. Việc quy định chế độ cụ thể phụ thuộc vào một bích, đặc biệt trong một thanh ghi của CPU.Nếu bít này có giá trị = 0 thì là chế độ nhân, = 1 tương ứng với chế độ bình thường.
 
-### 2.3. Trình bày cấu trúc nguyên khối và cấu trúc phân lớp của HĐH. Phân tích so sánh ưu nhược điểm của 2 kiểu cấu trúc này.
+### 2.3*. Trình bày cấu trúc nguyên khối và cấu trúc phân lớp của HĐH. Phân tích so sánh ưu nhược điểm của 2 kiểu cấu trúc này.
 - **Cấu trúc nguyên khối:**
   - Toàn bộ chương trình và dữ liệu của HĐH có chung một không gian nhớ.
   - HĐH trở thành một tập hợp các thủ tục hay các chương trình con.
@@ -79,7 +79,7 @@
   - ***Ưu điểm:*** dễ sửa đổi.
   - ***Nhược điểm:*** tốc độ chậm hơn cấu trúc nguyên khối.
 
-### 2.4. Trình bày cấu trúc vi nhân của HĐH. So sánh ưu nhược điểm của cấu trúc này với cấu trúc nguyên khối và phân lớp.
+### 2.4*. Trình bày cấu trúc vi nhân của HĐH. So sánh ưu nhược điểm của cấu trúc này với cấu trúc nguyên khối và phân lớp.
 - **Cấu trúc vi nhân:**
   - Nhân chỉ chứa các chức năng quan trọng nhất.
   - Các chức năng còn lại được đặt vào các modul riêng: Chạy trong chế độ đặc quyền hoặc người dùng.
@@ -177,7 +177,7 @@
   - Thực hiện lâu hơn thời gian giới hạn.
   - Do quản trị hệ thống hoặc HĐH kết thúc.
 
-### 1.8. Trình bày về khái niệm dòng (thread) thực hiện. Thế nào là dòng mức người dùng và mức nhân?
+### 1.8*. Trình bày về khái niệm dòng (thread) thực hiện. Thế nào là dòng mức người dùng và mức nhân?
 - Mỗi đơn vị thực hiện lệnh của tiến trình, tức là một chuỗi lệnh được cấp phát CPU để thực hiện độc lập gọi là một luồng thực hiện.
   - Luồng mức người dùng: Được tạo ra và quản lý không có sự hỗ trợ của HĐH.
   - Luồng mức nhân: Được tạo ra và quản lý bởi HĐH.
@@ -202,7 +202,7 @@
 Thời gian chờ đợi của P1, P2, P3 lần lượt là 6, 6, và 4.
 Thời gian chờ đợi trung bình = (6 + 6 + 4) / 3 = 5,33
 
-### 1.10. Các thông tin nào được lưu trữ trong khối quản lý tiến trình PCB?
+### 1.10*. Các thông tin nào được lưu trữ trong khối quản lý tiến trình PCB?
 - **Số định danh của tiến trình** (PID)
 - **Trạng thái tiến trình**.
 - **Nội dung một số thanh ghi CPU:**
@@ -488,7 +488,7 @@ bool Test_and_Set(bool & val) {
 ![2 17](https://github.com/user-attachments/assets/16cd788a-db54-45a2-936b-2431c821b693)
 
 
-### 2.18. Trình bày về tình trạng trì trệ (Thrashing)
+### 2.18*. Trình bày về tình trạng trì trệ (Thrashing)
 - là tình trạng đổ trang liên tục do không đủ bộ nhớ.
 - Thời gian đổi trang của tiến trình lớn hơn thời gian thực hiện.
 - Xảy ra khi:
