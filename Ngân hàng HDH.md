@@ -65,7 +65,7 @@
 - **Chế độ nhân và chế độ người dùng:**
   - Máy tính hiện đại thường được thiết kế với 2 chế độ thực hiện chương trình: Chế độ nhân và chế độ người dùng.
   - **Chế độ nhân** là chế độ mà chương trình thực hiện trong đó đầy đủ quyền truy cập và điều khiển phần cứng máy tính. Ví dụ có thể thay đổi nội dung tất cả các thanh ghi của CPU, hay có thể ghi vào bộ nhớ vật lý.
-  - Ngược lại, chương trình thực hiện trong **chế độ người dùng** bị hạn chế rất nhiều quyền truy cập và điều khiển phần cứng. Việc quy định chế độ cụ thể phụ thuộc vào một bích, đặc biệt trong một thanh ghi của CPU.Nếu bít này có giá trị = 0 thì là chế độ nhân, = 1 tương ứng với chế độ bình thường.
+  - Ngược lại, chương trình thực hiện trong **chế độ người dùng** bị hạn chế rất nhiều quyền truy cập và điều khiển phần cứng. Việc quy định chế độ cụ thể phụ thuộc vào một bit, đặc biệt trong một thanh ghi của CPU.Nếu bít này có giá trị = 0 thì là chế độ nhân, = 1 tương ứng với chế độ bình thường.
 
 ### 2.3*. Trình bày cấu trúc nguyên khối và cấu trúc phân lớp của HĐH. Phân tích so sánh ưu nhược điểm của 2 kiểu cấu trúc này.
 - **Cấu trúc nguyên khối:**
