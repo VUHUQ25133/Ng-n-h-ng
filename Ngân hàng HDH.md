@@ -557,7 +557,7 @@ bool Test_and_Set(bool & val) {
 
 (go to 1.16 and 1.17)
 **So sánh:**
-- Phân trang và phân đoạn đều có ưu điểm riêng. Phân trang đơn giản hơn do các cha có kích thước bằng nhau. Trong khi đó, phân đoạn cho phép tiến tới cấu trúc của tiến trình.
+- Phân trang và phân đoạn đều có ưu điểm riêng. Phân trang đơn giản hơn do các trang có kích thước bằng nhau. Trong khi đó, phân đoạn cho phép tiến tới cấu trúc của tiến trình.
 - Phân đoạn đã khắc phục được phân mảnh trong của phân trang. Tuy nhiên, nhược điểm của phân đoạn là phân mảnh ngoài.
 
 ### 3.10. Trình bày kỹ thuật nạp trang theo nhu cầu dùng cho bộ nhớ ảo, bao gồm: khái niệm, ví dụ minh họa, quá trình thực hiện ngắt thiếu trang. Nạp trang hoàn toàn theo nhu cầu khác với nạp trang trước như thế nào? Phân tích rõ cùng một lệnh có thể xảy ra nhiều sự kiện lỗi trang không.
