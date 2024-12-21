@@ -407,7 +407,7 @@ bool Test_and_Set(bool & val) {
   - Các chương có kích thước khác nhau: có 2 kiểu
     - Mỗi chương có một hàng đợi và tiến trình chỉ được xếp vào hàng đợi phù hợp nhất.
     - Dùng chung một hàng đợi: Chương có săn nhỏ nhất sẽ được cấp phát. Khi một chương được giải phóng chọn tiến trình gần đầu hàng đó nhất và có kích thước phù hợp.
-- Phân trường cố định không mềm dẻo do hạn chế số lượng tiến trình tối đa có thể tải và ô nhớ. Do vậy hiện nay hầu như không được sử dụng.
+- Phân chương cố định không mềm dẻo do hạn chế số lượng tiến trình tối đa có thể tải và ô nhớ. Do vậy hiện nay hầu như không được sử dụng.
 
 ### 1.15. Trình bày cơ chế ánh xạ địa chỉ khi sử dụng kỹ thuật phân chương bộ nhớ.
 - Với phương pháp phân chương, các chương có thể nằm ở các địa chỉ khác nhau trong bộ nhớ, thậm chí có thể bị di chuyển. Do vậy, cần cơ chế biến đổi địa chỉ logic thành địa chỉ vật lý. Ngoài ra cần ngăn không cho tiến trình này truy cập trái phép chương nhớ của tiến trình khác.
