@@ -166,7 +166,7 @@
 
 ### 1.7. Trình bày về thao tác tạo mới tiến trình. Tiến trình có thể bị kết thúc trong những trường hợp nào?
 - **Tạo mới tiến trình:**
-  - Gán số định danh cho tiến trình được tạo mới và tạo một ô trong bản tiến trình.
+  - Gán số định danh cho tiến trình được tạo mới và tạo một ô trong bảng tiến trình.
   - Tạo không gian nhớ cho tiến trình và PCB.
   - Khởi tạo PCB.
   - Liên kết PCB của tiến trình vào các danh sách quản lý.
@@ -217,11 +217,13 @@ Thời gian chờ đợi trung bình = (6 + 6 + 4) / 3 = 5,33
 
 ### 1.11. Trình bày các tiêu chí đánh giá thuật toán điều độ tiến trình
 **1. Lượng tiến trình được thực hiện xong:**   
-  - Số lượng tiến trình thực hiện xong trongtrong một đơn vị thời gian
+  - Số lượng tiến trình thực hiện xong trong một đơn vị thời gian
   - Đo tính hiệu quả của hệ thống
 
 **2. Hiệu suất sử dụng CPU**
+
 **3. Thời gian vòng đời trung bình của tiến trình**, Từ lúc có yêu cầu tạo tiến trình đến khi kết thúc.
+
 **4. Thời gian chờ đợi:**
   - Tổng thời gian tiến trình nằm trong trạng thái sẳn sàng và chờ cấp CPU.
   - Ảnh hưởng trực tiếp của thuật toán điều độ tiến trình
