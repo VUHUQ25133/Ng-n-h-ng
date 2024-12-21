@@ -96,7 +96,7 @@
 ### 2.5.Trình bày về HĐH đa chương trình. Lấy ví dụ minh họa để phân tích hiệu suất sử dụng CPU của HĐH đa chương trình cao hơn so với HĐH đơn chương trình.
 - ***Đa chương trình:***
   - Hệ thống chứa, đồng thời nhiều chương trình trong bộ nhớ.
-  - Khi một chương trình phải dừng lại để thực hiện vào da, HĐH sẽ chuyển CPU sang thực hiện một chương trình khác.
+  - Khi một chương trình phải dừng lại để thực hiện vào ra, HĐH sẽ chuyển CPU sang thực hiện một chương trình khác.
   **=> Giảm thời gian chạy không tải của CPU.**
 
 ![2 5](https://github.com/user-attachments/assets/1368a3dc-db09-41e3-bc2a-2a842fef3d47)
