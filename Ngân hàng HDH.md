@@ -10,11 +10,11 @@
 - Chương trình được phân thành các mẻ gồm những chương trình có yêu cầu giống nhau.
 - Toàn bộ mẻ được nạp vào băng từ và được tải vào máy để thực hiện lần lượt.
     + Chương trình giám sát *(monitor)*: Tự động nạp chương trình tiếp theo vào máy và cho phép nó chạy.
-    => Giảm đáng kể thời gian chuyển đổi giữa 2 chương trình trong cùng một mẻ.Trình giám sát là dạng đơn giản nhất của HĐH.
-- Hệ thống xử lý theo mẻ **có cần** HĐH.
+    => Giảm đáng kể thời gian chuyển đổi giữa 2 chương trình trong cùng một mẻ. Trình giám sát là dạng đơn giản nhất của HĐH.
+- Hệ thống xử lý theo mẻ ***có cần*** HĐH.
 
 ### 1.3. Đa chương trình là gì? Lý do sử dụng đa chương trình trong máy tính? Yêu cầu đối với phần cứng khi sử dụng đa chương trình.
-- Đã chương trình là hệ thống chứa đồng thời nhiều chương trình trong bộ nhớ.
+- Đa chương trình là hệ thống chứa đồng thời nhiều chương trình trong bộ nhớ.
 - Lý do sử dụng: 
   - Mặc dù việc xử lý theo mẻ giảm thời gian chuyển đổi giữa các chương trình trong ứng dụng, song Hiệu suất của CPU Tương đối thấp do CPU phải dừng việc xử lý dữ liệu khi có yêu cầu vào ra *(tốc độ vào ra thấp hơn tốc độ CPU rất nhiều)*
   - Đa chương trình sẽ giúp khắc phục điều đó, bằng cách khi CPU đang phải dừng để thực hiện quá trình vào ra, HĐH sẽ chuyển CPU sang thực hiện một chương trình khác.Nếu chương trình nằm trong bộ nhớ đủ nhiều thì hầu như lúc nào CPU Cũng có việc để thực hiện.
@@ -79,7 +79,7 @@
   - ***Ưu điểm:*** dễ sửa đổi.
   - ***Nhược điểm:*** tốc độ chậm hơn cấu trúc nguyên khối.
 
-### 2.4. Trình bày cấu trúc vy nhân của HĐH. So sánh ưu nhược điểm của cấu trúc này với cấu trúc nguyên khối và phân lớp.
+### 2.4. Trình bày cấu trúc vi nhân của HĐH. So sánh ưu nhược điểm của cấu trúc này với cấu trúc nguyên khối và phân lớp.
 - **Cấu trúc vi nhân:**
   - Nhân chỉ chứa các chức năng quan trọng nhất.
   - Các chức năng còn lại được đặt vào các modul riêng: Chạy trong chế độ đặc quyền hoặc người dùng.
@@ -167,9 +167,9 @@
 ### 1.7. Trình bày về thao tác tạo mới tiến trình. Tiến trình có thể bị kết thúc trong những trường hợp nào?
 - **Tạo mới tiến trình:**
   - Gán số định danh cho tiến trình được tạo mới và tạo một ô trong bản tiến trình.
-  - Tạo không gian nhớ cho tiến trình và pcb.
-  - Khởi tạo pcb.
-  - Liên kết pcb của tiến trình vào các danh sách quản lý.
+  - Tạo không gian nhớ cho tiến trình và PCB.
+  - Khởi tạo PCB.
+  - Liên kết PCB của tiến trình vào các danh sách quản lý.
 - **Tiến trình kết thúc** trong các trường hợp:
   - Bị tiến trình cha kết thúc.
   - Do các lỗi: Lỗi số học, lỗi truy cập, lỗi vào ra.
@@ -202,18 +202,18 @@
 Thời gian chờ đợi của P1, P2, P3 lần lượt là 6, 6, và 4.
 Thời gian chờ đợi trung bình = (6 + 6 + 4) / 3 = 5,33
 
-### 1.10. Các thông tin nào được lưu trữ trong khối quản lý tiến trình pcb?
-- Số định danh của tiến trình (PID)
-- Trạng thái tiến trình.
-- Nội dung một số thanh ghi CPU:
+### 1.10. Các thông tin nào được lưu trữ trong khối quản lý tiến trình PCB?
+- **Số định danh của tiến trình** (PID)
+- **Trạng thái tiến trình**.
+- **Nội dung một số thanh ghi CPU:**
   - Thanh ghi con trỏ lệnh: trỏ tới lệnh tiếp theo
   - Thanh ghi con trỏ ngăn xếp
   - Các thanh ghi điều kiện và trạng thái
   - Các thanh ghi đa năng.
-- Thông tin phục vụ điều độ tiến trình: Mức độ ưu tiên của tiến trình, vị trí trong hàng đợi...
-- Thông tin về bộ nhớ của tiến trình
-- Danh sách các tài nguyên khác: Các file đang mở, thiết bị vào ra mà tiến trình sử dụng
-- Thông tin thống kê phục vụ quản lý: Thời gian sử dụng CPU, giới hạn thời gian
+- **Thông tin phục vụ điều độ tiến trình**: Mức độ ưu tiên của tiến trình, vị trí trong hàng đợi...
+- **Thông tin về bộ nhớ của tiến trình**
+- **Danh sách các tài nguyên khác:** Các file đang mở, thiết bị vào ra mà tiến trình sử dụng
+- **Thông tin thống kê phục vụ quản lý:** Thời gian sử dụng CPU, giới hạn thời gian
 
 ### 1.11. Trình bày các tiêu chí đánh giá thuật toán điều độ tiến trình
 **1. Lượng tiến trình được thực hiện xong:**   
@@ -290,7 +290,7 @@ VD:
   - Có ngắt.
   -  Tiến trình gọi lời gọi hệ thống.
 - Trước khi chuyển sang thực hiện tiến trình khác, ngữ cảnh được lưu vào PCB.
-- Khi được cấp phát CPU thực hiện trở lại, ngữ cảnh được khôi phục từ pcb vào các thanh ghi và bảng tương ứng.
+- Khi được cấp phát CPU thực hiện trở lại, ngữ cảnh được khôi phục từ PCB vào các thanh ghi và bảng tương ứng.
 - Thông tin nào phải được cập nhật và lưu vào pc b khi chuyển tiến trình? => Tùy trường hợp
 - Hệ thống chuyển sang thực hiện ngắt vào/ra rồi quay lại thực hiện tiếp tiến trình:
   - Ngữ cảnh gồm thông tin có thể bị hàm xử lý ngắt thay đổi
@@ -386,7 +386,7 @@ bool Test_and_Set(bool & val) {
 
 # Chương 3
 ## Lọai 1 điểm
-### 1.13. Thế nào là địa chỉ, logic và địa chỉ vật lý?
+### 1.13. Thế nào là địa chỉ logic và địa chỉ vật lý?
 **ĐỊa chỉ logic:**
 - Gán cho các lệnh và dữ liệu không phụ thuộc vào vị trí cụ thể tiến trình trong bộ nhớ.
 - Chương trình ứng dụng chỉ nhìn thấy và làm việc với địa chỉ logic này.
@@ -396,7 +396,7 @@ bool Test_and_Set(bool & val) {
 - Là địa chỉ chính xác trong bộ nhớ máy tính.
 - Các mạch nhớ sử dụng để truy nhập tới chương trình và dữ liệu.
 
-### 1.14. Trình bày kỹ thuật phân trương cố định bộ nhớ.
+### 1.14. Trình bày kỹ thuật phân chương cố định bộ nhớ.
 - Bộ nhớ được chia thành các chương với kích thước vị trí, số lượng không đổi.
 - Có 2 phương án: các chương to bằng nhau và các chương không to bằng nhau.
   - Các chương kích thước to bằng nhau đơn giản nhưng phân mảnh trong, do đó ít được dùng trong thực tế.
@@ -405,7 +405,7 @@ bool Test_and_Set(bool & val) {
     - Dùng chung một hàng đợi: Chương có săn nhỏ nhất sẽ được cấp phát. Khi một chương được giải phóng chọn tiến trình gần đầu hàng đó nhất và có kích thước phù hợp.
 - Phân trường cố định không mềm dẻo do hạn chế số lượng tiến trình tối đa có thể tải và ô nhớ. Do vậy hiện nay hầu như không được sử dụng.
 
-### 1.15. Trình bày cơ chế ánh xạ địa chỉ khi sử dụng kỹ thuật phân trương bộ nhớ.
+### 1.15. Trình bày cơ chế ánh xạ địa chỉ khi sử dụng kỹ thuật phân chương bộ nhớ.
 - Với phương pháp phân chương, các chương có thể nằm ở các địa chỉ khác nhau trong bộ nhớ, thậm chí có thể bị di chuyển. Do vậy, cần cơ chế biến đổi địa chỉ logic thành địa chỉ vật lý. Ngoài ra cần ngăn không cho tiến trình này truy cập trái phép chương nhớ của tiến trình khác.
 
 ![1 15](https://github.com/user-attachments/assets/12fb555c-d261-404d-9797-316170aa795a)
@@ -526,9 +526,9 @@ bool Test_and_Set(bool & val) {
   - Để tiết kiệm không gian nhớ trong giai đoạn liên kết, không liên kết các hàm vào chương trình mà chỉ chèn một đoạn thông tin về hàm đó.
   - Các module thư viện được liên kết trong quá trình thực hiện sử dụng các thông tin chứa trong stub*.
 
-### 3.8. Trình bày kỹ thuật phân chương động bộ nhớ. Phân tích ưu nhược điểm của phương pháp này so với phân trương cố định. Lấy ví dụ minh họa cho các chiến lược cấp chương đồng mà HĐH thường sử dụng: first fit, best fit, worst fit. Khi di chuyển trường sang vị trí khác cần thay đổi thông tin gì trong khối ánh xạ địa chỉ?
+### 3.8. Trình bày kỹ thuật phân chương động bộ nhớ. Phân tích ưu nhược điểm của phương pháp này so với phân chương cố định. Lấy ví dụ minh họa cho các chiến lược cấp chương đồng mà HĐH thường sử dụng: first fit, best fit, worst fit. Khi di chuyển trường sang vị trí khác cần thay đổi thông tin gì trong khối ánh xạ địa chỉ?
 **Phần chương động:**
-- Kích thước, số lượng và vị trí của trương có thể thay đổi.
+- Kích thước, số lượng và vị trí của chương có thể thay đổi.
 - Mỗi một tiến trình được cấp một trước nhớ có kích thước đúng bằng chương đó, khi tiến trình kết thúc, chương nhớ được giải phóng tạo thành một vùng trống. Các vùng trống nằm liền nhau gộp thành vùng trống lớn hơn. Các chương nhớ và các vùng trống được liên kết với nhau thành danh sách kết nối.
 
 ![3 8](https://github.com/user-attachments/assets/fd3b95ee-fc4b-4da6-b0b1-ae5da25a78f6)
@@ -539,7 +539,7 @@ bool Test_and_Set(bool & val) {
   - Chuyển các tiến trình về một đầu bộ nhớ, khi đó các vùng trống sẽ được chuyển về đầu còn lại và nhập thành vùng trồng lớn hơn. Tuy nhiên, việc chuyển như vậy sẽ làm hệ thống phải dừng lại, ảnh hưởng đến tốc độ.
   - Hạn chế phân mảnh ngoài= cách sử dụng chiến lược các chương sử dụng. Có 3 chiến lược cấp chương:
     - ***First Fit:*** Trong số các vùng trống chọn vùng nhớ đầu tiên có thể chứa tiến trình để cấp phát.
-    - ***Best Fit:*** Trong số các vùng trống chọn vùng nhỏ nhất có thể chưa tiến trình để tạm trương nhớ. Chiến lược này có xu hướng tạo ra vùng trống kích thước nhỏ.
+    - ***Best Fit:*** Trong số các vùng trống chọn vùng nhỏ nhất có thể chưa tiến trình để tạm chương nhớ. Chiến lược này có xu hướng tạo ra vùng trống kích thước nhỏ.
     - Worst Fit: Chọn vùng trống có kích thước lớn nhất để tạo, chưa nhớ và cấp phát.
 - Ưu điểm: Tránh phân mảnh trong (nhược điểm phân chương cố định)
 - Nhược điểm: Phân mảnh ngoài.
@@ -647,3 +647,73 @@ bool Test_and_Set(bool & val) {
 
 ### 3.14. Trình bày hai phương pháp cấp phát không gian cho file : sử dụng danh sách kết nối và sử dụng danh sách kết nối trên bảng chỉ số (có ví dụ minh họa). So sánh sự giống nhau và khác nhau của hai phương pháp này
 
+# Bài toán Triết gia ăn cơm
+```cpp
+bool chopstick[5] = {false, false, false, false, false};
+void philosopher(int i) {
+    for (;;) {
+
+        while (Test_and_Set(chopstick[i]));
+        while (Test_and_Set(chopstick[(i + 1) % 5]));
+
+        <ăn cơm>
+
+        chopstick[i] = false;
+        chopstick[(i + 1) % 5] = false;
+
+        <suy nghĩ>
+    }
+}
+
+void main() 
+{
+    Start process(philosopher[1]);
+    Start process(philosopher[2]);
+    Start process(philosopher[3]);
+    Start process(philosopher[4]);
+    Start process(philosopher[5]);
+}
+```
+
+# Bài toán Người sản xuất, người tiêu dùng với bộ đệm hạn chế
+```cpp
+const int N; //kích thước bộ ñệm
+semaphore lock = 1;
+semaphore empty = 0;
+semaphore full = N;
+
+void producer () {                        //tiến trình người sản xuất
+    for (;;) {
+        <sản xuất>
+
+        wait (full);
+        wait (lock);
+
+        <thêm một sản phẩm vào bộ đệm>
+
+        signal (lock);
+        signal (empty);
+    }
+}
+
+void consumer () {                        //tiến trình người tiêu dùng
+    for (;;) {
+        wait (empty);
+        wait (lock);
+
+        <lấy một sản phẩm từ bộ đệm>
+        
+        signal (lock);
+        signal (full);
+        
+        <tiêu dùng>
+    }
+}
+
+void main()
+{
+    StartProcess(producer); 
+    StartProcess(consumer);
+}
+
+```
