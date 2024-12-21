@@ -228,8 +228,10 @@ Thời gian chờ đợi trung bình = (6 + 6 + 4) / 3 = 5,33
   - Tổng thời gian tiến trình nằm trong trạng thái sẳn sàng và chờ cấp CPU.
   - Ảnh hưởng trực tiếp của thuật toán điều độ tiến trình
 
-**5. Thời gian đáp ứng**, từ lúc người dùng yêu cầu đến khi tiến trình có phản hồi.
+**5. Thời gian đáp ứng**, từ lúc người dùng yêu cầu đến khi tiến trình có phản hồi
+
 **6. Tính dự đoán được**: Vòng đời, thời gian chờ đợi, thời gian đáp ứng phải ổn định, không phụ thuộc vào tải của hệ thống.
+
 **7. Tính công bằng**: Các tiến trình cùng độ ưu tiên phải được đối xử như nhau.
 
 ### 1.12.Trình bày điều độ đến trước phục vụ trước FCFS. Cho ví dụ minh họa về tính thời gian chờ đợi trung bình khi điều độ kiểu này.
