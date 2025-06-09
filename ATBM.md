@@ -811,7 +811,7 @@
 **Đáp án đúng: C**
 
 ## Câu 34 - **Tìm phát biểu đúng về mã hóa khóa đối xứng (Symmetric key cryptography):**
-    A.An toàn hơn mã hóa khóa công khai
+    A. An toàn hơn mã hóa khóa công khai
     B. Sử dụng một khóa quá trình mã hóa và một khóa khác cho giải mã
     C. Sử dụng một khóa chung cho cả quá trình mã hóa và giải mã
     D. Chi sử dụng kỹ thuật mã hóa khối
@@ -987,7 +987,7 @@
 
 **Đáp án đúng: B**
 
-## Câu 21 - **Nếu muốn xem 1 tài liệu "bảo mật" được mã hoá trên hệ mật bất đối xứng do người khác gửi đến, bạn phải sử dụng khğá nào để giải mã tài liệu**
+## Câu 21 - **Nếu muốn xem 1 tài liệu "bảo mật" được mã hoá trên hệ mật bất đối xứng do người khác gửi đến, bạn phải sử dụng khoá nào để giải mã tài liệu**
     A. Khoá cá nhân của bạn
     B. Khoá cá nhân của bên gửi
     C. Khoá công khai của bạn
@@ -1011,7 +1011,7 @@
 
 **Đáp án đúng: D**
 
-## Câu 24 - **Ở hệ mật mã nào người gửi và người nhận thông điệp sử dụng cùng 1 khoá ===khi mã hóa công khai và giải mã**
+## Câu 24 - **Ở hệ mật mã nào người gửi và người nhận thông điệp sử dụng cùng 1 khoá === khi mã hóa công khai và giải mã**
     A. Đối xứng
     B. Skipjack
     C. Không đối xứng
@@ -1027,8 +1027,7 @@
 
 **Đáp án đúng: C**
 
-## Câu 26 - **Trong hệ mã công khai RSA, để tạo 1 chữ ký điện tử S của văn bản M ta
-dùng**
+## Câu 26 - **Trong hệ mã công khai RSA, để tạo 1 chữ ký điện tử S của văn bản M ta dùng**
     A. M = E(ek, S)
     B. M = D(ek, S)
     C. M = D(dk, S)
@@ -1080,7 +1079,7 @@ dùng**
     A. Trộn 2 cột kề nhau của ma trận state
     B. Trộn các cột tương ứng của ma trận state với khoá
     C. Trộn các dòng tương ứng của ma trận state với khoá
-    D. Mỗi cột của mà trận state được nhân với 1 đa thức
+    D. Mỗi cột của ma trận state được nhân với 1 đa thức
 
 **Đáp án đúng: D**
 
@@ -1148,8 +1147,7 @@ dùng**
 
 **Đáp án đúng: B**
 
-## Câu 5 - **Ưu điểm của thẻ bài (token) so với thẻ thông minh (smart card) trong điều khiển truy nhập
-là:**
+## Câu 5 - **Ưu điểm của thẻ bài (token) so với thẻ thông minh (smart card) trong điều khiển truy nhập là:**
     A. Có cơ chế xác thực mạnh hơn
     B. Có cơ chế xác thực đa dạng hơn
     C. Được sử dụng rộng rãi hơn. 
@@ -1161,7 +1159,7 @@ là:**
     A. Si dung Smartcard
     B. Sử dụng chứng chỉ số
     C. Sử dụng mật khẩu
-    D. Sử dụng vẫn tay
+    D. Sử dụng vân tay
 
 **Đáp án đúng: D**
 
@@ -1188,8 +1186,8 @@ là:**
 
 **Đáp án đúng: C**
 
-## Câu 10 - **Phát hiện tấn công, xâm nhập dựa trên bất thường dựa trên giá thiết:**
-    A. Các hãnh vì tấn công, xâm nhập gây ngắt quãng dịch vụ cung cấp cho người dùng
+## Câu 10 - **Phát hiện tấn công, xâm nhập dựa trên bất thường dựa trên giả thiết:**
+    A. Các hành vi tấn công, xâm nhập gây ngắt quãng dịch vụ cung cấp cho người dùng
     B. Các hành vi tấn công, xâm nhập có quan hệ chặt chẽ với các dịch vụ được cung cấp
     C. Các hành vi tấn công, xâm nhập gây tổn hại nghiêm trọng cho hệ thống
     D. Các hành vi tấn công, xâm nhập thường có quan hệ chặt chẽ với các hành vi bất thường
@@ -1216,7 +1214,7 @@ là:**
     A. Thẻ ATM và số PIN
     B. Tên truy nhập và số PIN
     C. Tên truy nhập và mật khẩu. 
-        D. Thẻ ATM và tên truy nhập
+    D. Thẻ ATM và tên truy nhập
 
 **Đáp án đúng: A**
 
@@ -1229,7 +1227,7 @@ là:**
 **Đáp án đúng: C**
 
 ## Câu 15 - **Ví điện tử Paypal là một dạng...**
-    A. The ATM
+    A. Thẻ ATM
     B. Khóa mã (encrypted key)
     C. Thẻ thông minh (smart card)
     D. Thẻ bài (token)
@@ -1246,7 +1244,7 @@ là:**
 
 ## Câu 17 - **Phát biểu nào sau đây đúng với cơ chế điều khiển truy nhập dựa trên vai trò/RBAC:**
     A. RBAC cấp quyền truy nhập dựa trên vai trò của người dùng trong tổ chức
-    B. RBAC là cơ ' chế điều khiển truy nhập được sử dụng rộng rãi nhất
+    B. RBAC là cơ chế điều khiển truy nhập được sử dụng rộng rãi nhất
     C. RBAC cho phép người tạo ra đối tượng có thể cấp quyền truy nhập cho người dùng khác
     D. RBAC cấp quyền truy nhập dựa trên tính nhạy cảm của thông tin và chính sách quản trị
 
@@ -1268,8 +1266,7 @@ là:**
 
 **Đáp án đúng: D**
 
-## Câu 20 - **Một trong các điểm yếu làm giảm hiệu quả của phát hiện tấn công, xâm nhập dựa trên bất
-thường là:**
+## Câu 20 - **Một trong các điểm yếu làm giảm hiệu quả của phát hiện tấn công, xâm nhập dựa trên bất thường là:**
     A. Không có khả năng ngăn chặn tấn công, đột nhập
     B. Không có khả năng phát hiện tấn công, xâm nhập mới
     C. Tỷ lệ cảnh báo sai cao
@@ -1285,8 +1282,7 @@ thường là:**
 
 **Đáp án đúng: D**
 
-## Câu 22 - **Một trong các dạng khóa mã (encrypted keys) được sử dụng rộng rãi trong điều khiển truy
-nhập là:**
+## Câu 22 - **Một trong các dạng khóa mã (encrypted keys) được sử dụng rộng rãi trong điều khiển truy nhập là:**
     A. Mobile-token
     B. Chứng chỉ số khóa công khai
     C. The ATM
@@ -1322,7 +1318,7 @@ nhập là:**
     A. Kiểm soát dịch vụ và các phần mềm
     B. Kiểm soát người dùng và tin tặc
     C. Kiểm soát virus và các malware khác
-    D. Kiểm soát dịch vụ và hưởng
+    D. Kiểm soát dịch vụ và hướng
 
 **Đáp án đúng: D**
 
@@ -1334,7 +1330,7 @@ nhập là:**
 
 **Đáp án đúng: C**
 
-## Câu 28 - **Phát biểu nào sau đây đúng với cơ chế điều khiển truy nhập bắt buộc MÁC:**
+## Câu 28 - **Phát biểu nào sau đây đúng với cơ chế điều khiển truy nhập bắt buộc MAC:**
     A. MAC là cơ chế điều khiển truy nhập được sử dụng rộng rãi nhất
     B. MAC cấp quyền truy nhập dựa trên tính nhạy cảm của thông tin và chính sách quản trị
     C. MAC quản lý quyền truy nhập chặt chẽ hơn các cơ chế khác
@@ -1376,7 +1372,8 @@ nhập là:**
 **Đáp án đúng: A**
 
 ## Câu 3 - **Điểm khác nhau chính giữa các hệ thống ngăn chặn đột nhập (IPS) và phát hiện đột nhập (IDS) là:**
-    A. IDS có khả năng phát hiện và ngăn chặn tấn công tốt hơn IPS.     B. IPS có chi phí lớn hơn IDS
+    A. IDS có khả năng phát hiện và ngăn chặn tấn công tốt hơn IPS.     
+    B. IPS có chi phí lớn hơn IDS
     C. IPS có khả năng chủ động ngăn chặn tấn công so với IDS
     D. IPS có khả năng phát hiện và ngăn chặn tấn công tốt hơn IDS
 
@@ -1390,26 +1387,26 @@ nhập là:**
 
 **Đáp án đúng: C**
 
-## Câu 5 - **Qui trình xác thực nào sử dụng nhiều hơn một yếu tố xác thực để login?**
+## Câu 5 - **Quy trình xác thực nào sử dụng nhiều hơn một yếu tố xác thực để login?**
     A. Đa yếu tố ( multi-factor)
     B. Sinh trắc học
     C. turong
     D. Keberos
-E. Thẻ thông minh
+    E. Thẻ thông minh
 
 **Đáp án đúng: A**
 
-E
 ## Câu 6 - **Phát biểu nào sau đây đúng với cơ chế điều khiển truy cập RBAC:**
     A. RBAC cấp quyền truy cập dựa trên vai trò của người dùng trong tổ chức
-    B. RBẠC là cơ chế điều khiển truy cập được sử dụng rộng rãi nhất
+    B. RBAC là cơ chế điều khiển truy cập được sử dụng rộng rãi nhất
     C. RBAC cấp quyền truy cập dựa trên tính nhạy cảm của thông tin và chính sách quản trị
     D. RBAC cho phép người tạo ra đối tượng có thể cấp quyền truy cập cho người dùng khác
 
 **Đáp án đúng: A**
 
 ## Câu 7 - **Khi thực hiện triển khai HIDS khó khăn gặp là**
-    A. Giới hạn tầm nhìn mạng, phải xử lí với nhiều hệ điều hành khác trên mạng.     B. Thường xuyên cài đặt lại phải khi hệ thống mạng thay đổi hệ điều hành
+    A. Giới hạn tầm nhìn mạng, phải xử lí với nhiều hệ điều hành khác trên mạng.
+    B. Thường xuyên cài đặt lại phải khi hệ thống mạng thay đổi hệ điều hành
     C. Chi phí lắp đặt cao, khó bảo quản và duy trì
     D. Thường xuyên phải cập nhật bảng vá lỗi
 
@@ -1455,16 +1452,17 @@ E
 **Đáp án đúng: C**
 
 ## Câu 13 - **Kỹ thuật tấn công SYN Floods khai thác điểm yếu trong khâu nào trong bộ giao thức TCP/IP?**
-    A. Xác thực người dùng.     B. Bắt tay 2 bước
+    A. Xác thực người dùng.     
+    B. Bắt tay 2 bước
     C. Truyền dữ liệu
     D. Bắt tay 3 bước
 
 **Đáp án đúng: D**
 
 ## Câu 14 - **Yếu tố nào sau đây được coi là hữu ích nhất trong việc kiểm soát truy cập khi bị tấn công từ bên ngoài ?**
-    A. Phán mém antivirus
+    A. Phần mềm antivirus
     B. Sinh trắc học
-    C. Đăng nhập hệ thống ( System logs)
+    C. Đăng nhập hệ thống (System logs)
     D. Kerberos
 
 **Đáp án đúng: C**
@@ -1497,12 +1495,13 @@ E
     A. Tưởng lừa
     B. Giao thức DNS
     C. Danh sách điều khiển truy cập (ACL). 
-    D. Cập nhật vi chương trình ( Firmware)
+    D. Cập nhật vi chương trình (Firmware)
 
 **Đáp án đúng: C**
 
 ## Câu 19 - **Đối với Firewall lọc gói, hình thức tấn công nào sau đây được thực hiện**
-    A. Nhái địa chỉ IP, tấn công giữa, tấn công biên.     B. Nhái địa chỉ IP, tấn công vượt firewall,tấn công từng mẫu nhỏ
+    A. Nhái địa chỉ IP, tấn công giữa, tấn công biên.     
+    B. Nhái địa chỉ IP, tấn công vượt firewall,tấn công từng mẫu nhỏ
     C. Nhái địa chỉ IP, tấn công vượt firewall, tấn công đường đi nguồn
     D. Nhái địa chỉ IP, tấn công đường đi nguồn, tấn công từng mẫu nhà
 
@@ -1541,14 +1540,10 @@ E
 **Đáp án đúng: B**
 
 ## Câu 24 - **Những chữ đầu của nhóm tử ACL là tên viết tắt của:**
-    A.**
-Arbitrary Code Language
-    B.**
-Allowed Computer List
-    C.**
-Access Control Library
-    D.**
-Access Control List
+    A.Arbitrary Code Language
+    B.Allowed Computer List
+    C.Access Control Library
+    D.Access Control List
 
 **Đáp án đúng: D**
 
@@ -1636,7 +1631,7 @@ Access Control List
     A. Firewall là một vành đai phòng thủ cho máy tính hoặc hệ thống trước những tấn công
     B. Firewall là một giải pháp giúp hệ thống phát hiện và ngăn chặn các truy cập trái phép
     C. Firewall là một phần mềm hoặc phần cứng có khả năng ngăn chặn tấn công từ bên trong và bên ngoài vào hệ thống. 
-        D. Firewall là một điểm chặn của trong quá trình điều khiển và giám sát. 
+    D. Firewall là một điểm chặn của trong quá trình điều khiển và giám sát. 
 **Đáp án đúng: A**
 
 # Chương 5
@@ -1673,10 +1668,10 @@ Access Control List
 **Đáp án đúng: B**
 
 ## Câu 5 - **Các yêu cầu của chính sách gồm .. điều và bao gồm : ... lựa chọn trả lời**
-    A. 4 / Xem xét, Có thể hiểu, Tuân thủ, Áp dụng đồng đều ( Bình đẳng)
-    B. 3/ Xem xét, Có thể hiểu, Tuân thủ
-    C. 6 / Phổ biến, Xem xét, Có thể hiểu, Tuân thủ, Áp dụng đồng đều ( Bình đẳng), Nghiên cứu Kỹ
-    D. 5 / Phổ biến, Xem xét, Có thể hiểu, Tuân thủ, Áp dụng đồng đều ( Bình đẳng)
+    A. 4 / Xem xét, Có thể hiểu, Tuân thủ, Áp dụng đồng đều (Bình đẳng)
+    B. 3 / Xem xét, Có thể hiểu, Tuân thủ
+    C. 6 / Phổ biến, Xem xét, Có thể hiểu, Tuân thủ, Áp dụng đồng đều (Bình đẳng), Nghiên cứu Kỹ
+    D. 5 / Phổ biến, Xem xét, Có thể hiểu, Tuân thủ, Áp dụng đồng đều (Bình đẳng)
 
 **Đáp án đúng: D**
 
@@ -1729,20 +1724,19 @@ Access Control List
 ## Câu 12 - **Có ... kiểu luật và bao gồm :**
     A. 4 / Luật dân sự, Luật hình sự, Luật công cộng, Luật riêng
     B. 3 / Luật dân sự, Luật hình sự, Luật riêng
-    C. 2/ Luật dân sự, Luật hình sự
+    C. 2 / Luật dân sự, Luật hình sự
 
 **Đáp án đúng: A**
 
 ## Câu 13 - **Tài sản (Asset) trong lĩnh vực ATTT là**
-    A. Không có 
-**Đáp án đúng
+    A. Không có Đáp án đúng
     B. Thông tin, thiết bị
     C. Phần cứng, phần mềm
     D. Bất cứ các thành phần hỗ trợ các hoạt động liên quan tới thông tin
 
 **Đáp án đúng: A**
 
-## Câu 14 - **Quản lý ATTT phải trả lời được 3 ## Câu hỏi về**
+## Câu 14 - **Quản lý ATTT phải trả lời được 3 câu hỏi về**
     A. Tài sản, tình trạng hiện thời, cách phòng ngừa Thông tin nào, tình trạng nào, cách phòng ngừa
     B. Thông tin nào, nguy hiểm nào, biện pháp nào
     C. Tài sản, đe doạ có thể có, biện pháp ứng phó
@@ -1750,10 +1744,10 @@ Access Control List
 **Đáp án đúng: C**
 
 ## Câu 15 - **Luật ATTT mạng của Việt Nam được Quốc hội thông qua vào tháng ... (86/2015/QH13) và có hiệu lực từ ...**
-    A. tháng 11.2015 / 1/1/2016:
-    B. tháng 6.2015 / 1/1/2016
-    C. tháng 11.2015 / 1/7/2016:
-    D. tháng 6.2015 / 1/7/2016:
+    A. tháng 11.2015 - 1/1/2016:
+    B. tháng 6.2015 - 1/1/2016
+    C. tháng 11.2015 - 1/7/2016:
+    D. tháng 6.2015 - 1/7/2016:
 
 **Đáp án đúng: C**
 
@@ -1761,7 +1755,7 @@ Access Control List
     A. Chi tiết
     B. Kết hợp
     C. Đường cơ sở
-    D. Chinh thức
+    D. Chính thức
 
 **Đáp án đúng: D**
 
@@ -1827,7 +1821,7 @@ Access Control List
 **Đáp án đúng: C**
 
 ## Câu 25 - **Các luật ATTT của Mỹ gồm ... Loại và bao gồm :**
-    A. 4/ Các luật tội phạm máy tính, Các luật về sự riêng tư, Luật xuất khẩu và chống gián điệp, Luật bản quyền
+    A. 4 / Các luật tội phạm máy tính, Các luật về sự riêng tư, Luật xuất khẩu và chống gián điệp, Luật bản quyền
     B. 3 / Các luật tội phạm máy tính, Các luật về sự riêng tư, Luật xuất khẩu và chống gián điệp
     C. 5 / Các luật tội phạm máy tính, Các luật về sự riêng tư, Luật xuất khẩu và chống gián điệp, Luật bản quyền, Luật tự do thông tin
 
