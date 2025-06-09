@@ -113,7 +113,7 @@
 **Đáp án đúng: C**
 
 ## Câu 15 - **Một thông điệp có nội dung nhạy cảm truyền trên mạng bị sửa đổi. Các thuộc tính an toàn thông tin nào bị vi phạm?**
-    A. Bí mật, Toàn vẹn và sắp dùng
+    A. Bí mật, Toàn vẹn và sẵn dùng
     B. Toàn vẹn
     C. Bí mật
     D. Bí mật và Toàn vẹn
@@ -217,9 +217,9 @@
 **Đáp án đúng: C**
 
 ## Câu 28 - **Các thành phần của an toàn thông tin gồm:**
-    A. An toàn máy tính, An ninh mạng. Quản lý ATTT và Chính sách ATTT
+    A. An toàn máy tính, An ninh mạng, Quản lý ATTT và Chính sách ATTT
     B. An toàn máy tính, An toàn dữ liệu, An ninh mạng, Quản lý ATTT
-    C. An toàn máy tính và dữ liệu, An ninh mạng. Quản lý ATTT và Chính sách ATTT
+    C. An toàn máy tính và dữ liệu, An ninh mạng, Quản lý ATTT và Chính sách ATTT
     D. An toàn máy tính, An ninh mạng, Quản lý rủi ro ATTT và Chính sách ATTT
 
 **Đáp án đúng: C**
@@ -234,7 +234,7 @@
 
 ## Câu 30 - **An toàn thông tin (Information Security) là gì?**
     A. Là việc phòng chống đánh cắp thông tin
-    B. Là việc tảo vệ chống truy nhập, sử dụng, tiết lộ, sửa đổi, hoặc phá hủy thông tin một cách trái phép
+    B. Là việc bảo vệ chống truy nhập, sử dụng, tiết lộ, sửa đổi, hoặc phá hủy thông tin một cách trái phép
     C. Là việc phòng chống tấn công mạng
     D. Là việc bảo vệ chống sử dụng, tiết lộ, sửa đổi, vận chuyển hoặc phá hủy thông tin một cách trái phép
 
@@ -249,8 +249,8 @@
 **Đáp án đúng: A**
 
 ## Câu 32 - **Khác biệt cơ bản của vi rút và sâu là:**
-    A. Vi rút có khả năng phá hoại lớn lớn
-    B. Sâu Có khả năng phá hoại lớn lớn
+    A. Vi rút có khả năng phá hoại lớn hơn
+    B. Sâu Có khả năng phá hoại lớn hơn
     C. Sâu có khả năng tự lây lan mà không cần tương tác của người dùng
     D. Vi rút có khả năng tự lây lan mà không cần tương tác của người dùng
 
@@ -265,7 +265,7 @@
 **Đáp án đúng: A**
 
 ## Câu 34 - **Các yêu cầu cơ bản trong đảm bảo an toàn thông tin và an toàn hệ thống thông tin gồm:**
-    A. Bí mật, Toàn vẹn và Săn dùng
+    A. Bí mật, Toàn vẹn và sẵn dùng
     B. Bảo mật, Toàn vẹn và Khả dụng
     C. Bảo mật, Toàn vẹn và Sẵn dùng
     D. Bí mật, Toàn vẹn và không chối bỏ
@@ -274,267 +274,267 @@
 
 # Chương 1 + 2 (P2)
 ## Câu 1 - **Tấn công kiểu Social Engineering là dạng tấn công khai thác yếu tố nào sau đây trong hệ thống?**
-    A.Người dùng
-    B.Máy chủ
-    C.Hệ điều hành & ứng dụng
-Tấn công sử dụng các kỹ thuật xã hội (Social engineering attack) là dạng tấn công phi kỹ thuật nhằm vào người dùng. 
-    D.Máy trạm
+    A. Người dùng
+    B. Máy chủ
+    C. Hệ điều hành & ứng dụng
+    D. Máy trạm
 
 **Đáp án đúng: A**
+*Tấn công sử dụng các kỹ thuật xã hội (Social engineering attack) là dạng tấn công phi kỹ thuật nhằm vào người dùng.*
 
 ## Câu 2 - **Các dạng phần mềm độc hại (malware) có khả năng tự nhân bản gồm:**
-    A.Virus, trojan, zombie
-    B.Virus, worm, zombie
-    C.Virus, zombie, spyware
-    D.Virus, worm, trojan
+    A. Virus, trojan, zombie
+    B. Virus, worm, zombie
+    C. Virus, zombie, spyware
+    D. Virus, worm, trojan
 
 **Đáp án đúng: B**
 
 ## Câu 3 - **Tấn công từ chối dịch vụ (Dos, Denial of Service Attacks) là dạng tấn công có khả năng...**
-    A.Cản trở người dùng hợp pháp truy nhập các file dữ liệu của hệ thống
-    B.Cản trở người dùng hợp pháp truy nhập các tài nguyên hệ thống
-    C.Gây hư hỏng phần cứng máy chủ
-    D.Đánh cắp dữ liệu trong hệ thống
+    A. Cản trở người dùng hợp pháp truy nhập các file dữ liệu của hệ thống
+    B. Cản trở người dùng hợp pháp truy nhập các tài nguyên hệ thống
+    C. Gây hư hỏng phần cứng máy chủ
+    D. Đánh cắp dữ liệu trong hệ thống
 
 **Đáp án đúng: B**
 
 ## Câu 4 - **Pharming là kiểu tấn công vào...**
-    A.Máy chủ và máy khách web
-    B.Máy chủ cơ sở dữ liệu của trang web
-    C.Máy khách/trình duyệt web
-    D.Máy chủ web
+    A. Máy chủ và máy khách web
+    B. Máy chủ cơ sở dữ liệu của trang web
+    C. Máy khách/trình duyệt web
+    D. Máy chủ web
 
 **Đáp án đúng: C**
 
 ## Câu 5 - **Các zombie thường được tin tặc sử dụng để:**
-    A.Đánh cắp dữ liệu từ máy chủ CSDL
-    B.Thực hiện tấn công DoS
-    C.Thực hiện tấn công tràn bộ đệm
-    D.Thực hiện tấn công DDoS
+    A. Đánh cắp dữ liệu từ máy chủ CSDL
+    B. Thực hiện tấn công DoS
+    C. Thực hiện tấn công tràn bộ đệm
+    D. Thực hiện tấn công DDoS
 
 **Đáp án đúng: D**
 
-## Câu 6 - **Tấn công nghe lớn là kiểu tấn công.**
-    A.Chiếm quyền điều khiển
-    B.Chủ động
-    C.Chủ động và bị động
-    D.Thụ động. 
+## Câu 6 - **Tấn công nghe lén là kiểu tấn công.**
+    A. Chiếm quyền điều khiển
+    B. Chủ động
+    C. Chủ động và bị động
+    D. Thụ động. 
 **Đáp án đúng: D**
 
 ## Câu 7 - **Mục đích chính của tấn công giả mạo địa chỉ IP là:**
-    A.Để vượt qua các hệ thống IPS và IDS
-    B.Để đánh cắp các dữ liệu nhạy cảm trên máy chủ
-    C.Để vượt qua các hàng rào kiểm soát an ninh
-    D.Để đánh cắp các dữ liệu nhạy cảm trên máy trạm
+    A. Để vượt qua các hệ thống IPS và IDS
+    B. Để đánh cắp các dữ liệu nhạy cảm trên máy chủ
+    C. Để vượt qua các hàng rào kiểm soát an ninh
+    D. Để đánh cắp các dữ liệu nhạy cảm trên máy trạm
 
 **Đáp án đúng: C**
 
 ## Câu 8 - **Đây là một công cụ kiểm tra lỗ hổng tấn công chèn mã SQL trên các website:**
-    A.SQLCheck
-    B.SQLite
-    C.SQL Server
-    D.SQLMap
+    A. SQLCheck
+    B. SQLite
+    C. SQL Server
+    D. SQLMap
 
 **Đáp án đúng: D**
 
 ## Câu 9 - **Tấn công kiểu Social Engineering có thể cho phép tin tặc:**
-    A.Phá hỏng máy chủ
-    B.Đánh cắp toàn bộ dữ liệu trên máy chủ
-    C.Đánh cắp thông tin nhạy cảm trong cơ sở dữ liệu máy chủ
-    D.Đánh cắp thông tin nhạy cảm của người dùng
+    A. Phá hỏng máy chủ
+    B. Đánh cắp toàn bộ dữ liệu trên máy chủ
+    C. Đánh cắp thông tin nhạy cảm trong cơ sở dữ liệu máy chủ
+    D. Đánh cắp thông tin nhạy cảm của người dùng
 
 **Đáp án đúng: D**
 
 ## Câu 10 - **Macro viruses là loại viruses thường lây nhiễm**
-    A.Các file tài liệu của bộ phần mềm Microsoft Exchange
-    B.Các file tài liệu của bộ phần mềm Microsoft Office
-    C.Các file tài liệu của bộ phần mềm Microsoft SQL
-    D.Các file tài liệu của bộ phần mềm Open Office
+    A. Các file tài liệu của bộ phần mềm Microsoft Exchange
+    B. Các file tài liệu của bộ phần mềm Microsoft Office
+    C. Các file tài liệu của bộ phần mềm Microsoft SQL
+    D. Các file tài liệu của bộ phần mềm Open Office
 
 **Đáp án đúng: B**
 
 ## Câu 11 - **Dạng tấn công gây ngắt quãng dịch vụ hoặc kênh truyền thông cho người dùng bình thường là:**
-    A.Interceptions
-    B.Modifications
-    C.Interruptions
-    D.Fabrications
+    A. Interceptions
+    B. Modifications
+    C. Interruptions
+    D. Fabrications
 
 **Đáp án đúng: C**
 
 ## Câu 12 - **Mục đích chính của tấn công giả mạo địa chỉ IP là:**
-    A.Để đánh cắp các dữ liệu nhạy cảm trên máy trạm
-    B.Để vượt qua các hệ thống IPS và IDS
-    C.Để đánh cắp các dữ liệu nhạy cảm trên máy chủ
-    D.Để vượt qua các hàng rào kiểm soát an ninh
+    A. Để đánh cắp các dữ liệu nhạy cảm trên máy trạm
+    B. Để vượt qua các hệ thống IPS và IDS
+    C. Để đánh cắp các dữ liệu nhạy cảm trên máy chủ
+    D. Để vượt qua các hàng rào kiểm soát an ninh
 
 **Đáp án đúng: D**
 
 ## Câu 13 - **Đây là một kỹ thuật tấn công Dos?**
-    A.DNS spoofing
-    B.IP spoofing
-    C.SYN requests
-    D.Ping of death
+    A. DNS spoofing
+    B. IP spoofing
+    C. SYN requests
+    D. Ping of death
 
 **Đáp án đúng: D**
 
 ## Câu 14 - **Dạng tấn công chặn bắt thông tin truyền trên mạng để sửa đổi hoặc lạm dụng là**
-    A.Interceptions
-    B.Fabrications
-    C.Interruptions
-    D.Modifications
+    A. Interceptions
+    B. Fabrications
+    C. Interruptions
+    D. Modifications
 
 **Đáp án đúng: D**
 
 ## Câu 15 - **Trojan horses là dạng phần mềm độc hại thường giành quyền truy nhập vào các file của người dùng khai thác cơ chế điều khiển truy nhập...**
-    A.MAC
-    B.Role-Based
-    C.DAC
-    D.Rule-Based
+    A. MAC
+    B. Role-Based
+    C. DAC
+    D. Rule-Based
 
 **Đáp án đúng: C**
 
 ## Câu 16 - **Phishing là một dạng của loại tấn công sử dụng...**
-    A.Kỹ thuật chèn mã
-    B.Kỹ thuật gây tràn bộ đệm
-    C.Kỹ thuật xã hội
-    D.Kỹ thuật giả mạo địa chỉ IP
+    A. Kỹ thuật chèn mã
+    B. Kỹ thuật gây tràn bộ đệm
+    C. Kỹ thuật xã hội
+    D. Kỹ thuật giả mạo địa chỉ IP
 
 **Đáp án đúng: C**
 
 ## Câu 17 - **Dạng tấn công giả mạo thông tin thường để đánh lừa người dùng thông thường là:**
-    A.Fabrications
-    B.Modifications
-    C.Interceptions
-    D.Interruptions
+    A. Fabrications
+    B. Modifications
+    C. Interceptions
+    D. Interruptions
 
 **Đáp án đúng: A**
 
 ## Câu 18 - **Một trong các mối đe dọa an toàn thông tin thường gặp là:**
-    A.Phần mềm nghe lén
-    B.Phần mềm quảng cáo
-    C.Phần mềm phá mã
-    D.Phần mềm độc hại
+    A. Phần mềm nghe lén
+    B. Phần mềm quảng cáo
+    C. Phần mềm phá mã
+    D. Phần mềm độc hại
 
 **Đáp án đúng: D**
 
 ## Câu 19 - **Một trong các phương thức lây lan thường gặp của sâu mạng là:**
-    A.Lây lan thông qua dịch vụ POP
-    B.Lây lan thông qua khả năng thực thi từ xa
-    C.Lây lan thông qua sao chép các file
-    D.Lây lan thông qua Microsoft Office
+    A. Lây lan thông qua dịch vụ POP
+    B. Lây lan thông qua khả năng thực thi từ xa
+    C. Lây lan thông qua sao chép các file
+    D. Lây lan thông qua Microsoft Office
 
 **Đáp án đúng: B**
 
 ## Câu 20 - **Câu lệnh SQL nào tin tặc thường sử dụng trong tấn công chèn mã SQL để đánh cắp các thông tin trong cơ sở dữ liệu?**
-    A.SELECT UNION
-    B.UNION SELECT
-    C.INSERT SELECT
-    D.UNION INSERT
+    A. SELECT UNION
+    B. UNION SELECT
+    C. INSERT SELECT
+    D. UNION INSERT
 
 **Đáp án đúng: B**
 
 ## Câu 21 - **Đâu là một kỹ thuật tấn công Dos?**
-    A.UDP Ping
-    B.DNS Cache Poisoning
-    C.DNS spoofing
-    D.Smurf
+    A. UDP Ping
+    B. DNS Cache Poisoning
+    C. DNS spoofing
+    D. Smurf
 
 **Đáp án đúng: D**
 
 ## Câu 22 - **Trong tấn công DDoS phản chiếu hay gián tiếp, có sự tham gia của một số lượng lớn máy chủ trên mạng Internet không bị tin tặc chiếm quyền điều khiển. Các máy chủ này được gọi là...**
-    A.Reflectors
-    B.Forwarders
-    C.Injectors
-    D.Requesters
+    A. Reflectors
+    B. Forwarders
+    C. Injectors
+    D. Requesters
 
 **Đáp án đúng: A**
 
 ## Câu 23 - **Đâu là một biện pháp phòng chống SYN Floods:**
-    A.SYN Firewalls
-    B.SYN Proxy
-    C.SYN Cache
-    D.SYN IDS
+    A. SYN Firewalls
+    B. SYN Proxy
+    C. SYN Cache
+    D. SYN IDS
 
 **Đáp án đúng: C**
 
 ## Câu 24 - **Kỹ thuật tấn công Smurf sử dụng giao thức ICMP và Cơ chế gửi...**
-    A.Multicast
-    B.Anycast
-    C.Broadcast
-    D.Unicast
+    A. Multicast
+    B. Anycast
+    C. Broadcast
+    D. Unicast
 
 **Đáp án đúng: C**
 
 ## Câu 25 - **Có thể phòng chống tấn công Smurf bằng cách cấu hình các máy và router không trả lời...**
-    A.Các yêu cầu UPD hoặc các yêu cầu phát quảng bá
-    B.Các yêu cầu TCP hoặc các yêu cầu phát quảng bá
-    C.Các yêu cầu ICMP hoặc các yêu cầu phát quảng bá
-    D.Các yêu cầu HTTP hoặc các yêu cầu phát quảng bá
+    A. Các yêu cầu UPD hoặc các yêu cầu phát quảng bá
+    B. Các yêu cầu TCP hoặc các yêu cầu phát quảng bá
+    C. Các yêu cầu ICMP hoặc các yêu cầu phát quảng bá
+    D. Các yêu cầu HTTP hoặc các yêu cầu phát quảng bá
 
 **Đáp án đúng: C**
 
 ## Câu 26 - **Nguy cơ cao nhất mà một cuộc tấn công chèn mã SQL có thể gây ra cho một hệ thống là:**
-    A.Chèn, xóa hoặc sửa đổi dữ liệu
-    B.Đánh cắp các thông tin trong cơ sở dữ liệu
-    C.Chiếm quyền điều khiển hệ thống
-    D.Vượt qua các khâu xác thực người dùng
+    A. Chèn, xóa hoặc sửa đổi dữ liệu
+    B. Đánh cắp các thông tin trong cơ sở dữ liệu
+    C. Chiếm quyền điều khiển hệ thống
+    D. Vượt qua các khâu xác thực người dùng
 
 **Đáp án đúng: C**
 
 ## Câu 27 - **Trong dạng tấn công vào mật khẩu dựa trên từ điển, tin tặc đánh cắp mật khẩu của người dùng bằng cách:**
-    A.Tìm mật khẩu trong từ điển các mật khẩu
-    B.Vét cận các mật khẩu có thể có
-    C.Lắng nghe trên đường truyền để đánh cắp mật khẩu
-    D.Thử các từ có tần suất sử dụng cao làm mật khẩu trong từ điển
+    A. Tìm mật khẩu trong từ điển các mật khẩu
+    B. Vét cận các mật khẩu có thể có
+    C. Lắng nghe trên đường truyền để đánh cắp mật khẩu
+    D. Thử các từ có tần suất sử dụng cao làm mật khẩu trong từ điển
 
 **Đáp án đúng: D**
 
 ## Câu 28 - **Các máy tính ma/máy tính bị chiếm quyền điều khiển thường được tin tặc sử dụng để...**
-    A.Gửi các yêu cầu tấn công chèn mã
-    B.Thực hiện tấn công tràn bộ đệm. 
-    C.Đánh cắp dữ liệu từ máy chủ cơ sở dữ liệu
-    D.Gửi thư rác, thư quảng cáo
+    A. Gửi các yêu cầu tấn công chèn mã
+    B. Thực hiện tấn công tràn bộ đệm. 
+    C. Đánh cắp dữ liệu từ máy chủ cơ sở dữ liệu
+    D. Gửi thư rác, thư quảng cáo
 
 **Đáp án đúng: D**
 
 ## Câu 29 - **Mật khẩu an toàn trong thời điểm hiện tại là mật khẩu có:**
-    A.Khả năng chống tấn công phát lại và chứa các ký tự từ nhiều dạng ký tự
-    B.Độ dài từ 8 ký tự trở lên, gồm chữ cái hoa, thường, chữ số và ký tự đặc biệt
-    C.Chứa các ký tự từ nhiều dạng ký tự
-    D.Độ dài lớn hơn hoặc bằng 8 ký tự
+    A. Khả năng chống tấn công phát lại và chứa các ký tự từ nhiều dạng ký tự
+    B. Độ dài từ 8 ký tự trở lên, gồm chữ cái hoa, thường, chữ số và ký tự đặc biệt
+    C. Chứa các ký tự từ nhiều dạng ký tự
+    D. Độ dài lớn hơn hoặc bằng 8 ký tự
 
 **Đáp án đúng: B**
 
 ## Câu 30 - **Một trong các cách virus thường sử dụng để lây nhiễm vào các chương trình khác là:**
-    A.Sửa đổi các chương trình
-    B.Ấn mã của virus
-    C.Thay thế các chương trình
-    D.Xáo trộn mã của virus
+    A. Sửa đổi các chương trình
+    B. Ấn mã của virus
+    C. Thay thế các chương trình
+    D. Xáo trộn mã của virus
 
 **Đáp án đúng: A**
 
 ## Câu 31 - **Một trong các biện pháp hiệu quả để phòng chống Macro virus :**
-    A.Cấm tự động thực hiện macro trong Microsoft Exchange
-    B.Sử dụng IPS/IDS
-    C.Cấm tự động thực hiện macro tạng Microsoft Office
-    D.Sử dụng tường lửa
+    A. Cấm tự động thực hiện macro trong Microsoft Exchange
+    B. Sử dụng IPS/IDS
+    C. Cấm tự động thực hiện macro tạng Microsoft Office
+    D. Sử dụng tường lửa
 
 **Đáp án đúng: C**
 
 ## Câu 32 - **Trong tấn công DDoS phản chiếu hay gián tiếp, có sự tham gia của một số lượng lớn máy chủ trên mạng Internet không bị tin tặc chiếm quyền điều khiển. Các máy chủ này được gọi là...**
-    A.Injectors
-    B.Requesters
-    C.Forwarders
-    D.Reflectors
+    A. Injectors
+    B. Requesters
+    C. Forwarders
+    D. Reflectors
 
 **Đáp án đúng: D**
 
 ## Câu 33 - **Khác biệt cơ bản giữa tấn công DoS và DDoS là:**
-    A.Phạm vi tấn công
-    B.Kỹ thuật tấn công
-    C.Mức độ gây hại
-    D.Tần suất tấn công
-toàn cầu. 
+    A. Phạm vi tấn công
+    B. Kỹ thuật tấn công
+    C. Mức độ gây hại
+    D. Tần suất tấn công toàn cầu. 
+
 **Đáp án đúng: A**
 
 ## Câu 34 - **Một trong các biện pháp có thể sử dụng để phòng chống tấn công người đứng giữa là:**
@@ -595,7 +595,7 @@ toàn cầu.
 **Đáp án đúng: C**
 
 ## Câu 7 - **Một trong các điểm yếu của các hệ mã hóa khóa đối xứng là:**
-    A. Khổ khăn trong quản lý và phân phối khóa
+    A. Khó khăn trong quản lý và phân phối khóa
     B. Chi phí tính toán lớn
     C. Khó khăn trong cài đặt và triển khai hệ thống
     D. Độ an toàn thấp
@@ -626,7 +626,7 @@ toàn cầu.
 
 **Đáp án đúng: D**
 
-## Câu 11 - **Chữ ký số (sử dụng riêng) thường được sử dụng để đảm bảo thuộc tỉnh nào sau đây của thông điệp truyền đưa:**
+## Câu 11 - **Chữ ký số (sử dụng riêng) thường được sử dụng để đảm bảo thuộc tính nào sau đây của thông điệp truyền đưa:**
     A. Tính toàn vẹn
     B. Tính bí mật
     C. Tính sẵn dùng
@@ -634,7 +634,7 @@ toàn cầu.
 
 **Đáp án đúng: A**
 
-## Câu 12 - **Số vòng lặp chuyển đổi cần thực hiện để chuyển bản rõ thành bản mã của giải thuật mã hóa AES với khóa 192 bít là:**
+## Câu 12 - **Số vòng lặp chuyển đổi cần thực hiện để chuyển bản rõ thành bản mã của giải thuật mã hóa AES với khóa 192 bit là:**
     A. 16
     B. 14
     C. 12
@@ -644,12 +644,12 @@ toàn cầu.
 
 ## Câu 13 - **Tìm phát biểu đúng về mã hóa khóa bất đối xứng (Asymmetric key cryptography):**
     A. Sử dụng một khóa chung cho cả quá trình mã hóa và giải mã
-Mã hóa khóa bất đối xứng (Asymmetric key cryptography) là dạng mã hóa trong đó một cặp khóa được sử dụng: khóa công khai (public key) dùng để mã hóa, khóa riêng (private key) dùng để giải mã.     B. Sử dụng một khóa quá trình mã hóa và một khóa khác cho giải mã
+    B. Sử dụng một khóa quá trình mã hóa và một khóa khác cho giải mã
     C. Chỉ sử dụng kỹ thuật mã hóa khối
-    D.**
-An toàn hơn mã hóa khóa bí mật
+    D. An toàn hơn mã hóa khóa bí mật
 
 **Đáp án đúng: B**
+*Mã hóa khóa bất đối xứng (Asymmetric key cryptography) là dạng mã hóa trong đó một cặp khóa được sử dụng: khóa công khai (public key) dùng để mã hóa, khóa riêng (private key) dùng để giải mã.*
 
 ## Câu 14 - **Khi sinh cặp khóa RSA, các số nguyên tố p và q nên được chọn với kích thước...**
     A. Không có yêu cầu về kích thước của p và q
@@ -659,11 +659,11 @@ An toàn hơn mã hóa khóa bí mật
 
 **Đáp án đúng: D**
 
-## Câu 15 - **Các hộp thay thế s-box trong giải thuật DES có số bít đầu vào và đầu ra tương ứng là:**
-    A. Vào 6 bít và ra 4 bột
-    B. Vào 8 bít và ra 6 bít
-    C. Vào 6 bít và ra 6 bít
-    D. Vào 4 bít và ra 4 bít
+## Câu 15 - **Các hộp thay thế s-box trong giải thuật DES có số bit đầu vào và đầu ra tương ứng là:**
+    A. Vào 6 bit và ra 4 bit
+    B. Vào 8 bit và ra 6 bit
+    C. Vào 6 bit và ra 6 bit
+    D. Vào 4 bit và ra 4 bit
 
 **Đáp án đúng: A**
 
@@ -707,7 +707,7 @@ An toàn hơn mã hóa khóa bí mật
 
 **Đáp án đúng: B**
 
-## Câu 21 - **Giao thức SSL sử dụng giao thức con SSL Handshake để khởi tạo phiên làm việ    C. SSL Handshake thực hiện việc trao đổi các khóa phiên dùng cho phiên làm việc dựa trên**
+## Câu 21 - **Giao thức SSL sử dụng giao thức con SSL Handshake để khởi tạo phiên làm việc. SSL Handshake thực hiện việc trao đổi các khóa phiên dùng cho phiên làm việc dựa trên**
     A. Chữ ký số
     B. Chứng chỉ số
     C. Mã hóa khóa bí mật
@@ -750,7 +750,7 @@ An toàn hơn mã hóa khóa bí mật
     A. Khóa công khai của chủ thể, thông tin địa chỉ chủ thể, thuật toán chữ ký sử dụng
     B. Số nhận dạng, khóa riêng của chủ thể, thông tin định danh chủ thể
     C. Số nhận dạng, khóa riêng của chủ thể, chữ ký của nhà cung cấp CA
-    D. Khóa công khai của chủ thể, thẳng tin định danh chỗ thế, chữ ký của nhà cung cấp
+    D. Khóa công khai của chủ thể, thông tin định danh chỗ thế, chữ ký của nhà cung cấp
 
 **Đáp án đúng: D**
 
@@ -956,10 +956,10 @@ An toàn hơn mã hóa khóa bí mật
 **Đáp án đúng: C**
 
 ## Câu 17 - **Trong các cặp khoá sau đây của hệ mật RSA với p = 5, q = 7, cặp khoá nào có khả năng đúng nhất**
-    A. e=12, d=11
-    B. e 3, d=18
-    C. e=7,d=23
-    D. e = 4, d=11
+    A. e = 12,d = 11
+    B. e = 3, d = 18
+    C. e = 7, d = 23
+    D. e = 4, d = 11
 
 **Đáp án đúng: C**
 
@@ -1180,7 +1180,7 @@ là:**
 
 **Đáp án đúng: A**
 
-## Câu 9 - **Tỉnh bảo mật của kỹ thuật điều khiển truy nhập sử dụng mật khẩu dựa trên:**
+## Câu 9 - **Tính bảo mật của kỹ thuật điều khiển truy nhập sử dụng mật khẩu dựa trên:**
     A. Kích thước của mật khẩu
     B. Số loại kỷ tự dùng trong mật khẩu
     C. Độ khó đoán và tuổi thọ của mật khẩu
@@ -1253,10 +1253,10 @@ là:**
 **Đáp án đúng: A**
 
 ## Câu 18 - **Mục đích chính của điều khiển truy nhập là để đảm bảo các thuộc tính an ninh của thông tin, hệ thống và các tài nguyên, gồm:**
-    A. Tính bảo mật, tính toàn vẹn và tỉnh sẵn dùng
+    A. Tính bảo mật, tính toàn vẹn và tính sẵn dùng
     B. Tính bí mật, tính toàn vẹn và tính sẵn dùng
-    C. Tinh bí mật, tỉnh toàn vẹn và tỉnh xác thực
-    D. Tính bảo mật, tỉnh toàn vẹn và tỉnh xác thực
+    C. Tinh bí mật, tính toàn vẹn và tính xác thực
+    D. Tính bảo mật, tính toàn vẹn và tính xác thực
 
 **Đáp án đúng: B**
 
