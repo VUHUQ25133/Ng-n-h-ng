@@ -257,8 +257,8 @@ Khách hàng yêu cầu chúng ta phát triển một phần mềm **hỗ trợ 
 * Mỗi lần xuất có thể xuất nhiều hàng khác nhau, miễn sao số lượng xuất không vượt quá số lượng hàng còn trong kho
 * Mỗi lần xuất có một phiếu xuất ghi thông tin đại lí con, tiếp theo là danh sách các mặt hàng xuất đi, mỗi mặt hàng có đầy đủ thông tin: mã hàng, tên hàng, số lượng, đơn giá, thành tiền (tự động tính) và dòng cuối cùng là tổng tiền của hóa đơn xuất
 
-## 1. Modul "lập phiếu xuất hàng": Nhân viên chọn menu 
-* xuất hàng 
+## 1. Modul "lập phiếu xuất hàng": 
+* Nhân viên chọn menu xuất hàng 
 * →  trang xuất hàng hiện ra với ô tìm kiếm đại lí con (ĐLC)
 * →  NV nhập tên ĐL và click tìm
 * →  hệ thống hiện lên danh sách các ĐL có tên chứa tên vừa nhập
@@ -271,8 +271,8 @@ Khách hàng yêu cầu chúng ta phát triển một phần mềm **hỗ trợ 
 * →  lặp đến khi hết các hàng cần xuất vào thì submit
 * →  báo xuất thành công và in ra hóa đơn xuất như đã mô tả
 
-## 2. Modul "Lập phiếu nhập hàng": Nhân viên chọn menu 
-* nhập hàng 
+## 2. Modul "Lập phiếu nhập hàng": 
+* Nhân viên chọn menu nhập hàng 
 * →  trang nhập hàng hiện ra với ô tìm NCC theo tên
 * →  NV nhập tên + click tìm
 * →  hệ thống hiện lên danh sách các NCC chứa tên vừa nhập vào
@@ -285,16 +285,16 @@ Khách hàng yêu cầu chúng ta phát triển một phần mềm **hỗ trợ 
 * →  lặp đến khi hết các hàng nhập vào thì submit
 * →  báo nhập thành công và in ra hóa đơn nhập như đã mô tả
 
-## 3.  Modul "Thống kê sản phẩm bán chạy": Nhân viên 
-* chọn menu thống kê 
+## 3.  Modul "Thống kê sản phẩm bán chạy": 
+* Nhân viên chọn menu thống kê 
 * →  chọn chức năng thống kê sản phẩm bán chạy
 * →  nhập khoảng thời thời gian thống kê (bắt đầu - kết thúc)
 * →  kết quả hiện ra danh sách các sản phẩm theo thứ tự bán được tổng số lượng nhiều nhất đến ít dần trong khoảng thời gian đã chọn, 
     mỗi dòng có các thông tin: mã hàng, tên hàng, số lượng đã bán được, tổng số tiền đã thu được từ sản phẩm ấy trong khoảng thời gian đã chọn. 
     NV click vào một dòng của 1 sản phẩm thì hiện lên thống kê chi tiết các hóa đơn của các đại lí con đã mua sản phẩm đấy
 
-## 4.  Modul "Thống kê đại lí tiêu thụ mạnh": Nhân viên 
-chọn menu thống kê 
+## 4.  Modul "Thống kê đại lí tiêu thụ mạnh": 
+* Nhân viên chọn menu thống kê 
 * →  chọn chức năng thống kê đại lí tiêu thụ hàng đầu
 * →  nhập khoảng thời thời gian thống kê (bắt đầu - kết thúc)
 * →  kết quả hiện ra danh sách các đại lí tiêu thụ theo thứ tự bán được tổng doanh thu nhiều nhất đến ít dần trong khoảng thời gian đã chọn, 
@@ -311,20 +311,20 @@ Liên đoàn cờ vua thế giới (FIDE) yêu cầu anh/chị phát triển m�
 * Bắt đầu từ ván thứ 2, bảng xếp hạng tạm thời sau vòng đấu trước đó được xếp theo thứ tự các tiêu chí: tổng điểm (giảm dần), tổng điểm của các đối thủ đã gặp (giảm dần), hệ số Elo (giảm dần). Và cặp đấu được xác định như sau, đi từ đầu đến cuối bảng xếp hạng tạm thời, với mỗi cờ thủ chưa có cặp, đối thủ cả cờ thủ đó là cờ thủ đầu tiên gặp phải và thỏa mãn: chưa có căp , và chưa gặp cờ thủ đang xem xét.
 * Sau 11 vòng đấu như vậy, cờ thủ đứng đầu bảng xếp hạng sẽ là nhà vô địch.
 
-## 1. Modul "Cập nhật kết quả": Ban tổ chức (BTC) chọn 
-* menu cập nhật kết quả 
+## 1. Modul "Cập nhật kết quả": 
+* Ban tổ chức (BTC) chọn menu cập nhật kết quả 
 * →  trang cập nhật kết quả hiện ra
 * →  BTC chọn vòng đấu từ danh sách sổ ra + chọn cặp đấu từ danh sách sổ ra theo vòng đấu + nhập số điểm và điểm Elo cho 2 cờ thủ của trận đấu + click Cập nhật
 * →  Hệ thống thông báo lưu thành công kết quả trận đấu và quay về trang chọn vòng đấu + trận đấu
 
-## 2. Modul "Xem bảng xếp hạng": Ban tổ chức (BTC) chọn 
-* menu thống kê 
+## 2. Modul "Xem bảng xếp hạng": 
+* Ban tổ chức (BTC) chọn menu thống kê 
 * →  chọn chức năng xem bảng xếp hạng sau từng vòng đấu
 * →  chọn vòng đấu trong danh sách sổ ra
 * →  kết quả hiện ra danh sách các cờ thủ, mỗi người có đầy đủ thông tin: id, tên, năm sinh, quốc tịch, tổng điểm, tổng điểm đối thủ đã gặp, hệ số Elo tức thời. Sắp xếp theo thứ tự đã mô tả ở trên
 
-## 3. Modul "Xếp cặp thi đấu": an tổ chức (BTC) chọn menu 
-* xếp cặp thi đấu 
+## 3. Modul "Xếp cặp thi đấu": 
+* Ban tổ chức (BTC) chọn menu xếp cặp thi đấu 
 * →  trang xếp cặp thi đấu hiện ra
 * →  BTC chọn vòng đấu trước đó trong danh sách sổ xuống
 * →  hệ thống hiện bảng xếp hạng hiện tại sau vòng đấu trước đó + nút Xếp lịch
@@ -333,8 +333,8 @@ Liên đoàn cờ vua thế giới (FIDE) yêu cầu anh/chị phát triển m�
 * →  BTC click Lưu
 * →  Hệ thống lưu lịch thi đấu của vòng mới vào CSDL
 
-## 4. Modul "Thống kê thay đổi Elo": Ban tổ chức (BTC) 
-* chọn menu thống kê 
+## 4. Modul "Thống kê thay đổi Elo": 
+* Ban tổ chức (BTC) chọn menu thống kê 
 * →  chọn chức năng thống kê thay đổi Elo của các cờ thủ sau giải
 * →  kết quả hiện ra danh sách các cờ thủ, mỗi cờ thủ được hiện đầy đủ thông tin: 
     mã, tên, năm sinh, quốc tịch, hệ số Elo cũ, hệ số Elo mới, hệ số Elo đã tăng/giảm. 
@@ -352,24 +352,24 @@ Ban tổ chức đưa xe công thức 1 (F1) đặt hàng anh/chị phát triể
 * Nếu tay đua nằm trong top 10 nhưng không về đích do bỏ cuộc hoặc tai nạn thì 0 điểm.
 * Điểm số và thời gian của từng tay đua sẽ được cộng dồn giữa các chặng để quyết định giải cá nhân và giải đồng đội của mùa giải
 
-## 1. Modul "Đăng kí thi đấu": Ban tổ chức (BTC) chọn 
-* chức năng đăng kí tay đua
+## 1. Modul "Đăng kí thi đấu": 
+* Ban tổ chức (BTC) chọn chức năng đăng kí tay đua
 * →  giao diện đăng kí tay đua cho mỗi chặng đấu hiện ra
 * →  BTC chọn chặng đua từ danh sách sổ xuống + chọn đội đua từ danh sách sổ xuống
 * →  danh sách các tay đua của đội đua đã chọn hiện ra, xếp theo abc của họ tên
 * →  BTC tích chọn đúng 2 tay đua theo yêu cầu của đội + click Đăng kí
 * →  Hệ thống lưu thông tin và thông báo thành công.
 
-## 2.  Modul "Cập nhật kết quả": Ban tổ chức (BTC) chọn 
-chức năng nhập kết quả chặng đua 
+## 2.  Modul "Cập nhật kết quả": 
+* Ban tổ chức (BTC) chọn chức năng nhập kết quả chặng đua 
 * →  giao diện nhập kết quả hiện ra
 * →  BTC chọn tên chặng đua từ danh sách sổ xuống
 * →  Danh sách các tay đua đã đăng kí thi đấu cho chặng đua hiện ra dưới dạng bảng, mỗi dòng chứa các ô trống nhập thời gian về đích, số vòng đua hoàn thành
 * →  BTC nhập đầy đủ kết quả tất cả các tay đua và click Lưu
 * →  Hệ thống  lưu kết quả vào CSDL và thông báo thành công
 
-## 3.  Modul "Xem BXH các tay đua": Ban tổ chức (BTC) 
-* chọn chức năng thống kê
+## 3.  Modul "Xem BXH các tay đua": 
+* Ban tổ chức (BTC) chọn chức năng thống kê
 * →  Chọn xem bảng xếp hạng các tay đua hiện tại
 * →  Hệ thống hiện lên danh sách các tay đua theo dạng bảng, mỗi dòng chứa: 
     Tên tay đua, quốc tịch, tên đội đua, tổng điểm sau các chặng, tổng thời gian sau các chặng. 
@@ -378,8 +378,8 @@ chức năng nhập kết quả chặng đua
 * →  hệ thống hiện lên chi tiết kết quả từng chặng đưa của tay đua đó, mỗi chặng trên 1 dòng: 
     tên chặng, thứ hạng về đích, số điểm, thời gian về đích
 
-## 4.  Modul "Xem BXH các đội đua": Ban tổ chức (BTC) 
-* chọn chức năng thống kê
+## 4.  Modul "Xem BXH các đội đua": 
+* Ban tổ chức (BTC) chọn chức năng thống kê
 * →  Chọn xem bảng xếp hạng các đội đua hiện tại
 * →  Hệ thống hiện lên danh sách các đội đua theo dạng bảng, mỗi dòng chứa: 
     Tên đội đua, hãng, tổng điểm các tay đua của đội sau các chặng, tổng thời gian sau các chặng. 
@@ -433,8 +433,8 @@ nếu có, cuối cùng click nút thanh toán
 * →  hệ thống hiện lên chi tiết hóa đơn có truyện đó đã mượn, mỗi hóa đơn trên 1 dòng: 
     id, tên khách mượn, ngày giờ mượn, ngày giờ trả, tổng số tiền.
 
-## 4. Modul "Thống kê khách hàng mượn nhiều": QL chọn 
-menu thống kê khách hàng mượn nhiều
+## 4. Modul "Thống kê khách hàng mượn nhiều": 
+* QL chọn menu thống kê khách hàng mượn nhiều
 * →  Nhập khoảng thời gian (ngày bắt đầu – kết thúc) thống 
 kê
 * →  hệ thống hiển thị danh sách KH mượn nhiều theo dạng bảng, mỗi dòng tương ứng với một 
@@ -445,18 +445,13 @@ tổng số tiền trả. NV click vào 1 dòng của 1 khách hàng
 khách hàng đấy đã mượn, mỗi hóa đơn trên 1 dòng: ngày mượn, tổng số sách mượn, tổng số tiền 
 thanh toán
 
-## 5. Modul "Thống kê doanh thu": QL chọn menu thống kê 
-doanh thu theo thời gian (tháng, quý, năm)
-* →  hệ thống hiện ô chọn thống kê theo tháng, quý, hoặc 
-năm
+## 5. Modul "Thống kê doanh thu": 
+* QL chọn menu thống kê doanh thu theo thời gian (tháng, quý, năm)
+* →  hệ thống hiện ô chọn thống kê theo tháng, quý, hoặc năm
 * →  QL click chọn theo tháng
-* →  hệ thống hiện lên thống kê doanh thu theo tháng dưới dạng 
-bảng, mỗi dòng tương ứng với 1 tháng (tương ứng là quý, năm): tên tháng, tổng doanh thu. Sắp xếp 
-theo chiều thời gian tháng (tương ứng là quý, năm) gần nhất đến tháng (tương ứng là quý, năm) cũ 
+* →  hệ thống hiện lên thống kê doanh thu theo tháng dưới dạng bảng, mỗi dòng tương ứng với 1 tháng (tương ứng là quý, năm): tên tháng, tổng doanh thu. Sắp xếp theo chiều thời gian tháng (tương ứng là quý, năm) gần nhất đến tháng (tương ứng là quý, năm) cũ 
 nhất. NV click vào 1 dòng
-* →  hệ thống hiện lên chi tiết các hóa đơn trong khoảng thời gian của 
-dòng đấy, mỗi hóa đơn trên 1 dòng: id, tên khách hàng, ngày mượn, tổng số truyện mượn, tổng số 
-tiền của hóa đơn
+* →  hệ thống hiện lên chi tiết các hóa đơn trong khoảng thời gian của dòng đấy, mỗi hóa đơn trên 1 dòng: id, tên khách hàng, ngày mượn, tổng số truyện mượn, tổng số tiền của hóa đơn
 
 # IX. Phần mềm quản lí phân công và chấm công nhân viên part time
 Chuỗi nhà hàng đồ ăn nhanh Lotteria đặt hàng anh chị phát triển một phần mềm giúp họ **quản lí phân công và chấm công nhân viên làm thêm theo giờ** (parttime) tại chuỗi cửa hàng của họ với mô tả như sau:
@@ -535,7 +530,8 @@ Khách hàng yêu cầu anh/chị phát triển một phần mềm **quản lí 
 * Khi mua vé, khách hàng được xuất hóa đơn ghi rõ các vé đã mua. Mỗi vé trên một dòng: tên phim, phòng chiếu, giờ chiếu, số ghế, ưu đãi, giá tiền. Bên dưới là tổng tiền.
 * Rạp chiếu có bán kèm các dịch vụ ăn uống nhẹ (như bỏng ngô, nước uống...). Khách hàng có thể mua kèm với vé xem phim (khi đó, hóa đơn sẽ bao gồm các dịch vụ này), hoặc mua riêng lẻ. Nếu mua riêng lẻ thì xuất hóa đơn riêng, mỗi dòng là một mặt hàng: mã, tên, đơn giá, số lượng, ưu đãi, thành tiền. Dưới cùng là tổng tiền.
 
-## 1. Modul "Bán vé xem phim" cho phép nhân viên (NV) rạp thêm thông tin bán vé cho khách hàng: NV chọn menu bán vé
+## 1. Modul "Bán vé xem phim" cho phép nhân viên (NV) rạp thêm thông tin bán vé cho khách hàng: 
+* NV chọn menu bán vé
 * →  trang bán vé hiện ra
 * →  NV chọn phòng chiếu 
 hoặc tên phim trong danh sách sổ ra (theo yêu cầu của khách) + chọn khung giờ chiếu
@@ -545,62 +541,37 @@ khách hàng chọn các ghế còn trống trong phòng chiếu
 rạp, số hiệu phòng chiếu, ngày giờ chiếu, tên phim, số lượng vé, giá tiền cho mỗi vé+tổng số tiền 
 của hóa đơn.
 
-## 2.  Modul “Lên lịch chiếu”  cho phép quản lí (QL) thực hiện lên lịch chiếu cho phim (phòng chiếu) với 
-mô tả nghiệp vụ: QL chọn menu quản lí lịch chiếu
+## 2.  Modul “Lên lịch chiếu”  cho phép quản lí (QL) thực hiện lên lịch chiếu cho phim (phòng chiếu):
+*  QL chọn menu quản lí lịch chiếu
 * →  chọn lên lịch chiếu mới
-* →  giao diện lên lịch 
-chiếu hiện ra
-* →  QL chọn lên phim từ danh sách sổ xuống + chọn phòng chiếu từ danh sách sổ 
-xuống + khung giờ chiếu và chọn giá vé từ danh sách sổ xuống + click thêm lịch chiếu (danh sách 
-phòng chiếu hay khung giờ thay đổi theo số phòng còn trống của khung giờ hay khung giờ còn 
-trống của phòng chiếu được chọn)
-* →  Giao diện định giá vé hiện lên với giá vé mặc định cho tất cả 
-các ghế của suất chiếu -> QL có thể chọn một số ghế vào một mức giá và có thể có nhiều mức giá 
-khác nhau và xác nhận -> Hệ thống lưu vào CSDL và thông báo thêm thành công.
+* →  giao diện lên lịch chiếu hiện ra
+* →  QL chọn lên phim từ danh sách sổ xuống + chọn phòng chiếu từ danh sách sổ xuống + khung giờ chiếu và chọn giá vé từ danh sách sổ xuống + click thêm lịch chiếu (danh sách phòng chiếu hay khung giờ thay đổi theo số phòng còn trống của khung giờ hay khung giờ còn trống của phòng chiếu được chọn)
+* →  Giao diện định giá vé hiện lên với giá vé mặc định cho tất cả các ghế của suất chiếu -> QL có thể chọn một số ghế vào một mức giá và có thể có nhiều mức giá khác nhau và xác nhận -> Hệ thống lưu vào CSDL và thông báo thêm thành công.
 
-## 3. Modul "Bán vé dịch vụ ăn uống" cho phép nhân viên (NV) rạp thêm thông tin bán đồ ăn uống cho 
-khách hàng: NV chọn menu bán dịch vụ đi kèm
-* →  trang bán hàng hiện 
-ra
-* →  NV lặp các bước sau cho đến khi hết các mặt hàng mà KH yêu cầu: nhập tên mặt hàng và 
-click tìm kiếm
+## 3. Modul "Bán vé dịch vụ ăn uống" cho phép nhân viên (NV) rạp thêm thông tin bán đồ ăn uống cho khách hàng: 
+* NV chọn menu bán dịch vụ đi kèm
+* →  trang bán hàng hiện ra
+* →  NV lặp các bước sau cho đến khi hết các mặt hàng mà KH yêu cầu: nhập tên mặt hàng và click tìm kiếm
 * →  giao diện danh sách các mặt hàng chứa từ khóa vừa nhập hiện ra
-* →  NV click 
-chọn một mặt hàng
+* →  NV click chọn một mặt hàng
 * →  giao diện chọn kích cỡ, số lượng hiện ra
-* →  NV chọn kích cỡ đồ ăn uống, 
-nhập số lượng và click OK
-* →  giao diện các mặt hàng đã chọn hện lên như hóa đơn chứa bẳng các 
-mặt hàng, mỗi dòng chứa: mã, tên, kích cỡ, đơn giá, số lượng, thành tiền. Dòng cuối là tổng tiền.
-* →  
-Hết mặt hàng, NV click chọn thanh toán. Hệ thống in hóa đơn ra cho KH
+* →  NV chọn kích cỡ đồ ăn uống, nhập số lượng và click OK
+* →  giao diện các mặt hàng đã chọn hện lên như hóa đơn chứa bẳng các mặt hàng, mỗi dòng chứa: mã, tên, kích cỡ, đơn giá, số lượng, thành tiền. Dòng cuối là tổng tiền.
+* →  Hết mặt hàng, NV click chọn thanh toán. Hệ thống in hóa đơn ra cho KH
 
-## 4.  Modul "Thống kê doanh thu" cho phép nhân viên (NV) rạp thống kê doanh thu bán vé theo phim 
-(hoặc theo rạp): NV chọn menu thống kê
-* →  chọn thống kê doanh thu 
-theo phim (hoặc theo rạp)
+## 4.  Modul "Thống kê doanh thu" cho phép nhân viên (NV) rạp thống kê doanh thu bán vé theo phim (hoặc theo rạp): 
+* NV chọn menu thống kê
+* →  chọn thống kê doanh thu theo phim (hoặc theo rạp)
 * →  nhập thời gian bắt đầu và kết thúc thống kê
-* →  danh sách các phim 
-(rạp) có hiện ra, mỗi dòng cho 1 phim: Mã, tên phim, tổng số lượng vé bán ra, tổng doanh thu thu 
-được, được sắp xếp theo chiều giảm dần tổng doanh thu -> NV click vào một dòng của phim (rạp) 
-thì hiện lên chi tiết tổng số tiền thu được cho từng suất chiếu của phim, mỗi dòng tương ứng: suất 
-chiếu, số lượng vé bán ra, tổng tiền thu được, được sắp xếp theo thứ tự thời gian của suất chiếu từ 
-cũ đến mới -> NV click vào một suất chiếu thì hiện lên danh sách các hóa đơn đã bán cho suất chiếu 
-đó, mỗi hóa đơn trên 1 dòng sắp sếp theo thời gian thanh toán: mã, tên KH nếu có, tổng số vé, tổng 
-tiền của hóa đơn (chỉ tính những vé liên quan đến suất chiếu đó trong hóa đơn).
+* →  danh sách các phim (rạp) có hiện ra, mỗi dòng cho 1 phim: Mã, tên phim, tổng số lượng vé bán ra, tổng doanh thu thu được, được sắp xếp theo chiều giảm dần tổng doanh thu 
+    -> NV click vào một dòng của phim (rạp) thì hiện lên chi tiết tổng số tiền thu được cho từng suất chiếu của phim, mỗi dòng tương ứng: suất chiếu, số lượng vé bán ra, tổng tiền thu được, được sắp xếp theo thứ tự thời gian của suất chiếu từ cũ đến mới
+    -> NV click vào một suất chiếu thì hiện lên danh sách các hóa đơn đã bán cho suất chiếu đó, mỗi hóa đơn trên 1 dòng sắp sếp theo thời gian thanh toán: mã, tên KH nếu có, tổng số vé, tổng tiền của hóa đơn (chỉ tính những vé liên quan đến suất chiếu đó trong hóa đơn).
 
-## 5.  Modul "Thống kê các mặt hàng bán kèm theo doanh thu" cho phép nhân viên (NV) rạp thống kê 
-doanh thu bán các mặt hàng đi kèm theo doanh thu: NV chọn menu 
-thống kê
+## 5.  Modul "Thống kê các mặt hàng bán kèm theo doanh thu" cho phép nhân viên (NV) rạp thống kê doanh thu bán các mặt hàng đi kèm theo doanh thu: 
+* NV chọn menu thống kê
 * →  chọn thống kê các mặt hàng bán kèm theo doanh thu
-* →  nhập thời gian bắt đầu và kết 
-thúc thống kê
-* →  danh sách các mặt hàng bán kèm hiện ra, mỗi dòng cho 1 mặt hàng: Mã, tên, tổng 
-số lượng bán ra, tổng doanh thu thu được, sắp xếp theo chiều giảm dần tổng doanh thu. NV click 
-vào một dòng của một mặt hàng thì hiện lên chi tiết các lần bán mặt hàng đấy, mỗi dòng tương ứng 
-các thông tin: ngày bán, đơn giá, số lượng, tổng tiền được sắp xếp theo thứ tự thời gian bán hàng từ 
-cũ đến mới. Đối với mặt hàng được đổi điểm thì khi thống kê vẫn quy ra tiền như thông thường để 
-thống kê
+* →  nhập thời gian bắt đầu và kết thúc thống kê
+* →  danh sách các mặt hàng bán kèm hiện ra, mỗi dòng cho 1 mặt hàng: Mã, tên, tổng số lượng bán ra, tổng doanh thu thu được, sắp xếp theo chiều giảm dần tổng doanh thu. NV click vào một dòng của một mặt hàng thì hiện lên chi tiết các lần bán mặt hàng đấy, mỗi dòng tương ứng các thông tin: ngày bán, đơn giá, số lượng, tổng tiền được sắp xếp theo thứ tự thời gian bán hàng từ cũ đến mới. Đối với mặt hàng được đổi điểm thì khi thống kê vẫn quy ra tiền như thông thường để thống kê
 
 # XI. Phần mềm quản lí cho thuê sân bóng mini
 Khách hàng yêu cầu anh/chị phát triển một phần mềm **quản lí cho thuê sân bóng mini** của một chủ sân bóng với mô tả như sau:
@@ -733,7 +704,8 @@ thanh toán trực tiếp)
     -> NV xác nhận với KH và click lưu 
     -> Hệ thống lưu lại và thông báo thành công, đồng thời in hóa đơn ra để NV giao cho KH
 
-## 3.  Modul “Thanh toán cho đối tác”: NV chọn chức năng thanh toán cho ĐT
+## 3.  Modul “Thanh toán cho đối tác”: 
+* NV chọn chức năng thanh toán cho ĐT
 * →  Giao diện tìm ĐT hiện lên
 * →  NV nhập tên ĐT hoặc một phần tên ĐT và click tìm
 * →  Giao diện hiện lên danh sách các ĐT có tên chứa từ khóa vừa nhập -> Chọn đúng ĐT
@@ -751,8 +723,8 @@ thanh toán trực tiếp)
     -> click vào 1 dòng 
     -> hiện lên chi tiết hợp đồng tương ứng: thông tin KH, ĐT, danh sách các mặt hàng, số lượng, đơn giá, tổng tiền; danh sách các đợt thanh toán, trạng thái đã hoàn thành thanh toán hay chưa
 
-## 5.  Modul “Thống kê đối tác theo doanh số”: QL chọn chức năng thống kê ĐT 
-theo doanh số
+## 5.  Modul “Thống kê đối tác theo doanh số”: 
+* QL chọn chức năng thống kê ĐT theo doanh số
 * →  Giao diện thống kê hiện lên với ô nhập khoảng thời gian thống kê
 * →  QL nhập 
 ngày bắt đầu, ngày kết thúc của thời gian thống kê
@@ -766,23 +738,17 @@ thứ tự thời gian: mã, tên KH, ngày kí, tổng tiền vay, tổng số 
 hàng, số lượng, đơn giá, tổng tiền; danh sách các đợt thanh toán, trạng thái đã hoàn thành thanh toán 
 hay chưa.
 
-## 6. Modul “Thống kê dòng mặt hàng theo doanh thu”: QL chọn chức năng thống 
-kê dòng mặt hàng theo doanh thu
-* →  Giao diện thống kê hiện lên với ô nhập khoảng thời gian thống 
-kê
+## 6. Modul “Thống kê dòng mặt hàng theo doanh thu”: 
+* QL chọn chức năng thống kê dòng mặt hàng theo doanh thu
+* →  Giao diện thống kê hiện lên với ô nhập khoảng thời gian thống kê
 * →  QL nhập ngày bắt đầu, ngày kết thúc của thời gian thống kê
-* →  Giao diện hiện lên danh sách 
-bảng thống kê cho tất cả các dòng/thể loại MH trong khoảng thời gian đó, mỗi dòng MH trên 1 
-dòng, xếp theo thứ tự giảm dần của tổng doanh thu từ lãi suất: dòng MH, tổng số hóa đơn, tổng 
-doanh thu lãi (chỉ tính phần lãi suất thu được)
+* →  Giao diện hiện lên danh sách bảng thống kê cho tất cả các dòng/thể loại MH trong khoảng thời gian đó, mỗi dòng MH trên 1 
+dòng, xếp theo thứ tự giảm dần của tổng doanh thu từ lãi suất: dòng MH, tổng số hóa đơn, tổng doanh thu lãi (chỉ tính phần lãi suất thu được)
 * →  QL click chọn vào 1 dòng để xem chi tiết
-* →  Giao 
-diện hiện lên bảng thống kê chi tiết các Mh của dòng MH được chọn trong khoảng thời gian đó, 
-mỗi dòng tương ứng 1 MH, xếp theo thứ tự tổng doanh thu lãi giảm dần: mã, tên MH, tổng hóa đơn, 
-tổng doanh thu lãi -> Click vào 1 dòng, hiện lên danh sách các hợp đồng của MH đấy trong khoảng 
-thời gian thống kê, sắp xếp theo thứ tự thời gian: mã, tên KH, tổng giá trị vay, tổng tiền lãi thu được -> click vào 1 dòng -> hiện lên chi tiết hợp đồng tương ứng: thông tin KH, ĐT, danh sách các mặt 
-hàng, số lượng, đơn giá, tổng tiền; danh sách các đợt thanh toán, trạng thái đã hoàn thành thanh toán 
-hay chưa
+* →  Giao diện hiện lên bảng thống kê chi tiết các Mh của dòng MH được chọn trong khoảng thời gian đó, mỗi dòng tương ứng 1 MH, xếp theo thứ tự tổng doanh thu lãi giảm dần: mã, tên MH, tổng hóa đơn, tổng doanh thu lãi 
+    -> Click vào 1 dòng, hiện lên danh sách các hợp đồng của MH đấy trong khoảng thời gian thống kê, sắp xếp theo thứ tự thời gian: mã, tên KH, tổng giá trị vay, tổng tiền lãi thu được 
+    -> click vào 1 dòng 
+    -> hiện lên chi tiết hợp đồng tương ứng: thông tin KH, ĐT, danh sách các mặt hàng, số lượng, đơn giá, tổng tiền; danh sách các đợt thanh toán, trạng thái đã hoàn thành thanh toán hay chưa
 
 # XIII. Phần mềm quản lí hoạt động cho thuê trang phục
 Cửa hàng cho thuê trang phục dạ hội, biểu diễn đặt hàng anh chị phát triển một phần mềm giúp họ quản lí hoạt động cho thuê trang phục của họ với mô tả như sau:
