@@ -521,7 +521,7 @@ tăng dần của tổng số giờ đi muộn về sớm: mã, tên, số đt, 
 * →  QL click chọn vào 1 dòng để xem chi tiết
 * →  Giao diện hiện lên bảng thống kê chi tiết giờ làm của NV được chọn trong khoảng thời gian đó, mỗi dòng tương ứng 1 ca làm việc, xếp theo thứ tự thời gian: thứ, ngày, ca, giờ checkin, giờ checkout, số giờ thực làm, số tiền thực nhận, số giờ đi chậm về sớm, số tiền phạt
 
-## X. Phần mềm quản lí chuỗi rạp chiếu phim
+# X. Phần mềm quản lí chuỗi rạp chiếu phim
 Khách hàng yêu cầu anh/chị phát triển một phần mềm **quản lí chuỗi rạp chiếu phim** với mô tả như sau:
 
 * Hãng có một chuỗi rạp chiếu phim (Mã rạp, tên rạp, địa chỉ, giới thiệu).
@@ -602,7 +602,7 @@ các thông tin: ngày bán, đơn giá, số lượng, tổng tiền được s
 cũ đến mới. Đối với mặt hàng được đổi điểm thì khi thống kê vẫn quy ra tiền như thông thường để 
 thống kê
 
-# X. Phần mềm quản lí cho thuê sân bóng mini
+# XI. Phần mềm quản lí cho thuê sân bóng mini
 Khách hàng yêu cầu anh/chị phát triển một phần mềm **quản lí cho thuê sân bóng mini** của một chủ sân bóng với mô tả như sau:
 
 * Sân bóng có nhiều sân con mini cho thuê. Tùy yêu cầu khách hàng mà có thể ghép 2 hay 4 sân bé liền nhau thành 1 sân lớn cho thuê.
@@ -693,7 +693,7 @@ số tiền thuê sân dự kiến
     QL click vào 1 dòng của 1 khung giờ
 * →  hệ thống hiện lên chi tiết danh sách các lần có khách đặt sân trong khung giờ đó, mỗi lần trên một dòng: id, tên khách, tên sân, ngày giờ, giá, tổng tiền
 
-# XI. Phần mềm quản lí khách hàng vay trả góp
+# XII. Phần mềm quản lí khách hàng vay trả góp
 Hãng cho vay trả góp Saison đặt hàng anh chị phát triển một phần mềm giúp họ **quản lí khách hàng vay trả góp** tại chuỗi cửa hàng của họ với mô tả như sau:
 
 * Hãng hợp tác với nhiều đối tác - ĐT, là các công ty bán lẻ các mặt hàng - MH với nhiều chủng loại từ điện thoại, máy tính, đồ điện tử, điện lạnh, gia dụng, ô tô, bất động sản...
@@ -784,7 +784,7 @@ thời gian thống kê, sắp xếp theo thứ tự thời gian: mã, tên KH, 
 hàng, số lượng, đơn giá, tổng tiền; danh sách các đợt thanh toán, trạng thái đã hoàn thành thanh toán 
 hay chưa
 
-# XII. Phần mềm quản lí hoạt động cho thuê trang phục
+# XIII. Phần mềm quản lí hoạt động cho thuê trang phục
 Cửa hàng cho thuê trang phục dạ hội, biểu diễn đặt hàng anh chị phát triển một phần mềm giúp họ quản lí hoạt động cho thuê trang phục của họ với mô tả như sau:
 
 * Cửa hàng có nhiều trang phục -TP, thuộc nhiều chủng loại khác nhau, một TP có thể có số lượng khác nhau.
