@@ -1,14 +1,14 @@
 # I. Phần mềm quản lí thư viện
 Khách hàng yêu cầu chúng ta phát triển một phần mềm **quản lí thư viện**, được mô tả như sau:
 
-• Mỗi đầu sách (Mã, tên, tác giả, năm xuất bản, giá bìa, số lượng, mã vạch, mô tả) 
+* Mỗi đầu sách (Mã, tên, tác giả, năm xuất bản, giá bìa, số lượng, mã vạch, mô tả) 
     có thể được mượn nhiều lần khác nhau bởi nhiều bạn đọc khác nhau
-• Mỗi bạn đọc có một thẻ bạn đọc chứa mã, tên, ngày sinh, địa chỉ, số điện thoại, mã vạch của bạn đọc đó
-• Mỗi lần mượn được mượn tối đa 5 quyển sách, và tổng số sách đang mượn bởi một người cũng không được quá 5 quyển
-• Thời gian tối đa mượn 1 quyển sách là 1 tháng kể từ ngày mượn quyển đó, 
+* Mỗi bạn đọc có một thẻ bạn đọc chứa mã, tên, ngày sinh, địa chỉ, số điện thoại, mã vạch của bạn đọc đó
+* Mỗi lần mượn được mượn tối đa 5 quyển sách, và tổng số sách đang mượn bởi một người cũng không được quá 5 quyển
+* Thời gian tối đa mượn 1 quyển sách là 1 tháng kể từ ngày mượn quyển đó, 
     nếu trả sau thời hạn này thì sẽ bị phạt 20% giá trị bìa sách.
-• Mỗi lần trả sách có thể trả một phần hoặc toàn bộ số lượng sách đang mượn
-• Khi mượn sách mới, thủ thư vẫn xem được danh sách các sách 
+* Mỗi lần trả sách có thể trả một phần hoặc toàn bộ số lượng sách đang mượn
+* Khi mượn sách mới, thủ thư vẫn xem được danh sách các sách 
     mà một độc giả đã mượn và trả rồi hoặc chưa trả trước đấy.
 
 ## 1. Modul "Quản lí việc mượn sách": 
@@ -25,9 +25,9 @@ Khách hàng yêu cầu chúng ta phát triển một phần mềm **quản lí 
     →  nhân viên quét lần lượt các sách được trả 
     →  danh sách sách đang mượn được rút ngắn cho đến khi hết sách mượn (hoặc hết số sách độc giả đem đến trả) thì submit 
     →  in ra phiếu mượn (nếu còn sách mượn) chứa mã, tên, mã vạch độc giả, mã vạch phiếu mượn, và danh sách sách còn mượn, mỗi đầu sách trên một dòng: 
-       • mã, tên sách, tác giả, mã vạch, ngày mượn, ngày phải trả 
-       • và dòng cuối cùng ghi tổng số sách đang mượn + phiếu phạt (nếu bị phạt) chứa mã, tên, mã vạch độc giả, mã vạch phiếu mượn, và danh sách sách trả muộn bị phạt, 
-       • mỗi đầu sách trên một dòng: mã, tên sách, tác giả, mã vạch, ngày mượn, ngày phải trả, ngày trả, số tiền phạt và dòng cuối cùng ghi tổng số tiền phạt
+       * mã, tên sách, tác giả, mã vạch, ngày mượn, ngày phải trả 
+       * và dòng cuối cùng ghi tổng số sách đang mượn + phiếu phạt (nếu bị phạt) chứa mã, tên, mã vạch độc giả, mã vạch phiếu mượn, và danh sách sách trả muộn bị phạt, 
+       * mỗi đầu sách trên một dòng: mã, tên sách, tác giả, mã vạch, ngày mượn, ngày phải trả, ngày trả, số tiền phạt và dòng cuối cùng ghi tổng số tiền phạt
 ## 3. Modul "Thống kê sách mượn nhiều": 
     Nhân viên chọn menu thống kê  
     →  chọn thống kê sách mượn nhiều 
@@ -42,17 +42,17 @@ Khách hàng yêu cầu chúng ta phát triển một phần mềm **quản lí 
 # II. Phần mềm quản lí kết quả học tập của sinh viên theo tín chỉ
 Khách hàng yêu cầu chúng ta phát triển một phần mềm **quản lí kết quả học tập của sinh viên theo tín chỉ**, được mô tả như sau:
 
-• Mỗi sinh viên (Mã SV, mật khẩu, tên, ngày sinh, khóa, quê quán, địa chỉ) được phép đăng kí 
+* Mỗi sinh viên (Mã SV, mật khẩu, tên, ngày sinh, khóa, quê quán, địa chỉ) được phép đăng kí 
     tối thiểu 10 tín chỉ/học kì và tối đa 15 tín chỉ/học kì
-• Mỗi sinh viên được đăng kí nhiều môn học (mã môn, tên môn, số tín chỉ)
-• Mỗi môn học có thể có nhiều môn học yêu cầu sinh viên phải hoàn thành trước đó thì mới được đăng kí
-• Mỗi môn học có thể có nhiều lớp học phần 
+* Mỗi sinh viên được đăng kí nhiều môn học (mã môn, tên môn, số tín chỉ)
+* Mỗi môn học có thể có nhiều môn học yêu cầu sinh viên phải hoàn thành trước đó thì mới được đăng kí
+* Mỗi môn học có thể có nhiều lớp học phần 
     (mã lớp, tên lớp, số sv tối đa, phòng học, khung giờ học cố định trong tuần)
-• Sinh viên không được phép đăng kí học hai lớp có trùng buổi học
-• Với mỗi môn học, một sinh viên chỉ được đăng kí vào 1 lớp xác định
-• Kết quả của sinh viên (điểm thành phần số 1, số 2, số 3, điểm thi, 
+* Sinh viên không được phép đăng kí học hai lớp có trùng buổi học
+* Với mỗi môn học, một sinh viên chỉ được đăng kí vào 1 lớp xác định
+* Kết quả của sinh viên (điểm thành phần số 1, số 2, số 3, điểm thi, 
     điểm cuối cùng= x % số1 + y % số2 + z % số3 + w % điểm thi) được lưu theo từng môn học 
-• Điểm trung bình của sinh viên trong học kì được tính bằng trung bình có trọng số là số tín chỉ từng môn học
+* Điểm trung bình của sinh viên trong học kì được tính bằng trung bình có trọng số là số tín chỉ từng môn học
 
 ## 1. Modul "Lên lịch học cho lớp học phần": 
     QL chọn menu lên lịch học cho lớp học phần 
@@ -111,10 +111,10 @@ Khách hàng yêu cầu chúng ta phát triển một phần mềm **quản lí 
 # III. Phần mềm quản lí đặt tour du lịch
 Khách hàng yêu cầu chúng ta phát triển một phần mềm **quản lí đặt tour du lịch**, được mô tả như sau:
 
-• Mỗi tour (Mã tour, tên, nơi xuất phát, nơi đến, mô tả) có thể xuất phát vào nhiều ngày khác nhau, tùy vào ngày xuất phát và số lượng người mua tour cho mỗi đoàn sẽ có giá khác nhau. 
-• Mỗi khách hàng (Mã, tên, số ID, loại thẻ ID, số ĐT, email, địa chỉ) có thể mua vé nhiều tour khác nhau. Mỗi tour có thể mua số lượng vé khác nhau. Mỗi lần mua có xuất hóa đơn ghi rõ thông tin tour, ngày xuất phát, giá tour, số lượng khách, tên khách hàng đại diện, tổng số tiền thanh toán.
-• Cùng một khách hàng có thể đi cùng một tour nhiều lần, chỉ khác nhau ở ngày xuất phát và giá vé.
-• Khách hàng có thể trả vé, nếu trả trước giờ xuất phát trước 7 ngày thì phạt 10%, trước 5 
+* Mỗi tour (Mã tour, tên, nơi xuất phát, nơi đến, mô tả) có thể xuất phát vào nhiều ngày khác nhau, tùy vào ngày xuất phát và số lượng người mua tour cho mỗi đoàn sẽ có giá khác nhau. 
+* Mỗi khách hàng (Mã, tên, số ID, loại thẻ ID, số ĐT, email, địa chỉ) có thể mua vé nhiều tour khác nhau. Mỗi tour có thể mua số lượng vé khác nhau. Mỗi lần mua có xuất hóa đơn ghi rõ thông tin tour, ngày xuất phát, giá tour, số lượng khách, tên khách hàng đại diện, tổng số tiền thanh toán.
+* Cùng một khách hàng có thể đi cùng một tour nhiều lần, chỉ khác nhau ở ngày xuất phát và giá vé.
+* Khách hàng có thể trả vé, nếu trả trước giờ xuất phát trước 7 ngày thì phạt 10%, trước 5 
 ngày phạt 20%, trước 3 ngày phạt 50%, trước ít hơn 3 ngày phạt 100% giá ghi trên vé.
 
 ## 1. Modul "Mua vé": 
@@ -163,12 +163,12 @@ ngày phạt 20%, trước 3 ngày phạt 50%, trước ít hơn 3 ngày phạt 
 # IV. Phần mềm quản lí việc gọi món trong một nhà hàng
 Khách hàng yêu cầu chúng ta phát triển một phần mềm **quản lí việc gọi món trong một nhà hàng**, được mô tả như sau:
 
-• Nhà hàng có nhiều bàn (Mã bàn, tên, số lượng khách tối đa, mô tả). Nhiều bàn nhỏ có thể gộp lại thành một bàn lớn khi có yêu cầu từ đoàn khách có số lượng lớn.
-• Mỗi bàn, có thể bị đặt nhiều lần khác nhau trong ngày, hoặc khác ngày.
-• Mỗi khách hàng (Mã, tên, số ĐT, email, địa chỉ) có thể đặt bàn nhiều lần, mỗi lần có thể đặt nhiều bàn (trường hợp này sẽ bị gộp thành đặt 1 bàn)
-• Nhà hàng có thể lên combo dạng kết hợp sẵn một số món ăn đủ cho 1 bữa ăn cho một người ăn. Khách hàng có thể gọi combo có sẵn như thế này.
-• Khách hàng ở mỗi bàn có thể gọi nhiều món ăn (Mã, loại, tên, mô tả, giá hiện tại) hoặc combo. Mỗi món ăn (combo) có có thể bị gọi với số lượng khác nhau. 
-• Khi thanh toán, hóa đơn ghi đầy đủ thông tin: mã bàn, tên và mã nhân viên thanh toán, tên khách hàng nếu có, sau đó là một bảng, mỗi dòng chứa thông tin một món (combo) đã dùng: id, tên, đơn giá, sơ lượng, thành tiền. Dòng cuối cùng ghi tổng số tiền của hóa đơn.
+* Nhà hàng có nhiều bàn (Mã bàn, tên, số lượng khách tối đa, mô tả). Nhiều bàn nhỏ có thể gộp lại thành một bàn lớn khi có yêu cầu từ đoàn khách có số lượng lớn.
+* Mỗi bàn, có thể bị đặt nhiều lần khác nhau trong ngày, hoặc khác ngày.
+* Mỗi khách hàng (Mã, tên, số ĐT, email, địa chỉ) có thể đặt bàn nhiều lần, mỗi lần có thể đặt nhiều bàn (trường hợp này sẽ bị gộp thành đặt 1 bàn)
+* Nhà hàng có thể lên combo dạng kết hợp sẵn một số món ăn đủ cho 1 bữa ăn cho một người ăn. Khách hàng có thể gọi combo có sẵn như thế này.
+* Khách hàng ở mỗi bàn có thể gọi nhiều món ăn (Mã, loại, tên, mô tả, giá hiện tại) hoặc combo. Mỗi món ăn (combo) có có thể bị gọi với số lượng khác nhau. 
+* Khi thanh toán, hóa đơn ghi đầy đủ thông tin: mã bàn, tên và mã nhân viên thanh toán, tên khách hàng nếu có, sau đó là một bảng, mỗi dòng chứa thông tin một món (combo) đã dùng: id, tên, đơn giá, sơ lượng, thành tiền. Dòng cuối cùng ghi tổng số tiền của hóa đơn.
 
 ## 1. Modul "Gọi món": 
     Nhân viên chọn chức năng gọi món     
@@ -258,12 +258,12 @@ Khách hàng yêu cầu chúng ta phát triển một phần mềm **quản lí 
 # V. Phần mềm hỗ trợ quản lí kho vật tư
 Khách hàng yêu cầu chúng ta phát triển một phần mềm **hỗ trợ quản lí kho vật tư**, được mô tả như sau:
 
-• Mỗi hàng hóa (Mã hàng, tên, mô tả) có thể được nhập nhiều lần khác nhau, mỗi lần nhập có số lượng khác nhau và giá nhập khác nhau, đến từ một nhà cung cấp (mã NCC, tên NCC, địa chỉ, số ĐT) khác nhau
-• Mỗi lần nhập hàng có thể nhập nhiều hàng hóa khác nhau
-• Mỗi lần nhập có một phiếu nhập ghi thông tin nhà cung cấp, tiếp theo là danh sách các mặt hàng nhập vào, mỗi mặt hàng có đầy đủ thông tin: mã hàng, tên hàng, số lượng, đơn giá, thành tiền (tự động tính) và dòng cuối cùng là tổng tiền của hóa đơn nhập
-• Tương tự, mỗi hàng hóa có thể xuất đi nhiều lần khác nhau, mỗi lần cho các đại lí con (mã ĐL, tên ĐL, địa chỉ, số ĐT) khác nhau, với số lượng khác nhau và giá xuất khác nhau
-• Mỗi lần xuất có thể xuất nhiều hàng khác nhau, miễn sao số lượng xuất không vượt quá số lượng hàng còn trong kho
-• Mỗi lần xuất có một phiếu xuất ghi thông tin đại lí con, tiếp theo là danh sách các mặt hàng xuất đi, mỗi mặt hàng có đầy đủ thông tin: mã hàng, tên hàng, số lượng, đơn giá, thành tiền (tự động tính) và dòng cuối cùng là tổng tiền của hóa đơn xuất
+* Mỗi hàng hóa (Mã hàng, tên, mô tả) có thể được nhập nhiều lần khác nhau, mỗi lần nhập có số lượng khác nhau và giá nhập khác nhau, đến từ một nhà cung cấp (mã NCC, tên NCC, địa chỉ, số ĐT) khác nhau
+* Mỗi lần nhập hàng có thể nhập nhiều hàng hóa khác nhau
+* Mỗi lần nhập có một phiếu nhập ghi thông tin nhà cung cấp, tiếp theo là danh sách các mặt hàng nhập vào, mỗi mặt hàng có đầy đủ thông tin: mã hàng, tên hàng, số lượng, đơn giá, thành tiền (tự động tính) và dòng cuối cùng là tổng tiền của hóa đơn nhập
+* Tương tự, mỗi hàng hóa có thể xuất đi nhiều lần khác nhau, mỗi lần cho các đại lí con (mã ĐL, tên ĐL, địa chỉ, số ĐT) khác nhau, với số lượng khác nhau và giá xuất khác nhau
+* Mỗi lần xuất có thể xuất nhiều hàng khác nhau, miễn sao số lượng xuất không vượt quá số lượng hàng còn trong kho
+* Mỗi lần xuất có một phiếu xuất ghi thông tin đại lí con, tiếp theo là danh sách các mặt hàng xuất đi, mỗi mặt hàng có đầy đủ thông tin: mã hàng, tên hàng, số lượng, đơn giá, thành tiền (tự động tính) và dòng cuối cùng là tổng tiền của hóa đơn xuất
 
 ## 1. Modul "lập phiếu xuất hàng": Nhân viên chọn menu 
 xuất hàng  →  trang xuất hàng hiện ra với ô tìm kiếm đại lí con (ĐLC) →  NV nhập tên ĐL và click 
@@ -302,12 +302,12 @@ tiền) của mỗi lần đại lí con đấy đã nhập hàng
 # VI. Phần mềm quản lí Giải đấu vô địch thế giới
 Liên đoàn cờ vua thế giới (FIDE) yêu cầu anh/chị phát triển một phần mềm **quản lí Giải đấu vô địch thế giới** với mô tả như sau:
 
-• Mỗi giải đấu (Mã, tên, năm, lần tổ chức, địa điểm, mô tả) cho phép nhiều cờ thủ (mã, tên, năm sinh, quốc tịch, hệ số Elo, ghi chú) tham gia.
-• Có thể có hàng trăm cờ thủ tham gia, nhưng mỗi cờ thủ phải thi đấu 11 trận theo hệ Thụy Sỹ
-• Ở ván thứ nhất, các cờ thủ được xếp hạng theo thứ tự hệ số Elo từ cao đến thấp. Sau đó đi từ trên xuống dưới bảng sắp xếp, hai cờ thủ đứng kề nhau sẽ tạo thành một cặp đấu cho vòng 1.
-• Ở mỗi vòng đấu, thắng được 1 điểm, hòa được 0.5 điểm, thua được 0 điểm. Sau mỗi vòng đấu, kết quả từng trận được cập nhật theo các cặp đấu đã lên lịch trước đó. Đồng thời hệ số Elo tăng hay giảm sau mỗi vòng đấu cũng được cập nhật (Tính theo công thức của FIDE, chỉ cần nhập kết quả vào).
-• Bắt đầu từ ván thứ 2, bảng xếp hạng tạm thời sau vòng đấu trước đó được xếp theo thứ tự các tiêu chí: tổng điểm (giảm dần), tổng điểm của các đối thủ đã gặp (giảm dần), hệ số Elo (giảm dần). Và cặp đấu được xác định như sau, đi từ đầu đến cuối bảng xếp hạng tạm thời, với mỗi cờ thủ chưa có cặp, đối thủ cả cờ thủ đó là cờ thủ đầu tiên gặp phải và thỏa mãn: chưa có căp , và chưa gặp cờ thủ đang xem xét.
-• Sau 11 vòng đấu như vậy, cờ thủ đứng đầu bảng xếp hạng sẽ là nhà vô địch.
+* Mỗi giải đấu (Mã, tên, năm, lần tổ chức, địa điểm, mô tả) cho phép nhiều cờ thủ (mã, tên, năm sinh, quốc tịch, hệ số Elo, ghi chú) tham gia.
+* Có thể có hàng trăm cờ thủ tham gia, nhưng mỗi cờ thủ phải thi đấu 11 trận theo hệ Thụy Sỹ
+* Ở ván thứ nhất, các cờ thủ được xếp hạng theo thứ tự hệ số Elo từ cao đến thấp. Sau đó đi từ trên xuống dưới bảng sắp xếp, hai cờ thủ đứng kề nhau sẽ tạo thành một cặp đấu cho vòng 1.
+* Ở mỗi vòng đấu, thắng được 1 điểm, hòa được 0.5 điểm, thua được 0 điểm. Sau mỗi vòng đấu, kết quả từng trận được cập nhật theo các cặp đấu đã lên lịch trước đó. Đồng thời hệ số Elo tăng hay giảm sau mỗi vòng đấu cũng được cập nhật (Tính theo công thức của FIDE, chỉ cần nhập kết quả vào).
+* Bắt đầu từ ván thứ 2, bảng xếp hạng tạm thời sau vòng đấu trước đó được xếp theo thứ tự các tiêu chí: tổng điểm (giảm dần), tổng điểm của các đối thủ đã gặp (giảm dần), hệ số Elo (giảm dần). Và cặp đấu được xác định như sau, đi từ đầu đến cuối bảng xếp hạng tạm thời, với mỗi cờ thủ chưa có cặp, đối thủ cả cờ thủ đó là cờ thủ đầu tiên gặp phải và thỏa mãn: chưa có căp , và chưa gặp cờ thủ đang xem xét.
+* Sau 11 vòng đấu như vậy, cờ thủ đứng đầu bảng xếp hạng sẽ là nhà vô địch.
 
 ## 1. Modul "Cập nhật kết quả": Ban tổ chức (BTC) chọn 
 menu cập nhật kết quả  →  trang cập nhật kết quả hiện ra →  BTC chọn vòng đấu từ danh sách sổ ra 
@@ -339,12 +339,12 @@ của một cờ thủ →  hệ thống hiện lên chi tiết các trận cờ
 # VII. Phần mềm quản lí kết quả giải đua
 Ban tổ chức đưa xe công thức 1 (F1) đặt hàng anh/chị phát triển một phần mềm **quản lí kết quả giải đua** với mô tả như sau:
 
-• Mỗi năm có một giải. Một giải bao gồm nhiều chặng đua diễn ra trên khắp thế giới (Mã chặng, tên, số vòng đua, địa điểm, thời gian, mô tả). 
-• Mỗi giải có nhiều đội đua tham gia (Mã, tên, hãng, mô tả).
-• Mỗi đội đua có nhiều tay đua (mã, tên, ngày sinh, quốc tịch, tiểu sử). Nhưng ở mỗi chặng đua, mỗi đội chỉ được phép cho tối đa 2 tay đua tham dự.
-• Mỗi chặng đua, kết quả xếp theo thứ tự về đích (thời gian) và điểm số chỉ được tính cho top 10 người về đích sớm nhất, lần lượt theo các thứ tự về đích là 25, 18, 15, 12, 10, 8, 6, 4, 2, 1.
-• Nếu tay đua nằm trong top 10 nhưng không về đích do bỏ cuộc hoặc tai nạn thì 0 điểm.
-• Điểm số và thời gian của từng tay đua sẽ được cộng dồn giữa các chặng để quyết định giải cá nhân và giải đồng đội của mùa giải
+* Mỗi năm có một giải. Một giải bao gồm nhiều chặng đua diễn ra trên khắp thế giới (Mã chặng, tên, số vòng đua, địa điểm, thời gian, mô tả). 
+* Mỗi giải có nhiều đội đua tham gia (Mã, tên, hãng, mô tả).
+* Mỗi đội đua có nhiều tay đua (mã, tên, ngày sinh, quốc tịch, tiểu sử). Nhưng ở mỗi chặng đua, mỗi đội chỉ được phép cho tối đa 2 tay đua tham dự.
+* Mỗi chặng đua, kết quả xếp theo thứ tự về đích (thời gian) và điểm số chỉ được tính cho top 10 người về đích sớm nhất, lần lượt theo các thứ tự về đích là 25, 18, 15, 12, 10, 8, 6, 4, 2, 1.
+* Nếu tay đua nằm trong top 10 nhưng không về đích do bỏ cuộc hoặc tai nạn thì 0 điểm.
+* Điểm số và thời gian của từng tay đua sẽ được cộng dồn giữa các chặng để quyết định giải cá nhân và giải đồng đội của mùa giải
 
 ## 1. Modul "Đăng kí thi đấu": Ban tổ chức (BTC) chọn 
 chức năng đăng kí tay đua →  giao diện đăng kí tay đua cho mỗi chặng đấu hiện ra →  BTC chọn 
@@ -378,10 +378,10 @@ tổng thời gian của 2 tay đua trong đội
 # IX. phần mềm quản lí cho thuê truyện
 Khách hàng yêu cầu anh/chị phát triển một phần mềm **quản lí cho thuê truyện ở một cửa hàng chuyên cho thuê truyện** với mô tả như sau:
 
-• Cửa hàng có nhiều đầu truyện khác nhau. Mỗi đầu truyện có số lượng khác nhau và giá thuê khác nhau (giá thuê theo ngày).
-• Mỗi đầu truyện có thể được mượn bởi nhiều khách hàng khác nhau. Mỗi khách hàng mỗi lần mượn được mượn nhiều đầu truyện khác nhau.
-• Mỗi lần mượn, khách hàng được nhận một phiếu mượn. Trong đó, dòng đầu ghi tên khách hàng và ngày mượn. Thông tin mỗi đầu truyện mượn được ghi trên một dòng: tên, tác giả, nhà xuất bản, năm xuất bản, giá thuê. Dòng cuối cùng ghi số lượng đầu truyện mượn.
-• Khi trả truyện, khách hàng được nhận hóa đơn trả. Trong đó, dòng đầu ghi tên khách hàng và ngày thanh toán. Thông tin mỗi đầu truyện trả được ghi trên một dòng: tên, tác giả, nhà xuất bản, năm xuất bản, ngày mượn, ngày trả, giá thuê, thành tiền. Nếu bị phạt thì có thêm cột số tiền phạt. Dòng cuối cùng ghi tổng số tiền thanh toán
+* Cửa hàng có nhiều đầu truyện khác nhau. Mỗi đầu truyện có số lượng khác nhau và giá thuê khác nhau (giá thuê theo ngày).
+* Mỗi đầu truyện có thể được mượn bởi nhiều khách hàng khác nhau. Mỗi khách hàng mỗi lần mượn được mượn nhiều đầu truyện khác nhau.
+* Mỗi lần mượn, khách hàng được nhận một phiếu mượn. Trong đó, dòng đầu ghi tên khách hàng và ngày mượn. Thông tin mỗi đầu truyện mượn được ghi trên một dòng: tên, tác giả, nhà xuất bản, năm xuất bản, giá thuê. Dòng cuối cùng ghi số lượng đầu truyện mượn.
+* Khi trả truyện, khách hàng được nhận hóa đơn trả. Trong đó, dòng đầu ghi tên khách hàng và ngày thanh toán. Thông tin mỗi đầu truyện trả được ghi trên một dòng: tên, tác giả, nhà xuất bản, năm xuất bản, ngày mượn, ngày trả, giá thuê, thành tiền. Nếu bị phạt thì có thêm cột số tiền phạt. Dòng cuối cùng ghi tổng số tiền thanh toán
 
 ## 1.  Modul "Cho thuê truyện": Sau khi chọn được các 
 truyện để thuê mượn, khách hàng (KH) cầm đến quầy nhân viên (NV) thu ngân làm phiếu mượn. 
@@ -435,11 +435,11 @@ tiền của hóa đơn
 # X. Phần mềm quản lí phân công và chấm công nhân viên part time
 Chuỗi nhà hàng đồ ăn nhanh Lotteria đặt hàng anh chị phát triển một phần mềm giúp họ **quản lí phân công và chấm công nhân viên làm thêm theo giờ** (parttime) tại chuỗi cửa hàng của họ với mô tả như sau:
 
-• Chuỗi nhà hàng có nhiều nhà hàng. Mỗi nhà hàng có nhiều nhân viên làm theo giờ. Mỗi ngày làm việc có 2 ca, ca 1 từ 8-16h, ca 2 từ 16-24h. Mức tiền công theo giờ là giống nhau cho tất cả nhân viên làm theo giờ.
-• Mỗi nhân viên, sau khi kí hợp đồng, được đăng kí những buổi nào rảnh để có thể đến làm việc. Số buổi có thể làm việc trong mỗi tuần mà mỗi nhân viên đăng kí phải đạt ngưỡng tối thiểu theo quy định. Thông tin này có thể thay đổi hàng tuần, trước khi lên lịch làm việc cho tuần tiếp theo.
-• Quản lí sẽ dựa trên lịch đăng kí của từng nhân viên để lên lịch cho tuần tiếp theo. Đảm bảo mỗi ca có đủ N nhân viên làm việc. Nếu có ca nào đó mà số nhân viên đăng kí lớn hơn N, thì ưu tiên những nhân viên đang có số giờ làm ít hơn xếp trước. Lịch tuần tiếp theo sẽ được thông báo cho toàn bộ nhân viên để tiện chuẩn bị.
-• Khi đến làm việc, nhân viên quét thẻ checkin giờ vào làm, khi về, nhân viên quét thẻ checkout để về. 
-• Tiền lương nhân viên tính theo số giờ thực làm của nhân viên và được trả theo tuần. Ca nào nhân viên làm quá 8h thì mức tiền công cho phần thời gian đội thêm được tính thêm 20%. ca nào nhân viên đến muộn hoặc về sớm thì thời gian vắng mặt sẽ bị trừ tiền đội thêm 50%
+* Chuỗi nhà hàng có nhiều nhà hàng. Mỗi nhà hàng có nhiều nhân viên làm theo giờ. Mỗi ngày làm việc có 2 ca, ca 1 từ 8-16h, ca 2 từ 16-24h. Mức tiền công theo giờ là giống nhau cho tất cả nhân viên làm theo giờ.
+* Mỗi nhân viên, sau khi kí hợp đồng, được đăng kí những buổi nào rảnh để có thể đến làm việc. Số buổi có thể làm việc trong mỗi tuần mà mỗi nhân viên đăng kí phải đạt ngưỡng tối thiểu theo quy định. Thông tin này có thể thay đổi hàng tuần, trước khi lên lịch làm việc cho tuần tiếp theo.
+* Quản lí sẽ dựa trên lịch đăng kí của từng nhân viên để lên lịch cho tuần tiếp theo. Đảm bảo mỗi ca có đủ N nhân viên làm việc. Nếu có ca nào đó mà số nhân viên đăng kí lớn hơn N, thì ưu tiên những nhân viên đang có số giờ làm ít hơn xếp trước. Lịch tuần tiếp theo sẽ được thông báo cho toàn bộ nhân viên để tiện chuẩn bị.
+* Khi đến làm việc, nhân viên quét thẻ checkin giờ vào làm, khi về, nhân viên quét thẻ checkout để về. 
+* Tiền lương nhân viên tính theo số giờ thực làm của nhân viên và được trả theo tuần. Ca nào nhân viên làm quá 8h thì mức tiền công cho phần thời gian đội thêm được tính thêm 20%. ca nào nhân viên đến muộn hoặc về sớm thì thời gian vắng mặt sẽ bị trừ tiền đội thêm 50%
 
 ## 1. Modul "Đăng kí ca làm tuần tới": QL chọn chức năng 
 đăng kí ca làm tuần tới cho NV →  Giao diện tìm NV hiện lên →  QL nhập tên NV hoặc một phần 
@@ -499,16 +499,16 @@ thực làm, số tiền thực nhận, số giờ đi chậm về sớm, số t
 ## XI. Phần mềm quản lí chuỗi rạp chiếu phim
 Khách hàng yêu cầu anh/chị phát triển một phần mềm **quản lí chuỗi rạp chiếu phim** với mô tả như sau:
 
-• Hãng có một chuỗi rạp chiếu phim (Mã rạp, tên rạp, địa chỉ, giới thiệu).
-• Mỗi rạp chiếu phim có nhiều phòng chiếu khác nhau (Mã phòng chiếu, số lượng ghế, đặc điểm phòng chiếu)
-• Mỗi phim (Mã phim, tên phim, loại phim, năm sản xuất, mô tả) có thể được chiếu tại nhiều phòng chiếu khác nhau vào nhiều thời điểm khác nhau
-• Mỗi phòng chiếu có thể chiếu nhiều phim khác nhau tại nhiều thời điểm khác nhau
-• Mỗi một thời điểm nhất định, trong một phòng chiếu chỉ có duy nhất một phim được chiếu, và bán với một giá vé xác định.
-• Cùng một phim, chiếu tại cùng 1 phòng chiếu nhưng nếu ở các khung giờ và ngày khác nhau có thể có giá vé khác nhau.
-• Cùng một suất chiếu, ghế ngồi chỗ khác nhau có thể có giá vé khác nhau.
-• Nhân viên chỉ bán vé cho khách hàng khi phòng chiếu tại giờ chiếu mà khách hàng yêu cầu vẫn còn đủ số lượng ghế trống cho khách hàng.
-• Khi mua vé, khách hàng được xuất hóa đơn ghi rõ các vé đã mua. Mỗi vé trên một dòng: tên phim, phòng chiếu, giờ chiếu, số ghế, ưu đãi, giá tiền. Bên dưới là tổng tiền.
-• Rạp chiếu có bán kèm các dịch vụ ăn uống nhẹ (như bỏng ngô, nước uống...). Khách hàng có thể mua kèm với vé xem phim (khi đó, hóa đơn sẽ bao gồm các dịch vụ này), hoặc mua riêng lẻ. Nếu mua riêng lẻ thì xuất hóa đơn riêng, mỗi dòng là một mặt hàng: mã, tên, đơn giá, số lượng, ưu đãi, thành tiền. Dưới cùng là tổng tiền.
+* Hãng có một chuỗi rạp chiếu phim (Mã rạp, tên rạp, địa chỉ, giới thiệu).
+* Mỗi rạp chiếu phim có nhiều phòng chiếu khác nhau (Mã phòng chiếu, số lượng ghế, đặc điểm phòng chiếu)
+* Mỗi phim (Mã phim, tên phim, loại phim, năm sản xuất, mô tả) có thể được chiếu tại nhiều phòng chiếu khác nhau vào nhiều thời điểm khác nhau
+* Mỗi phòng chiếu có thể chiếu nhiều phim khác nhau tại nhiều thời điểm khác nhau
+* Mỗi một thời điểm nhất định, trong một phòng chiếu chỉ có duy nhất một phim được chiếu, và bán với một giá vé xác định.
+* Cùng một phim, chiếu tại cùng 1 phòng chiếu nhưng nếu ở các khung giờ và ngày khác nhau có thể có giá vé khác nhau.
+* Cùng một suất chiếu, ghế ngồi chỗ khác nhau có thể có giá vé khác nhau.
+* Nhân viên chỉ bán vé cho khách hàng khi phòng chiếu tại giờ chiếu mà khách hàng yêu cầu vẫn còn đủ số lượng ghế trống cho khách hàng.
+* Khi mua vé, khách hàng được xuất hóa đơn ghi rõ các vé đã mua. Mỗi vé trên một dòng: tên phim, phòng chiếu, giờ chiếu, số ghế, ưu đãi, giá tiền. Bên dưới là tổng tiền.
+* Rạp chiếu có bán kèm các dịch vụ ăn uống nhẹ (như bỏng ngô, nước uống...). Khách hàng có thể mua kèm với vé xem phim (khi đó, hóa đơn sẽ bao gồm các dịch vụ này), hoặc mua riêng lẻ. Nếu mua riêng lẻ thì xuất hóa đơn riêng, mỗi dòng là một mặt hàng: mã, tên, đơn giá, số lượng, ưu đãi, thành tiền. Dưới cùng là tổng tiền.
 
 ## 1. Modul "Bán vé xem phim" cho phép nhân viên (NV) rạp thêm thông tin bán vé cho khách hàng: NV chọn menu bán vé →  trang bán vé hiện ra →  NV chọn phòng chiếu 
 hoặc tên phim trong danh sách sổ ra (theo yêu cầu của khách) + chọn khung giờ chiếu →  NV cho 
@@ -558,15 +558,15 @@ thống kê
 # XII. Phần mềm quản lí cho thuê sân bóng mini
 Khách hàng yêu cầu anh/chị phát triển một phần mềm **quản lí cho thuê sân bóng mini** của một chủ sân bóng với mô tả như sau:
 
-• Sân bóng có nhiều sân con mini cho thuê. Tùy yêu cầu khách hàng mà có thể ghép 2 hay 4 sân bé liền nhau thành 1 sân lớn cho thuê.
-• Mỗi sân có thể cho nhiều khách hàng (KH) thuê tại nhiều khung giờ khác nhau. Mỗi khách hàng có thể thuê nhiều sân khác nhau.
-• Khách hàng có thể thuê sân theo buổi trong tuần hoặc thuê theo tháng (vào một hoặc một số buổi cố định trong tuần, trong vòng mấy tháng cụ thể).
-• Khi làm hợp đồng thuê sân, khách hàng nhận được phiếu thuê sân. Trong đó, dòng đầu ghi ngày làm hợp đồng, thông tin chủ sân, thông tin của khách hàng. Các dòng tiếp theo, mỗi dòng ghi một sân mini với đầy đủ thông tin về sân, giá thuê một buổi, khung giờ thuê trong tuần, ngày bắt đầu, ngày kết thúc đợt thuê, tổng tiền thuê dự kiến. Dòng cuối cùng ghi tỏng 
+* Sân bóng có nhiều sân con mini cho thuê. Tùy yêu cầu khách hàng mà có thể ghép 2 hay 4 sân bé liền nhau thành 1 sân lớn cho thuê.
+* Mỗi sân có thể cho nhiều khách hàng (KH) thuê tại nhiều khung giờ khác nhau. Mỗi khách hàng có thể thuê nhiều sân khác nhau.
+* Khách hàng có thể thuê sân theo buổi trong tuần hoặc thuê theo tháng (vào một hoặc một số buổi cố định trong tuần, trong vòng mấy tháng cụ thể).
+* Khi làm hợp đồng thuê sân, khách hàng nhận được phiếu thuê sân. Trong đó, dòng đầu ghi ngày làm hợp đồng, thông tin chủ sân, thông tin của khách hàng. Các dòng tiếp theo, mỗi dòng ghi một sân mini với đầy đủ thông tin về sân, giá thuê một buổi, khung giờ thuê trong tuần, ngày bắt đầu, ngày kết thúc đợt thuê, tổng tiền thuê dự kiến. Dòng cuối cùng ghi tỏng 
 số tiền thuê sân dự kiến
-• Khi đặt sân, khách hàng phải đặt cọc trước cho chủ sân ít nhất 10% tổng tiền thuê dự kiến. Và thông tin số tiền đặt cọc này cũng được ghi rõ trong phiếu đặt sân là đã thanh toán bao nhiêu tiền, vào ngày nào.
-• Khi khách hàng đến đá bóng tại sân, chủ sân có thể phục vụ nước uống giải khát và đồ ăn nhẹ. Mỗi buổi khách hàng dùng các loại mặt hàng nào, mỗi loại bao nhiêu chai (gói), hết tổng tiền bao nhiêu đều được cập nhật vào hệ thống. Khách hàng sẽ thanh toán luôn khoản chi phí phát sinh này vào cuối đợt thuê sân.
-• Khi thanh toán tiền thuê sân, khách hàng nhận được một hóa đơn ghi chi tiết thông tin thuê sân và chi phí thuê sân giống như phiếu đặt sân. Có thể có thêm một số buổi phát sinh hoặc phải đổi lịch theo yêu cầu khách hàng. Ngoài ra, phần dưới hóa đơn ghi rõ đồ ăn uống phát sinh theo từng buổi, mỗi buổi được liệt kê thành một bảng, trong đó mỗi dòng của bảng mô tả một mặt hàng: mã, tên, giá, số lượng dùng, thành tiền. Tổng số tiền từng buổi và tổng số tiền cho cả đợt đặt sân.
-• Quản lí sân (QL) phải nhập các mặt hàng (MH) bán kèm từ nhiều nhà cung cấp (mã, tên, địa chỉ, email, điện thoại, mô tả) khác nhau. Mỗi lần nhập hàng có hóa đơn nhập ghi rõ thông tin nhà cung cấp và danh sách các mặt hàng, mỗi dòng: id, tên, đơn giá, số lượng, thành tiền. Dòng cuối là tổng tiền.
+* Khi đặt sân, khách hàng phải đặt cọc trước cho chủ sân ít nhất 10% tổng tiền thuê dự kiến. Và thông tin số tiền đặt cọc này cũng được ghi rõ trong phiếu đặt sân là đã thanh toán bao nhiêu tiền, vào ngày nào.
+* Khi khách hàng đến đá bóng tại sân, chủ sân có thể phục vụ nước uống giải khát và đồ ăn nhẹ. Mỗi buổi khách hàng dùng các loại mặt hàng nào, mỗi loại bao nhiêu chai (gói), hết tổng tiền bao nhiêu đều được cập nhật vào hệ thống. Khách hàng sẽ thanh toán luôn khoản chi phí phát sinh này vào cuối đợt thuê sân.
+* Khi thanh toán tiền thuê sân, khách hàng nhận được một hóa đơn ghi chi tiết thông tin thuê sân và chi phí thuê sân giống như phiếu đặt sân. Có thể có thêm một số buổi phát sinh hoặc phải đổi lịch theo yêu cầu khách hàng. Ngoài ra, phần dưới hóa đơn ghi rõ đồ ăn uống phát sinh theo từng buổi, mỗi buổi được liệt kê thành một bảng, trong đó mỗi dòng của bảng mô tả một mặt hàng: mã, tên, giá, số lượng dùng, thành tiền. Tổng số tiền từng buổi và tổng số tiền cho cả đợt đặt sân.
+* Quản lí sân (QL) phải nhập các mặt hàng (MH) bán kèm từ nhiều nhà cung cấp (mã, tên, địa chỉ, email, điện thoại, mô tả) khác nhau. Mỗi lần nhập hàng có hóa đơn nhập ghi rõ thông tin nhà cung cấp và danh sách các mặt hàng, mỗi dòng: id, tên, đơn giá, số lượng, thành tiền. Dòng cuối là tổng tiền.
 
 ## 1. Modul "Đặt sân" : Khách hàng (KH) đến yêu cầu đặt sân →  Nhân viên 
 (NV) chọn chức năng đặt sân →  hệ thống hiện giao diện tìm sân trống theo khung giờ →  NV nhập 
@@ -636,13 +636,13 @@ giờ, giá, tổng tiền
 # XIII. Phần mềm quản lí khách hàng vay trả góp
 Hãng cho vay trả góp Saison đặt hàng anh chị phát triển một phần mềm giúp họ **quản lí khách hàng vay trả góp** tại chuỗi cửa hàng của họ với mô tả như sau:
 
-• Hãng hợp tác với nhiều đối tác - ĐT, là các công ty bán lẻ các mặt hàng - MH với nhiều chủng loại từ điện thoại, máy tính, đồ điện tử, điện lạnh, gia dụng, ô tô, bất động sản...
-• Khi khách hàng - KH mua một hay một số MH của ĐT mà có nhu cầu sử dụng dịch vụ trả góp, nhân viên sẽ làm thủ tục kí hợp đồng - HĐ vay trả góp cho KH đó. HĐ chứa thông tin địa diện công ty, thông tin KH, thông tin ĐT, ngày kí, và danh sách các mặt hàng, mỗi mặt hàng trên 1 dòng: mã, tên, đơn vị tính, đơn giá, số lượng, thành tiền. Dòng cuối là tổng tiền và thời hạn vay. Tiếp theo là danh sách các thời điểm thanh toán, mỗi đợt trên 1 dòng: ngày phải thanh toán, tổng tiền thanh toán, tổng dư nợ còn lại.
-• Mỗi MH có giá niêm yết của ĐT riêng, công ty thanh toán cho ĐT sẽ được chiết khấu giảm giá mức 1-5%, công ty thu lại của khách hàng theo lãi suất 1-20%/năm dựa trên giá niêm yết của MH.
-• KH có thể thanh toán tiền trả góp cho mỗi HĐ mỗi tháng một lần, trong thời gian tùy chọn của hợp đồng.
-• KH có thể thanh toán trước hạn từng tháng nhưng giá trị thanh toán không đổi (không được giảm lãi)
-• Nếu KH thanh toán muộn so với thời hạn hàng tháng, thì khoản dư nợ trễ hạn được hình vào nợ gốc và tính lãi theo nợ gốc.
-• Công ty có thể thanh toán tiền MH cho ĐT theo từng MH hoặc theo từng đợt trong khoảng thời gian 1 tuần, 1 tháng... Mỗi lần thanh toán đều lưu hóa đơn đầy đủ thông tin người đại diện công ty, đại diện đối tác, ngày thanh toán, tổng tiền thanh toán và danh sách các MH được thanh toán, mỗi MH của một KH trên 1 dòng: mã, tên MH, tên KH, ngày mua, đơn vị tính, số lượng, đơn giá, thành tiền.
+* Hãng hợp tác với nhiều đối tác - ĐT, là các công ty bán lẻ các mặt hàng - MH với nhiều chủng loại từ điện thoại, máy tính, đồ điện tử, điện lạnh, gia dụng, ô tô, bất động sản...
+* Khi khách hàng - KH mua một hay một số MH của ĐT mà có nhu cầu sử dụng dịch vụ trả góp, nhân viên sẽ làm thủ tục kí hợp đồng - HĐ vay trả góp cho KH đó. HĐ chứa thông tin địa diện công ty, thông tin KH, thông tin ĐT, ngày kí, và danh sách các mặt hàng, mỗi mặt hàng trên 1 dòng: mã, tên, đơn vị tính, đơn giá, số lượng, thành tiền. Dòng cuối là tổng tiền và thời hạn vay. Tiếp theo là danh sách các thời điểm thanh toán, mỗi đợt trên 1 dòng: ngày phải thanh toán, tổng tiền thanh toán, tổng dư nợ còn lại.
+* Mỗi MH có giá niêm yết của ĐT riêng, công ty thanh toán cho ĐT sẽ được chiết khấu giảm giá mức 1-5%, công ty thu lại của khách hàng theo lãi suất 1-20%/năm dựa trên giá niêm yết của MH.
+* KH có thể thanh toán tiền trả góp cho mỗi HĐ mỗi tháng một lần, trong thời gian tùy chọn của hợp đồng.
+* KH có thể thanh toán trước hạn từng tháng nhưng giá trị thanh toán không đổi (không được giảm lãi)
+* Nếu KH thanh toán muộn so với thời hạn hàng tháng, thì khoản dư nợ trễ hạn được hình vào nợ gốc và tính lãi theo nợ gốc.
+* Công ty có thể thanh toán tiền MH cho ĐT theo từng MH hoặc theo từng đợt trong khoảng thời gian 1 tuần, 1 tháng... Mỗi lần thanh toán đều lưu hóa đơn đầy đủ thông tin người đại diện công ty, đại diện đối tác, ngày thanh toán, tổng tiền thanh toán và danh sách các MH được thanh toán, mỗi MH của một KH trên 1 dòng: mã, tên MH, tên KH, ngày mua, đơn vị tính, số lượng, đơn giá, thành tiền.
 
 ## 1. Modul “Kí hợp đồng” được mô tả như sau: NV chọn chức năng kí HĐ mới với KH →  Giao diện 
 tìm KH hiện lên →  NV nhập tên KH hoặc một phần tên KH và click tìm →  Giao diện hiện lên danh 
@@ -711,11 +711,11 @@ hay chưa
 # XIV. Phần mềm quản lí hoạt động cho thuê trang phục
 Cửa hàng cho thuê trang phục dạ hội, biểu diễn đặt hàng anh chị phát triển một phần mềm giúp họ quản lí hoạt động cho thuê trang phục của họ với mô tả như sau:
 
-• Cửa hàng có nhiều trang phục -TP, thuộc nhiều chủng loại khác nhau, một TP có thể có số lượng khác nhau.
-• TP được đặt hàng hoặc nhập sẵn từ các nhà cung cấp - NCC. Mỗi NCC có thể cung cấp nhiều loại TP khác nhau. Mỗi lần nhập có thể nhập nhiều loại TP từ cùng NCC, mỗi TP có số lượng khác nhau.
-• Khách hàng - KH có thể thuê nhiều lần, mỗi lần thuê nhiều TP khác nhau, mỗi TP có số lượng khác nhau. Nếu thuê lần đầu thì phải đặt cọc bằng tổng giá trị gốc của các TP thuê, nếu thuê nhiều lần (khách quen) thì tiền cọc do NV làm hóa đơn quyết định.
-• Khi trả, KH có thể trả một phần hoặc trả hết các TP đang thuê trong một lần, mỗi lần trả đều có phiếu trả tương ứng với các TP trả. Tiền cọc chỉ được trả lại cho KH khi đã trả hết các TP thuê. Trường hợp KH trả một phần TP, sau khi trả xong mà tiền cọc còn lại nhiều hơn giá trị gốc các TP thuê thì KH được nhận lại phần dư ra, chỉ giữ lại cọc tối đa bằng giá trị gốc các TP đang thuê.
-• Khi trả, nếu TP bị lỗi hỏng hóc, vấy bẩn thì KH phải trả tiền phạt. Một TP có thể dính nhiều lỗi đồng thời. Tiền phạt cho mỗi lỗi được ước tính bởi NV thanh toán trả đồ.
+* Cửa hàng có nhiều trang phục -TP, thuộc nhiều chủng loại khác nhau, một TP có thể có số lượng khác nhau.
+* TP được đặt hàng hoặc nhập sẵn từ các nhà cung cấp - NCC. Mỗi NCC có thể cung cấp nhiều loại TP khác nhau. Mỗi lần nhập có thể nhập nhiều loại TP từ cùng NCC, mỗi TP có số lượng khác nhau.
+* Khách hàng - KH có thể thuê nhiều lần, mỗi lần thuê nhiều TP khác nhau, mỗi TP có số lượng khác nhau. Nếu thuê lần đầu thì phải đặt cọc bằng tổng giá trị gốc của các TP thuê, nếu thuê nhiều lần (khách quen) thì tiền cọc do NV làm hóa đơn quyết định.
+* Khi trả, KH có thể trả một phần hoặc trả hết các TP đang thuê trong một lần, mỗi lần trả đều có phiếu trả tương ứng với các TP trả. Tiền cọc chỉ được trả lại cho KH khi đã trả hết các TP thuê. Trường hợp KH trả một phần TP, sau khi trả xong mà tiền cọc còn lại nhiều hơn giá trị gốc các TP thuê thì KH được nhận lại phần dư ra, chỉ giữ lại cọc tối đa bằng giá trị gốc các TP đang thuê.
+* Khi trả, nếu TP bị lỗi hỏng hóc, vấy bẩn thì KH phải trả tiền phạt. Một TP có thể dính nhiều lỗi đồng thời. Tiền phạt cho mỗi lỗi được ước tính bởi NV thanh toán trả đồ.
 
 ## 1. Modul "Nhập trang phục": NV chọn chức năng nhập TP từ một NCC 
 →  Giao diện tìm NCC theo tên hiện lên -> NV nhập tên NCC và tìm -> Hiện danh sách các NCC 
