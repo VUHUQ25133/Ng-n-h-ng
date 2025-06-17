@@ -4,7 +4,7 @@ Sử dụng kỹ thuật trích danh từ
 ## 1. mô tả modul trong 1 đoạn văn (xét toàn bộ kịch bản chuẩn + ngoại lệ của modul)
 ## 2. Trích tất cả các danh từ xuất hiện trong 1 đoạn văn (kết hợp với các đối tượng trong câu hỏi 4 của BM)
 ## 3. Đánh giá các danh từ:
-* Bị loại: trửu tượng, chung chung, ngoài phạm vi
+* Bị loại: trừu tượng, chung chung, ngoài phạm vi
 * Chỉ để làm thuộc tính
 * Đề xuất thành các lớp thực thể
 ## 4. Xét quan hệ số lượng giữa các danh từ (xem lại câu hỏi số 5 của BM)
@@ -20,6 +20,22 @@ Sử dụng kỹ thuật trích danh từ
 * Liên kết (association)
 
 ## Kết quả: Biểu đồ lớp thực thể của modul
+
+# Thiết kế biểu đồ lớp chi tiết
+## 1. copy các lớp thực thể liên quan của modul từ biểu đồ lớp thực thể của pha thiết kế
+## 2. Với mỗi giao diện:
+* Đề xuất lớp GD tương ứng
+* Thiết kế các thuộc tính tường minh (tương tác với user)
+* Thiết kế các thuộc tính ẩn (dùng lưu trữ/đựng DL từ form trước đấy gửi sang). Nếu có thuộc tính ẩn, hàm khởi tạo phải nhận tham số vào tương ứng với các thuộc tính ẩn (nếu không so tham số này thì sẽ không tạo được form)
+* Thiết kế các phương thức xử lí sự kiện trên Giao diện
+## 3. Nếu lớp Giao diện cần thao tác vào ra với dữ liệu hệ thống, ĐỀ XUẤT CÁC LỚP DAO (Controller) tương ứng
+Với mỗi thao tác:
+* Thiết kế phương thức tương ứng
+* Thiết kế tham số vào & tham số ra của phương thức
+* Gán phương thức cho lớp DAO liên quan đến tham số ra, tham số vào
+
+## 4. Lặp lại bước 2 & 3 đến khi hết các Giao diện chức năng
+
 
 # I. Phần mềm quản lí thư viện
 Khách hàng yêu cầu chúng ta phát triển một phần mềm **quản lí thư viện**,:
