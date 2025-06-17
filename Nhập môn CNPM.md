@@ -1,3 +1,26 @@
+# Trích lớp thực thể
+Sử dụng kỹ thuật trích danh từ
+
+## 1. mô tả modul trong 1 đoạn văn (xét toàn bộ kịch bản chuẩn + ngoại lệ của modul)
+## 2. Trích tất cả các danh từ xuất hiện trong 1 đoạn văn (kết hợp với các đối tượng trong câu hỏi 4 của BM)
+## 3. Đánh giá các danh từ:
+* Bị loại: trửu tượng, chung chung, ngoài phạm vi
+* Chỉ để làm thuộc tính
+* Đề xuất thành các lớp thực thể
+## 4. Xét quan hệ số lượng giữa các danh từ (xem lại câu hỏi số 5 của BM)
+* 1-1: Giữ nguyên/gộp lại
+* 1-n: giữ nguyên
+* n-n: phải tách thành >= 2 quan hệ 1-n
+
+## 5. Xét quan hệ đói tượng giữa các lớp
+* Kế thừa
+* Thành phần:
+    * lỏng (aggregation)
+    * chặt (composition)
+* Liên kết (association)
+
+## Kết quả: Biểu đồ lớp thực thể của modul
+
 # I. Phần mềm quản lí thư viện
 Khách hàng yêu cầu chúng ta phát triển một phần mềm **quản lí thư viện**,:
 
